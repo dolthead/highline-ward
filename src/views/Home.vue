@@ -22,10 +22,22 @@
             <span>Conducting</span>
             <span>Brother Jason Manning</span>
           </div>
+          <div>
+            <span>Chorister</span>
+            <span>Sydney Lane</span>
+          </div>
+          <div>
+            <span>Organist</span>
+            <span>Shellie Vanfleet</span>
+          </div>
           <div></div>
           <div>
             <span>Opening Hymn</span>
-            <span>#58 Come, Ye Children of the Lord</span>
+            <span>
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/rejoice-the-lord-is-king?lang=eng">
+                #66 Rejoice, the Lord is King!
+              </a>
+            </span>
           </div>
           <div>
             <span>Invocation</span>
@@ -41,38 +53,51 @@
             <span>Sister Andrea Mitchell</span>
           </div>
           <div>
+            <span>Music number</span>
+            <span>Sister Tiffany Sackley</span>
+          </div>
+          <div>
             <span>High Council Speaker</span>
             <span>Brother Gary Miyasaki</span>
           </div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
-            <span>#333 Hymn name</span>
+            <span>
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/hark-all-ye-nations?lang=eng">
+                #264 Hark All Ye Nations
+              </a>
+            </span>
           </div>
           <div>
             <span>Benediction</span>
             <span>Brother Matthew Nielsen</span>
           </div>
           <div></div>
-          <div>- End of broadcast -</div>
+          <div><i>- End of broadcast -</i></div>
           <div></div>
           <div>
             <span>Sacrament Hymn</span>
-            <span>#333 Hymn name</span>
+            <span>
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/he-died-the-great-redeemer-died?lang=eng">
+                #192 He Died! The Great Redeemer Died
+              </a>
+            </span>
           </div>
-          <div></div>
           <div>Administration of the Sacrament</div>
         </div>
 
         <hr>
 
         <div>
-          <a href="">View the ward newsletter</a>
+          Upcoming events and leadership contact information is listed in 
+          <a href="">the ward newsletter</a>.
         </div>
-           
+        <div></div>
         <div>
-          Share this program with someone by having them point their phone camera at this "QR code":
+          Easily share this program with others by having them point their phone camera at this "QR code":
         </div>
+        <div></div>
         <img src="/assets/qrcode.png" alt="QR code for this church program">
 
       </div>
@@ -97,6 +122,7 @@ export default defineComponent({
 .container {
   margin: 20px;
   text-align: center;
+  font-size: 3.3vw;
 }
 img {
   width: 30vw;
@@ -108,17 +134,8 @@ div {
   text-align: center;
   font-weight: bold;
 }
-/* div.table {
-  display: table;
-  width: 100%;
-  margin: 5px 10px;
-} */
 div.table div {
-  /* display: table-row; */
   width: 100%;
-}
-div.table span {
-  /* display: table-cell; */
 }
 div.table span:last-child {
   float: right;
@@ -126,5 +143,9 @@ div.table span:last-child {
 div.table span:first-child {
   clear: both;
   float: left;
+}
+hr {
+  border-top: 1px navy solid;
+  margin: 2em 0;
 }
 </style>
