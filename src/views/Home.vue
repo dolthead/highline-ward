@@ -13,15 +13,15 @@
           <!-- <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
           <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
           <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
-          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div>
+          <div><span>Organist</span><span>Sister Elizabeth Smith</span></div>
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/we-thank-thee-o-god-for-a-prophet?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng"
               >
-                19 We Thank Thee, O God, for a Prophet
+                239 Choose the Right
               </a>
             </span>
           </div>
@@ -37,9 +37,9 @@
             <span>Closing Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/come-listen-to-a-prophets-voice?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/sweet-hour-of-prayer?lang=eng"
               >
-                21 Come Listen to a Prophet’s Voice
+                142 Sweet Hour of Prayer
               </a>
             </span>
           </div>
@@ -51,9 +51,9 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/in-memory-of-the-crucified?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-saul?lang=eng"
               >
-                190 In Memory of the Crucified
+                173 While of These Emblems We Partake
               </a>
             </span>
           </div>

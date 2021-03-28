@@ -23,6 +23,14 @@ const routes: Array<RouteRecordRaw> = [
     path: '/2',
     name: 'Speakers',
     component: Speakers
+  },
+  {
+    path: '/cal',
+    name: 'Calendar',
+    component: Home,
+    beforeEnter() {
+      window.location.href = "https://calendar.google.com/calendar/u/0?cid=M3Yzdm8xaG1ubjFwcHJlZGphcWxlMjdxZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ";
+    }
   }
 ]
 
