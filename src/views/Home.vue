@@ -78,11 +78,7 @@
         <img src="/assets/qrcode.png" alt="QR code for this church program" />
         <div></div>
         <div>
-          Those at home can 
-          <a 
-            href="http://mywebcast.churchofjesuschrist.org/paysonutahsouthstake"
-          >
-            watch online</a>.
+          Those at home can <a href="http://highlineward.org/zoom">watch in zoom</a>.
         </div>
       </div>
     </ion-content>
