@@ -5,45 +5,47 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>March 28, 2021</div>
+        <div>April 11, 2021</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
           <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
-          <!-- <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
-          <div><span>Organist</span><span>Sister Elizabeth Smith</span></div>
+          <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <!-- <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
+          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div> -->
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/that-easter-morn?lang=eng"
               >
-                239 Choose the Right
+                198 That Easter Morn
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Kirsten Harmon</span></div>
+          <div><span>Invocation</span><span>Sister Kendra Savage</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
           </div>
           <div></div>
-          <div><span>Testimonies</span></div>
+          <div><span>Speaker</span><span>Elder Stacey</span></div>
+          <!-- <div><span>Music number</span><span>Sister Tiffany Sackley</span></div> -->
+          <div><span>Speaker</span><span>Elder Warnick</span></div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/sweet-hour-of-prayer?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/we-thank-thee-o-god-for-a-prophet?lang=eng"
               >
-                142 Sweet Hour of Prayer
+                19 We Thank Thee O God For A Prophet
               </a>
             </span>
           </div>
-          <div><span>Benediction</span><span>Brother Jeff Heller</span></div>
+          <div><span>Benediction</span><span>Brother Rod Southwick</span></div>
           <div></div>
           <div><i>- End of broadcast -</i></div>
           <div></div>
@@ -51,9 +53,9 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-saul?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/he-died-the-great-redeemer-died?lang=eng"
               >
-                173 While of These Emblems We Partake
+                192 He Died! The Great Redeemer Died
               </a>
             </span>
           </div>
@@ -78,7 +80,8 @@
         <img src="/assets/qrcode.png" alt="QR code for this church program" />
         <div></div>
         <div>
-          Those at home can <a href="http://highlineward.org/zoom">watch in zoom</a>.
+          Those at home can 
+          <a href="http://highlineward.org/zoom">watch online</a>.
         </div>
       </div>
     </ion-content>

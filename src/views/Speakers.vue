@@ -5,47 +5,47 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>March 21, 2021</div>
+        <div>April 11, 2021</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
           <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
-          <!-- <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
-          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div>
+          <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <!-- <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
+          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div> -->
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/rejoice-the-lord-is-king?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/that-easter-morn?lang=eng"
               >
-                #66 Rejoice, the Lord is King!
+                198 That Easter Morn
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Kim Kunz</span></div>
+          <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
           </div>
           <div></div>
-          <div><span>Speaker</span><span>Sister Andrea Mitchell</span></div>
-          <div><span>Music number</span><span>Sister Tiffany Sackley</span></div>
-          <div><span>High Council Speaker</span><span>Brother Nathan Dunford</span></div>
+          <div><span>Speaker</span><span>Elder Stacey</span></div>
+          <!-- <div><span>Music number</span><span>Sister Tiffany Sackley</span></div> -->
+          <div><span>Speaker</span><span>Elder Warnick</span></div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/hark-all-ye-nations?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/we-thank-thee-o-god-for-a-prophet?lang=eng"
               >
-                #264 Hark All Ye Nations
+                19 We Thank Thee O God For A Prophet
               </a>
             </span>
           </div>
-          <div><span>Benediction</span><span>Brother Matthew Nielsen</span></div>
+          <div><span>Benediction</span><span>TBD</span></div>
           <div></div>
           <div><i>- End of broadcast -</i></div>
           <div></div>
@@ -69,8 +69,7 @@
           <a
             href="https://docs.google.com/document/d/1F_U2DQ9kuWxroPF3CBEBRspZXj_uCbxQE7BxDJ91LwY/edit?usp=sharing"
           >
-            the ward newsletter</a
-          >.
+            the ward newsletter</a>.
         </div>
         <div></div>
         <div>
@@ -82,10 +81,7 @@
         <div></div>
         <div>
           Those at home can 
-          <a 
-            href="http://mywebcast.churchofjesuschrist.org/paysonutahsouthstake"
-          >
-            watch online</a>.
+          <a href="http://highlineward.org/zoom">watch online</a>.
         </div>
       </div>
     </ion-content>
