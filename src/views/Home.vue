@@ -5,47 +5,45 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>April 11, 2021</div>
+        <div>May 2, 2021</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
-          <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
-          <!-- <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
-          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div> -->
+          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
+          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div>
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/that-easter-morn?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/jesus-the-very-thought-of-thee?lang=eng"
               >
-                198 That Easter Morn
+                141 Jesus, the Very Thought of Thee
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Kendra Savage</span></div>
+          <div><span>Invocation</span><span>Sister Mitzi Hunter</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
           </div>
           <div></div>
-          <div><span>Speaker</span><span>Elder Stacey</span></div>
-          <!-- <div><span>Music number</span><span>Sister Tiffany Sackley</span></div> -->
-          <div><span>Speaker</span><span>Elder Warnick</span></div>
+          <div><span>Testimonies</span></div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/we-thank-thee-o-god-for-a-prophet?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/come-follow-me?lang=eng"
               >
-                19 We Thank Thee O God For A Prophet
+                116 Come, Follow Me
               </a>
             </span>
           </div>
-          <div><span>Benediction</span><span>Brother Rod Southwick</span></div>
+          <div><span>Benediction</span><span>Brother Jonathan Ingalls</span></div>
           <div></div>
           <div><i>- End of broadcast -</i></div>
           <div></div>
@@ -53,9 +51,9 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/he-died-the-great-redeemer-died?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/jesus-once-of-humble-birth?lang=eng"
               >
-                192 He Died! The Great Redeemer Died
+                196 Jesus, Once of Humble Birth
               </a>
             </span>
           </div>
@@ -81,7 +79,7 @@
         <div></div>
         <div>
           Those at home can 
-          <a href="http://highlineward.org/zoom">watch online</a>.
+          <a href="http://highlineward.org/sacrament">watch online</a>.
         </div>
       </div>
     </ion-content>
