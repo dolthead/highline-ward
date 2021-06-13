@@ -5,45 +5,60 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>May 2, 2021</div>
+        <div>June 13, 2021</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
-          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div>
+          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
+          <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
+          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <!-- <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
+          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div> -->
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/jesus-the-very-thought-of-thee?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/where-can-i-turn-for-peace?lang=eng"
               >
-                141 Jesus, the Very Thought of Thee
+                129 Where Can I Turn for Peace?
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Mitzi Hunter</span></div>
+          <div><span>Invocation</span><span>Sister Natalie Jensen</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
           </div>
           <div></div>
-          <div><span>Testimonies</span></div>
+          <div><span>Speaker</span><span>Sister Elizabeth Smith</span></div>
+          <!-- <div></div> -->
+          <!-- <div><span>Music number</span>
+            <span>
+              <a href="https://www.churchofjesuschrist.org/music/library/childrens-songbook/mother-tell-me-the-story?lang=eng">
+                Mother, Tell Me the Story
+              </a>
+            </span></div>
+          <div><span></span><span>Sister Aleesa Hale</span></div>
+          <div><span></span><span>& McKenna Simons</span></div>
+          <div></div> -->
+          <!-- <div><span>Testimonies</span></div> -->
+          <div><span>Speaker</span><span>Sister Camille Smith</span></div>
+          <!-- <div></div> -->
+          <div><span>Speaker</span><span>Brother Jared Smith</span></div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/come-follow-me?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/i-need-thee-every-hour?lang=eng"
               >
-                116 Come, Follow Me
+                98 I Need Thee Every Hour
               </a>
             </span>
           </div>
-          <div><span>Benediction</span><span>Brother Jonathan Ingalls</span></div>
+          <div><span>Benediction</span><span>Brother Mark Jensen</span></div>
           <div></div>
           <div><i>- End of broadcast -</i></div>
           <div></div>
@@ -51,9 +66,9 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/jesus-once-of-humble-birth?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/reverently-and-meekly-now?lang=eng"
               >
-                196 Jesus, Once of Humble Birth
+                185 Reverently and Meekly Now
               </a>
             </span>
           </div>
