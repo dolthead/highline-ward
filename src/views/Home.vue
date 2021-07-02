@@ -5,74 +5,71 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>June 13, 2021</div>
+        <div>July 4, 2021</div>
         <div class="table">
           <div></div>
-          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
-          <div><span>Chorister</span><span>Sister Sydney Lane</span></div>
-          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <!-- <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
-          <div><span>Accompanist</span><span>Brother Ian Hopper</span></div> -->
+          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
+          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
+          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
+
+          <!-- <div><span>Chorister</span><span>Sister Sydney Lane</span></div> -->
+          <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
+
+          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <!-- <div><span>Accompanist</span><span>Brother Ian Hopper</span></div> -->
+
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/where-can-i-turn-for-peace?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/my-country-tis-of-thee"
               >
-                129 Where Can I Turn for Peace?
+                339 My Country, ‘Tis of Thee
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Natalie Jensen</span></div>
+          <div><span>Invocation</span><span>Brother Jeremiah Jelte</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
           </div>
           <div></div>
-          <div><span>Speaker</span><span>Sister Elizabeth Smith</span></div>
-          <!-- <div></div> -->
-          <!-- <div><span>Music number</span>
-            <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/childrens-songbook/mother-tell-me-the-story?lang=eng">
-                Mother, Tell Me the Story
-              </a>
-            </span></div>
-          <div><span></span><span>Sister Aleesa Hale</span></div>
-          <div><span></span><span>& McKenna Simons</span></div>
-          <div></div> -->
-          <!-- <div><span>Testimonies</span></div> -->
-          <div><span>Speaker</span><span>Sister Camille Smith</span></div>
-          <!-- <div></div> -->
-          <div><span>Speaker</span><span>Brother Jared Smith</span></div>
-          <div></div>
-          <div>
-            <span>Closing Hymn</span>
-            <span>
-              <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/i-need-thee-every-hour?lang=eng"
-              >
-                98 I Need Thee Every Hour
-              </a>
-            </span>
-          </div>
-          <div><span>Benediction</span><span>Brother Mark Jensen</span></div>
-          <div></div>
-          <div><i>- End of broadcast -</i></div>
+          <div><i>The video feed for those at home will resume after the sacrament</i></div>
           <div></div>
           <div>
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/reverently-and-meekly-now?lang=eng"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-aeolian"
               >
-                185 Reverently and Meekly Now
+                174 While of These Emblems We Partake
               </a>
             </span>
           </div>
-          <div>Administration of the Sacrament</div>
+          <div><b>Administration of the Sacrament</b></div>
+          <div></div>
+          <!-- <div><span>Speaker</span><span>Sister Diann Redzich</span></div> -->
+          <!-- <div></div> -->
+          <!-- <div><span>Music Number</span><span>Father's Day Medley</span></div> -->
+          <!-- <div><span></span><span>Primary children</span></div> -->
+          <!-- <div></div> -->
+          <div><span>Testimonies</span></div>
+          <!-- <div><span>Speaker</span><span>Brother Mike Redzich</span></div> -->
+          <div></div>
+          <div>
+            <span>Closing Hymn</span>
+            <span>
+              <a
+                href="https://www.churchofjesuschrist.org/music/library/hymns/the-star-spangled-banner"
+              >
+                340 The Star-Spangled Banner
+              </a>
+            </span>
+          </div>
+          <div><span>Benediction</span><span>Brother Mike Redzich</span></div>
         </div>
 
         <hr />
@@ -82,7 +79,7 @@
           <a
             href="https://docs.google.com/document/d/1F_U2DQ9kuWxroPF3CBEBRspZXj_uCbxQE7BxDJ91LwY/edit?usp=sharing"
           >
-            the ward newsletter</a>.
+          the ward newsletter</a>.
         </div>
         <div></div>
         <div>
