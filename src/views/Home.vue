@@ -5,33 +5,33 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>July 4, 2021</div>
+        <div>July 18, 2021</div>
         <div class="table">
           <div></div>
-          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
-          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
+          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
           <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
 
           <!-- <div><span>Chorister</span><span>Sister Sydney Lane</span></div> -->
           <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
 
-          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
-          <!-- <div><span>Accompanist</span><span>Brother Ian Hopper</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
 
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/my-country-tis-of-thee"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/come-all-ye-saints-of-zion"
               >
-                339 My Country, ‘Tis of Thee
+                38 Come, All Ye Saints of Zion
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Brother Jeremiah Jelte</span></div>
+          <div><span>Invocation</span><span>Sister Nicki Pettijohn</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -43,33 +43,42 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/while-of-these-emblems-we-partake-aeolian"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary"
               >
-                174 While of These Emblems We Partake
+                184 Upon the Cross of Calvary
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
-          <!-- <div><span>Speaker</span><span>Sister Diann Redzich</span></div> -->
-          <!-- <div></div> -->
+          <!-- <div><span>Speaker</span><span>Kelton Smith</span></div> -->
+          <div><span>Speaker</span><span>Brother Damon Bohn</span></div>
+          <div></div>
+          <div>
+            <span>Congregational Hymn</span>
+            <span><a 
+              href="https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation"
+            >
+              85 How Firm a Foundation
+            </a></span>
+          </div>
           <!-- <div><span>Music Number</span><span>Father's Day Medley</span></div> -->
           <!-- <div><span></span><span>Primary children</span></div> -->
-          <!-- <div></div> -->
-          <div><span>Testimonies</span></div>
-          <!-- <div><span>Speaker</span><span>Brother Mike Redzich</span></div> -->
+          <div></div>
+          <!-- <div><span>Testimonies</span></div> -->
+          <div><span>Speaker</span><span>Brother Kirtis Kennard</span></div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/the-star-spangled-banner"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/let-zion-in-her-beauty-rise"
               >
-                340 The Star-Spangled Banner
+                41 Let Zion in Her Beauty Rise
               </a>
             </span>
           </div>
-          <div><span>Benediction</span><span>Brother Mike Redzich</span></div>
+          <div><span>Benediction</span><span>Brother Howard VanFleet</span></div>
         </div>
 
         <hr />
