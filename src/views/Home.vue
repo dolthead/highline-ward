@@ -5,33 +5,33 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>July 18, 2021</div>
+        <div>August 15, 2021</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
+          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
           <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
-          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
+          <!-- <div><span>Conducting</span><span>Brother Kayle Smith</span></div> -->
 
-          <!-- <div><span>Chorister</span><span>Sister Sydney Lane</span></div> -->
-          <div><span>Chorister</span><span>Sister Julie Gowans</span></div>
+          <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
 
           <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
-          <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/come-all-ye-saints-of-zion"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/how-beautiful-thy-temples-lord"
               >
-                38 Come, All Ye Saints of Zion
+                288 How Beautiful Thy Temples, Lord
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Nicki Pettijohn</span></div>
+          <div><span>Invocation</span><span>Brother Dan McRae</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -43,42 +43,42 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/upon-the-cross-of-calvary"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/god-our-father-hear-us-pray"
               >
-                184 Upon the Cross of Calvary
+                170 God, Our Father, Hear Us Pray
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
-          <!-- <div><span>Speaker</span><span>Kelton Smith</span></div> -->
-          <div><span>Speaker</span><span>Brother Damon Bohn</span></div>
+          <!-- <div><span>Speaker</span><span>Brother Matt Broderick</span></div> -->
+          <div><span>Speaker</span><span>Brother Jayden Fullmer</span></div>
           <div></div>
           <div>
             <span>Congregational Hymn</span>
             <span><a 
-              href="https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation"
+              href="https://www.churchofjesuschrist.org/music/library/hymns/we-love-thy-house-o-god"
             >
-              85 How Firm a Foundation
+              247 We Love Thy House, O God
             </a></span>
           </div>
           <!-- <div><span>Music Number</span><span>Father's Day Medley</span></div> -->
           <!-- <div><span></span><span>Primary children</span></div> -->
           <div></div>
           <!-- <div><span>Testimonies</span></div> -->
-          <div><span>Speaker</span><span>Brother Kirtis Kennard</span></div>
+          <div><span>Speaker</span><span>President Matt Hinton</span></div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/let-zion-in-her-beauty-rise"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/high-on-the-mountain-top"
               >
-                41 Let Zion in Her Beauty Rise
+                5 High on the Mountain Top
               </a>
             </span>
           </div>
-          <div><span>Benediction</span><span>Brother Howard VanFleet</span></div>
+          <div><span>Benediction</span><span>Sister Laura Allen</span></div>
         </div>
 
         <hr />
