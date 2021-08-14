@@ -16,7 +16,7 @@
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
 
           <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
@@ -25,13 +25,14 @@
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/how-beautiful-thy-temples-lord"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/a-mighty-fortress-is-our-god"
               >
-                288 How Beautiful Thy Temples, Lord
+                68 A Mighty Fortress Is Our God
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Brother Dan McRae</span></div>
+          <div><span>Invocation</span><span>Julie Bingham</span></div>
+          <!-- <div><span>Invocation</span><span>Sherry Chapman</span></div> -->
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -43,42 +44,49 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/god-our-father-hear-us-pray"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/in-remembrance-of-thy-suffering"
               >
-                170 God, Our Father, Hear Us Pray
+                183 In Remembrance of Thy Suffering
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
           <!-- <div><span>Speaker</span><span>Brother Matt Broderick</span></div> -->
-          <div><span>Speaker</span><span>Brother Jayden Fullmer</span></div>
+          <div><span>Youth Speakers</span><span>Josh Cox</span></div>
+          <div><span></span><span>Zach Boren</span></div>
+          <div><span></span><span>Corina Sackley</span></div>
+          <div><span></span><span>Hannah Hinton</span></div>
           <div></div>
           <div>
             <span>Congregational Hymn</span>
             <span><a 
-              href="https://www.churchofjesuschrist.org/music/library/hymns/we-love-thy-house-o-god"
+              href="https://www.churchofjesuschrist.org/music/library/hymns/come-o-thou-king-of-kings"
             >
-              247 We Love Thy House, O God
+              59 Come, O Thou King of Kings
             </a></span>
           </div>
           <!-- <div><span>Music Number</span><span>Father's Day Medley</span></div> -->
           <!-- <div><span></span><span>Primary children</span></div> -->
           <div></div>
           <!-- <div><span>Testimonies</span></div> -->
-          <div><span>Speaker</span><span>President Matt Hinton</span></div>
+          <div><span>Youth Speakers</span><span>Susan Toll</span></div>
+          <div><span></span><span>Baylee Adam</span></div>
+          <div><span></span><span>Jessica Hall</span></div>
+          <div><span></span><span>Brady Boren</span></div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
             <span>
-              <a
+              <!-- <a
                 href="https://www.churchofjesuschrist.org/music/library/hymns/high-on-the-mountain-top"
-              >
-                5 High on the Mountain Top
-              </a>
+              > -->
+                86 How Great Thou Art (not available)
+              <!-- </a> -->
             </span>
           </div>
-          <div><span>Benediction</span><span>Sister Laura Allen</span></div>
+          <div><span>Benediction</span><span>Joseph Chapman</span></div>
+          <!-- <div><span>Benediction</span><span>Jathan Bingham</span></div> -->
         </div>
 
         <hr />
