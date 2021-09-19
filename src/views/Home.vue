@@ -5,18 +5,18 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>August 15, 2021</div>
+        <div>September 19, 2021</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
+          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
           <!-- <div><span>Conducting</span><span>Brother Kayle Smith</span></div> -->
 
+          <!-- <div><span>Music Director</span><span>Brother Ian Hopper</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
 
-          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
@@ -25,14 +25,13 @@
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/a-mighty-fortress-is-our-god"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/the-iron-rod"
               >
-                68 A Mighty Fortress Is Our God
+                274 The Iron Rod
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Julie Bingham</span></div>
-          <!-- <div><span>Invocation</span><span>Sherry Chapman</span></div> -->
+          <div><span>Invocation</span><span>Sister Angela Christensen</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -44,49 +43,47 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/in-remembrance-of-thy-suffering"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament"
               >
-                183 In Remembrance of Thy Suffering
+                169 As Now We Take the Sacrament
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
-          <!-- <div><span>Speaker</span><span>Brother Matt Broderick</span></div> -->
-          <div><span>Youth Speakers</span><span>Josh Cox</span></div>
-          <div><span></span><span>Zach Boren</span></div>
-          <div><span></span><span>Corina Sackley</span></div>
-          <div><span></span><span>Hannah Hinton</span></div>
+          <div><span>Speaker</span><span>Brother Judd Hansen</span></div>
           <div></div>
           <div>
             <span>Congregational Hymn</span>
             <span><a 
-              href="https://www.churchofjesuschrist.org/music/library/hymns/come-o-thou-king-of-kings"
+              href="https://www.churchofjesuschrist.org/music/library/hymns/let-the-holy-spirit-guide"
             >
-              59 Come, O Thou King of Kings
+              143 Let the Holy Spirit Guide
             </a></span>
           </div>
-          <!-- <div><span>Music Number</span><span>Father's Day Medley</span></div> -->
-          <!-- <div><span></span><span>Primary children</span></div> -->
-          <div></div>
+
+          <!-- <div><span>Music Number</span><span>Come Thou Fount of Every Blessing</span></div>
+          <div><span></span><span>Alyssa Gowans</span></div>
+          <div></div> -->
+
           <!-- <div><span>Testimonies</span></div> -->
-          <div><span>Youth Speakers</span><span>Susan Toll</span></div>
-          <div><span></span><span>Baylee Adam</span></div>
-          <div><span></span><span>Jessica Hall</span></div>
-          <div><span></span><span>Brady Boren</span></div>
+
+          <div></div>
+          <div><span>Speaker</span><span>Brother Brent Oakeson</span></div>
           <div></div>
           <div>
             <span>Closing Hymn</span>
             <span>
-              <!-- <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/high-on-the-mountain-top"
-              > -->
-                86 How Great Thou Art (not available)
-              <!-- </a> -->
+              <a
+                href="https://www.churchofjesuschrist.org/music/library/hymns/as-i-search-the-holy-scriptures"
+              >
+                277 “As I Search the Holy Scriptures”
+              </a>
             </span>
           </div>
-          <div><span>Benediction</span><span>Joseph Chapman</span></div>
-          <!-- <div><span>Benediction</span><span>Jathan Bingham</span></div> -->
+          <!-- <div><span></span><span>(not available online)</span></div> -->
+
+          <div><span>Benediction</span><span>Brother Jarron Ainsworth</span></div>
         </div>
 
         <hr />
