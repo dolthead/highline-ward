@@ -5,18 +5,18 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>September 19, 2021</div>
+        <div>October 31, 2021</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
-          <!-- <div><span>Conducting</span><span>Brother Kayle Smith</span></div> -->
+          <!-- <div><span>Conducting</span><span>Brother Jason Manning</span></div> -->
+          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
 
           <!-- <div><span>Music Director</span><span>Brother Ian Hopper</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
 
-          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
@@ -25,13 +25,13 @@
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/the-iron-rod"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/the-spirit-of-god"
               >
-                274 The Iron Rod
+                2 The Spirit of God
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Angela Christensen</span></div>
+          <div><span>Invocation</span><span>Sister Jen Stetser</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -43,16 +43,19 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/o-god-the-eternal-father"
               >
-                169 As Now We Take the Sacrament
+                175 O God, the Eternal Father
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
-          <div><span>Speaker</span><span>Brother Judd Hansen</span></div>
+
+          <div><span>Speaker</span><span>Kadence Aagard</span></div>
+          <div><span>Speaker</span><span>Derek Adams</span></div>
           <div></div>
+
           <div>
             <span>Congregational Hymn</span>
             <span><a 
@@ -61,6 +64,7 @@
               143 Let the Holy Spirit Guide
             </a></span>
           </div>
+          <div></div>
 
           <!-- <div><span>Music Number</span><span>Come Thou Fount of Every Blessing</span></div>
           <div><span></span><span>Alyssa Gowans</span></div>
@@ -68,22 +72,23 @@
 
           <!-- <div><span>Testimonies</span></div> -->
 
+          <div><span>Speaker</span><span>Sister Cheri Allred</span></div>
+          <div><span>Speaker</span><span>Brother Keith Allred</span></div>
           <div></div>
-          <div><span>Speaker</span><span>Brother Brent Oakeson</span></div>
-          <div></div>
+
           <div>
             <span>Closing Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/as-i-search-the-holy-scriptures"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/as-the-shadows-fall"
               >
-                277 “As I Search the Holy Scriptures”
+                168 As the Shadows Fall
               </a>
             </span>
           </div>
           <!-- <div><span></span><span>(not available online)</span></div> -->
 
-          <div><span>Benediction</span><span>Brother Jarron Ainsworth</span></div>
+          <div><span>Benediction</span><span>Brother Dennis Adams</span></div>
         </div>
 
         <hr />
