@@ -5,18 +5,19 @@
         <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>October 31, 2021</div>
+        <div>November 28, 2021</div>
         <div class="table">
           <div></div>
-          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Conducting</span><span>Brother Jason Manning</span></div> -->
-          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
+          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
+          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
+          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
+          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div> -->
 
-          <!-- <div><span>Music Director</span><span>Brother Ian Hopper</span></div> -->
+          <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
 
-          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
@@ -25,13 +26,13 @@
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/the-spirit-of-god"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/for-the-beauty-of-the-earth"
               >
-                2 The Spirit of God
+                92 For the Beauty of the Earth
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Jen Stetser</span></div>
+          <div><span>Invocation</span><span>Brother Ben Gowans</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -43,20 +44,20 @@
             <span>Sacrament Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/o-god-the-eternal-father"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/in-humility-our-savior"
               >
-                175 O God, the Eternal Father
+                172 In Humility, Our Savior
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-          <div><span>Speaker</span><span>Kadence Aagard</span></div>
-          <div><span>Speaker</span><span>Derek Adams</span></div>
+          <div><span>Testimonies</span><span>Sister Maughan</span></div>
+          <div><span></span><span>Sister I</span></div>
           <div></div>
 
-          <div>
+          <!-- <div>
             <span>Congregational Hymn</span>
             <span><a 
               href="https://www.churchofjesuschrist.org/music/library/hymns/let-the-holy-spirit-guide"
@@ -64,33 +65,79 @@
               143 Let the Holy Spirit Guide
             </a></span>
           </div>
-          <div></div>
-
-          <!-- <div><span>Music Number</span><span>Come Thou Fount of Every Blessing</span></div>
-          <div><span></span><span>Alyssa Gowans</span></div>
           <div></div> -->
 
-          <!-- <div><span>Testimonies</span></div> -->
+          <div><span>Music Number</span><span>I Feel My Savior's Love</span></div>
+          <div><span></span><span>Sister Tiffany Sackley & Hailey Peay</span></div>
+          <div></div>
 
-          <div><span>Speaker</span><span>Sister Cheri Allred</span></div>
-          <div><span>Speaker</span><span>Brother Keith Allred</span></div>
+          <!-- <div><span>Primary Program</span></div>
+          <div></div> -->
+
+          <div><span>Speaker</span><span>Sister Debbie Brock</span></div>
+          <div><span>Speaker</span><span>Brother Roger Brock</span></div>
           <div></div>
 
           <div>
             <span>Closing Hymn</span>
             <span>
-              <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/as-the-shadows-fall"
-              >
-                168 As the Shadows Fall
+              <!-- <a href="" @click.stop.prevent="scrollMe"> -->
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/rejoice-the-lord-is-king">
+                66 Rejoice, the Lord is King
               </a>
             </span>
           </div>
           <!-- <div><span></span><span>(not available online)</span></div> -->
 
-          <div><span>Benediction</span><span>Brother Dennis Adams</span></div>
+          <div><span>Benediction</span><span>Sister Julie Gowans</span></div>
         </div>
 
+        <!-- <hr id="music" />
+<pre>
+"My Own Sacred Grove"
+
+Joseph Smith went to a grove full of trees.
+Seeking God's wisdom, he fell to his knees.
+As he pled with the heavens the sky filled with light,
+And the Father appeared with His Son Jesus Christ
+Standing above in the air,
+Coming to answer his prayer.
+
+I will find my own sacred grove
+Away from all of the noise in the world.
+I will turn to prayer,
+For I know He's there.
+I will find my own sacred grove.
+
+So many choices with so much at stake.
+Life's full of pathways, but which should I take?
+If I lift up in prayer in the name of the Son,
+Through the pow'r of the Holy Ghost answers will come.
+Heavenly Father is there
+Ready to answer my prayer.
+
+I will find my own sacred grove
+Away from all of the noise in the world.
+I will turn to prayer,
+For I know He's there.
+I will find my own sacred grove.
+
+Sometimes the answers take time,
+So I'll listen in heart and mind.
+Revelation will come my way
+As I wait patiently in faith.
+
+I will find my own sacred grove
+Away from all of the noise in the world.
+I will turn to prayer,
+For I know He's there.
+I will find my own sacred grove.
+
+I will find my own sacred grove.
+</pre>
+<a href="https://www.angiekillian.com/shop?Collection=My+Own+Sacred+Grove&page=3" class="smaller">
+  ©2021 by Angie Killian Music | All Rights Reserved.
+</a> -->
         <hr />
 
         <div>
@@ -127,6 +174,16 @@ export default defineComponent({
     IonContent,
     IonPage,
   },
+  setup() {
+    const scrollMe = () => {
+        document.querySelector('#music')?.scrollIntoView({
+            behavior: 'smooth'
+        });
+    };
+    return {
+      scrollMe
+    }
+  }
 });
 </script>
 
@@ -159,5 +216,11 @@ div.table span:first-child {
 hr {
   border-top: 1px navy solid;
   margin: 2em 0;
+}
+pre {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.smaller {
+  font-size: x-small;
 }
 </style>
