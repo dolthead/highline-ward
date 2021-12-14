@@ -2,11 +2,10 @@
   <ion-page>
     <ion-content :fullscreen="true">
       <div class="container">
-        <!-- <img src="/assets/Christus.png" /> -->
-        <img src="/assets/maryjesus.jpeg" />
+        <img src="/assets/Christus.png" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>December 19, 2021</div>
+        <div>December 12, 2021</div>
         <div class="table">
           <div></div>
           <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
@@ -27,13 +26,13 @@
             <span>Opening Hymn</span>
             <span>
               <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/it-came-upon-the-midnight-clear"
+                href="https://www.churchofjesuschrist.org/music/library/hymns/oh-come-all-ye-faithful"
               >
-                207 It Came Upon the Midnight Clear
+                202 Oh, Come, All Ye Faithful
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <div><span>Invocation</span><span>Sister Kirsten Harmon</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -44,43 +43,51 @@
           <div>
             <span>Sacrament Hymn</span>
             <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/in-remembrance-of-thy-suffering">
-                183 In Remembrance of Thy Suffering
+              <a
+                href="https://www.churchofjesuschrist.org/music/library/hymns/behold-the-great-redeemer-die"
+              >
+                191 Behold the Great Redeemer Die
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-        <!-- <img src="/assets/flourish.png" /> -->
-<div class="program">
-<div>Isaiah 9:6</div>
-<div><i>Picture a Christmas</i> ~ Young Women</div>
-<div>Luke 2:1-8</div>
-<div><i>Gesu Bambino</i> ~ Ashley Cowan, Sioana Davis, Dan Davis, Michael Lambert</div>
-<div><i>Away in a Manger</i> ~ Tiffany Sackley & Hailey Peay</div>
-<div>Luke 2:8-15</div>
-<div><i>O Holy Night</i> ~ Kaylene DeMasi & Shellie Vanfleet</div>
-<div><i>O Come All Ye Faithful</i> ~ Aleesa Hale</div>
-<div>John 3:16</div>
-<div><i>Little Lord Jesus</i> ~ Primary</div>
-</div>
-        <!-- <img src="/assets/flourish2.png" />  -->
+          <!-- <div><span>Testimonies</span><span></span></div>
+          <div></div> -->
 
+          <div><span>Speaker</span><span>Brother Travis Pitcher</span></div>
+          <div></div>
+
+          <div>
+            <span>Congregational Hymn</span>
+            <span><a 
+              href="https://www.churchofjesuschrist.org/music/library/hymns/silent-night"
+            >
+              204 Silent Night
+            </a></span>
+          </div>
+          <div></div>
+
+          <!-- <div><span>Music Number</span><span>I Feel My Savior's Love</span></div>
+          <div><span></span><span>Sister Tiffany Sackley & Hailey Peay</span></div>
+          <div></div> -->
+
+          <div><span>Speaker</span><span>Brother Ryan Pitcher</span></div>
           <div></div>
 
           <div>
             <span>Closing Hymn</span>
             <span>
               <!-- <a href="" @click.stop.prevent="scrollMe"> -->
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/angels-we-have-heard-on-high">
-                203 Angels We Have Heard On High
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/hark-the-herald-angels-sing">
+                209 Hark! The Herald Angels Sing
               </a>
             </span>
           </div>
           <!-- <div><span></span><span>(not available online)</span></div> -->
 
-          <div><span>Benediction</span><span>TBD</span></div>
+          <div><span>Benediction</span><span>Brother Dan Davis</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -177,8 +184,5 @@ pre {
 }
 .smaller {
   font-size: x-small;
-}
-.program div {
-  margin: 6px;
 }
 </style>
