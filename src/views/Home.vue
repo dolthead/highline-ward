@@ -2,38 +2,34 @@
   <ion-page>
     <ion-content :fullscreen="true">
       <div class="container">
-        <!-- <img src="/assets/Christus.png" /> -->
-        <img src="/assets/maryjesus.jpeg" />
+        <img src="/assets/Christus.png" />
+        <!-- <img src="/assets/maryjesus.jpeg" /> -->
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>December 19, 2021</div>
+        <div>January 2, 2022</div>
         <div class="table">
           <div></div>
-          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
-          <!-- <div><span>Conducting</span><span>Bishop Glen Ostler</span></div> -->
+          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
 
           <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
-          <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
-              <a
-                href="https://www.churchofjesuschrist.org/music/library/hymns/it-came-upon-the-midnight-clear"
-              >
-                207 It Came Upon the Midnight Clear
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/ring-out-wild-bells">
+                215 Ring Out Wild Bells
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <div><span>Invocation</span><span>Brother Ian Hopper</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -44,43 +40,51 @@
           <div>
             <span>Sacrament Hymn</span>
             <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/in-remembrance-of-thy-suffering">
-                183 In Remembrance of Thy Suffering
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed">
+                193 I Stand All Amazed
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-        <!-- <img src="/assets/flourish.png" /> -->
-<div class="program">
-<div>Isaiah 9:6</div>
-<div><i>Picture a Christmas</i> ~ Young Women</div>
-<div>Luke 2:1-8</div>
-<div><i>Gesu Bambino</i> ~ Ashley Cowan, Sioana Davis, Dan Davis, Michael Lambert</div>
-<div><i>Away in a Manger</i> ~ Tiffany Sackley & Hailey Peay</div>
-<div>Luke 2:8-15</div>
-<div><i>O Holy Night</i> ~ Kaylene DeMasi & Shellie Vanfleet</div>
-<div><i>O Come All Ye Faithful</i> ~ Aleesa Hale</div>
-<div>John 3:16</div>
-<div><i>Little Lord Jesus</i> ~ Primary</div>
-</div>
-        <!-- <img src="/assets/flourish2.png" />  -->
-
+          <div><span>Testimonies</span><span></span></div>
           <div></div>
+
+          <!-- <div><span>Speaker</span><span>Brother Kayle Smith</span></div>
+          <div><span>Speaker</span><span>Brother Jason Manning</span></div>
+          <div></div> -->
+
+          <!-- <div>
+            <span>Congregational Hymn</span>
+            <span>
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/o-little-town-of-bethlehem">
+                208 O Little Town of Bethlehem
+              </a>
+            </span>
+          </div>
+          <div></div> -->
+
+          <!-- <div><span>Music Number</span><span>I Feel My Savior's Love</span></div>
+          <div><span></span><span>Sister Tiffany Sackley & Hailey Peay</span></div>
+          <div></div> -->
+
+          <!-- <div><span>Speaker</span><span>Bishop Glen Ostler</span></div>
+          <div></div> -->
+
 
           <div>
             <span>Closing Hymn</span>
             <span>
               <!-- <a href="" @click.stop.prevent="scrollMe"> -->
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/angels-we-have-heard-on-high">
-                203 Angels We Have Heard On High
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/if-you-could-hie-to-kolob">
+                284 If You Could Hie to Kolob
               </a>
             </span>
           </div>
           <!-- <div><span></span><span>(not available online)</span></div> -->
 
-          <div><span>Benediction</span><span>TBD</span></div>
+          <div><span>Benediction</span><span>Brother Corwin Bennett</span></div>
         </div>
 
         <!-- <hr id="music" />
