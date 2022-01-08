@@ -6,30 +6,30 @@
         <!-- <img src="/assets/maryjesus.jpeg" /> -->
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>January 2, 2022</div>
+        <div>January 9, 2022</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
+          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
 
           <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
           <div>
             <span>Opening Hymn</span>
             <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/ring-out-wild-bells">
-                215 Ring Out Wild Bells
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/all-creatures-of-our-god-and-king">
+                62 All Creatures of Our God and King
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Brother Ian Hopper</span></div>
+          <div><span>Invocation</span><span>Sister Aleesa Hale</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -40,51 +40,51 @@
           <div>
             <span>Sacrament Hymn</span>
             <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/i-stand-all-amazed">
-                193 I Stand All Amazed
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/o-god-the-eternal-father">
+                175 O God, the Eternal Father
               </a>
             </span>
           </div>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-          <div><span>Testimonies</span><span></span></div>
-          <div></div>
-
-          <!-- <div><span>Speaker</span><span>Brother Kayle Smith</span></div>
-          <div><span>Speaker</span><span>Brother Jason Manning</span></div>
+          <!-- <div><span>Testimonies</span><span></span></div>
           <div></div> -->
 
-          <!-- <div>
+          <!-- <div><span>Youth Speaker</span><span>TBD</span></div> -->
+          <div><span>Speaker</span><span>Sister Meghan Queen</span></div>
+          <div></div>
+
+          <div>
             <span>Congregational Hymn</span>
             <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/o-little-town-of-bethlehem">
-                208 O Little Town of Bethlehem
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/for-the-beauty-of-the-earth">
+                92 For the Beauty of the Earth
               </a>
             </span>
           </div>
-          <div></div> -->
+          <div></div>
 
           <!-- <div><span>Music Number</span><span>I Feel My Savior's Love</span></div>
           <div><span></span><span>Sister Tiffany Sackley & Hailey Peay</span></div>
           <div></div> -->
 
-          <!-- <div><span>Speaker</span><span>Bishop Glen Ostler</span></div>
-          <div></div> -->
+          <div><span>Speaker</span><span>Brother Jeffrey Queen</span></div>
+          <div></div>
 
 
           <div>
             <span>Closing Hymn</span>
-            <span>
+            <span style='text-align: right;'>
               <!-- <a href="" @click.stop.prevent="scrollMe"> -->
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/if-you-could-hie-to-kolob">
-                284 If You Could Hie to Kolob
-              </a>
+              <!-- <a href="https://www.churchofjesuschrist.org/music/library/hymns/if-you-could-hie-to-kolob"> -->
+                86 How Great Thou Art
+                <br /><span style="margin-bottom:6px">(not available online)</span>
+              <!-- </a> -->
             </span>
           </div>
-          <!-- <div><span></span><span>(not available online)</span></div> -->
 
-          <div><span>Benediction</span><span>Brother Corwin Bennett</span></div>
+          <div><span>Benediction</span><span>Sister Jenny Creviston</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -100,10 +100,9 @@ I will find my own sacred grove.
 
         <div>
           Upcoming events and leadership contact information are listed in
-          <a
-            href="https://docs.google.com/document/d/1F_U2DQ9kuWxroPF3CBEBRspZXj_uCbxQE7BxDJ91LwY/edit?usp=sharing"
-          >
-          the ward newsletter</a>.
+          <a href="https://docs.google.com/document/d/1F_U2DQ9kuWxroPF3CBEBRspZXj_uCbxQE7BxDJ91LwY/edit?usp=sharing">
+            the ward newsletter
+          </a>.
         </div>
         <div></div>
         <div>
@@ -115,8 +114,8 @@ I will find my own sacred grove.
         <div></div>
         <div>
           Those at home can 
-          <a href="http://mywebcast.churchofjesuschrist.org/Events/paysonutahsouthstake">watch online</a>.
-          <!-- <a href="http://highlineward.org/sacrament">watch online</a>. -->
+          <!-- <a href="http://mywebcast.churchofjesuschrist.org/Events/paysonutahsouthstake">watch online</a>. -->
+          <a href="http://highlineward.org/sacrament">watch online</a>.
         </div>
       </div>
     </ion-content>
@@ -133,16 +132,16 @@ export default defineComponent({
     IonContent,
     IonPage,
   },
-  setup() {
-    const scrollMe = () => {
-        document.querySelector('#music')?.scrollIntoView({
-            behavior: 'smooth'
-        });
-    };
-    return {
-      scrollMe
-    }
-  }
+  // setup() {
+  //   const scrollMe = () => {
+  //       document.querySelector('#music')?.scrollIntoView({
+  //           behavior: 'smooth'
+  //       });
+  //   };
+  //   return {
+  //     scrollMe
+  //   }
+  // }
 });
 </script>
 
