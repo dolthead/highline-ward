@@ -6,11 +6,11 @@
         <!-- <img src="/assets/maryjesus.jpeg" /> -->
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>January 9, 2022</div>
+        <div>January 16, 2022</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
+          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
@@ -24,12 +24,13 @@
           <div>
             <span>Opening Hymn</span>
             <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/all-creatures-of-our-god-and-king">
-                62 All Creatures of Our God and King
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/adam-ondi-ahman">
+                49 Adam-ondi-Ahman
               </a>
             </span>
           </div>
-          <div><span>Invocation</span><span>Sister Aleesa Hale</span></div>
+          <div><span>Invocation</span><span>Sister Sherry Chapman</span></div>
+          <!-- <div><span>Invocation</span><span>Sister Debbie Brock</span></div> -->
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -40,8 +41,8 @@
           <div>
             <span>Sacrament Hymn</span>
             <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/o-god-the-eternal-father">
-                175 O God, the Eternal Father
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/in-memory-of-the-crucified">
+                190 In Memory of the Crucified
               </a>
             </span>
           </div>
@@ -52,14 +53,15 @@
           <div></div> -->
 
           <!-- <div><span>Youth Speaker</span><span>TBD</span></div> -->
-          <div><span>Speaker</span><span>Sister Meghan Queen</span></div>
+          <div><span>Speaker</span><span>Brother Judd Hansen</span></div>
+          <div><span></span><span><i>Stake YM 2nd Counselor</i></span></div>
           <div></div>
 
           <div>
             <span>Congregational Hymn</span>
             <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/for-the-beauty-of-the-earth">
-                92 For the Beauty of the Earth
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/does-the-journey-seem-long">
+                127 Does the Journey Seem Long?
               </a>
             </span>
           </div>
@@ -69,7 +71,8 @@
           <div><span></span><span>Sister Tiffany Sackley & Hailey Peay</span></div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Jeffrey Queen</span></div>
+          <div><span>Speaker</span><span>Brother Mike Kunz</span></div>
+          <div><span></span><span><i>Stake High Councilor</i></span></div>
           <div></div>
 
 
@@ -77,14 +80,15 @@
             <span>Closing Hymn</span>
             <span style='text-align: right;'>
               <!-- <a href="" @click.stop.prevent="scrollMe"> -->
-              <!-- <a href="https://www.churchofjesuschrist.org/music/library/hymns/if-you-could-hie-to-kolob"> -->
-                86 How Great Thou Art
-                <br /><span style="margin-bottom:6px">(not available online)</span>
-              <!-- </a> -->
+              <a href="https://www.churchofjesuschrist.org/music/library/hymns/the-day-dawn-is-breaking">
+                52 The Day Dawn Is Breaking
+                <!-- <br /><span style="margin-bottom:6px">(not available online)</span> -->
+              </a>
             </span>
           </div>
 
-          <div><span>Benediction</span><span>Sister Jenny Creviston</span></div>
+          <div><span>Benediction</span><span>Brother Roger Brock</span></div>
+          <!-- <div><span>Benediction</span><span>Brother Joseph Chapman</span></div> -->
         </div>
 
         <!-- <hr id="music" />
