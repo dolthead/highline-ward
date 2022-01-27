@@ -6,7 +6,7 @@
         <!-- <img src="/assets/maryjesus.jpeg" /> -->
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>January 16, 2022</div>
+        <div>January 30, 2022</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
@@ -21,16 +21,8 @@
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
-          <div>
-            <span>Opening Hymn</span>
-            <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/adam-ondi-ahman">
-                49 Adam-ondi-Ahman
-              </a>
-            </span>
-          </div>
-          <div><span>Invocation</span><span>Sister Sherry Chapman</span></div>
-          <!-- <div><span>Invocation</span><span>Sister Debbie Brock</span></div> -->
+          <hymn-row :hymn="getHymn(294)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Brittany Beardall</span></div>
           <div></div>
           <div>
             <span>Ward & Stake Business</span>
@@ -38,57 +30,31 @@
           <div></div>
           <div><i>The video feed for those at home will resume after the sacrament</i></div>
           <div></div>
-          <div>
-            <span>Sacrament Hymn</span>
-            <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/in-memory-of-the-crucified">
-                190 In Memory of the Crucified
-              </a>
-            </span>
-          </div>
+
+          <hymn-row :hymn="getHymn(181)">Sacrament Hymn</hymn-row>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-          <!-- <div><span>Testimonies</span><span></span></div>
+          <div><span>Sharing Hymns</span><span></span></div>
+          <div></div>
+
+          <!-- <div><span>Speaker</span><span>Brother Craig Boren</span></div> -->
+          <!-- <div><span></span><span><i>Elders Quorum 2nd Counselor</i></span></div> -->
+          <!-- <div></div> -->
+
+          <!-- <hymn-row :hymn="getHymn(38)">Congregational Hymn</hymn-row>
           <div></div> -->
-
-          <!-- <div><span>Youth Speaker</span><span>TBD</span></div> -->
-          <div><span>Speaker</span><span>Brother Judd Hansen</span></div>
-          <div><span></span><span><i>Stake YM 2nd Counselor</i></span></div>
-          <div></div>
-
-          <div>
-            <span>Congregational Hymn</span>
-            <span>
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/does-the-journey-seem-long">
-                127 Does the Journey Seem Long?
-              </a>
-            </span>
-          </div>
-          <div></div>
 
           <!-- <div><span>Music Number</span><span>I Feel My Savior's Love</span></div>
           <div><span></span><span>Sister Tiffany Sackley & Hailey Peay</span></div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Mike Kunz</span></div>
-          <div><span></span><span><i>Stake High Councilor</i></span></div>
-          <div></div>
+          <!-- <div><span>Speaker</span><span>Brother Michael Lambert</span></div> -->
+          <!-- <div><span></span><span><i>Elders Quorum 1st Counselor</i></span></div> -->
 
+          <hymn-row :hymn="getHymn(308)">Closing Hymn</hymn-row>
 
-          <div>
-            <span>Closing Hymn</span>
-            <span style='text-align: right;'>
-              <!-- <a href="" @click.stop.prevent="scrollMe"> -->
-              <a href="https://www.churchofjesuschrist.org/music/library/hymns/the-day-dawn-is-breaking">
-                52 The Day Dawn Is Breaking
-                <!-- <br /><span style="margin-bottom:6px">(not available online)</span> -->
-              </a>
-            </span>
-          </div>
-
-          <div><span>Benediction</span><span>Brother Roger Brock</span></div>
-          <!-- <div><span>Benediction</span><span>Brother Joseph Chapman</span></div> -->
+          <div><span>Benediction</span><span>Brother Scott Beardall</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -128,6 +94,8 @@ I will find my own sacred grove.
 
 <script lang="ts">
 import { IonContent, IonPage } from "@ionic/vue";
+import HymnRow from "./HymnRow.vue";
+import { getHymn } from '@/data/hymns';
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -135,17 +103,11 @@ export default defineComponent({
   components: {
     IonContent,
     IonPage,
+    HymnRow
   },
-  // setup() {
-  //   const scrollMe = () => {
-  //       document.querySelector('#music')?.scrollIntoView({
-  //           behavior: 'smooth'
-  //       });
-  //   };
-  //   return {
-  //     scrollMe
-  //   }
-  // }
+  setup() {
+    return { getHymn };
+  }
 });
 </script>
 
@@ -157,6 +119,7 @@ export default defineComponent({
 }
 img {
   width: 30vw;
+  max-width: 250px;
 }
 div {
   min-height: 1.6em;
