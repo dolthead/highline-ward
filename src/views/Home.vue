@@ -2,15 +2,15 @@
   <ion-page>
     <ion-content :fullscreen="true">
       <div class="container">
-        <img src="/assets/Christus.png" />
-        <!-- <img src="/assets/maryjesus.jpeg" /> -->
+        <img src="/assets/Christus.png" alt="Statue of Christ" />
+        <!-- <img src="/assets/maryjesus.jpeg" alt="Mary holding baby Jesus" /> -->
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div>January 30, 2022</div>
+        <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
+          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
@@ -21,9 +21,11 @@
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(294)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Brittany Beardall</span></div>
+          <hymn-row :hymn="getHymn(96)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Shandra Garrett</span></div>
+          <!-- <div><span>Invocation</span><span>Sister Lauren Ingalls</span></div> -->
           <div></div>
+
           <div>
             <span>Ward & Stake Business</span>
           </div>
@@ -31,30 +33,32 @@
           <div><i>The video feed for those at home will resume after the sacrament</i></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(181)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(177)">Sacrament Hymn</hymn-row>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-          <div><span>Sharing Hymns</span><span></span></div>
+          <div><span>Testimonies</span></div>
           <div></div>
 
-          <!-- <div><span>Speaker</span><span>Brother Craig Boren</span></div> -->
+          <!-- <div><span>Speaker</span><span>Elder Alexander McPhie</span></div> -->
           <!-- <div><span></span><span><i>Elders Quorum 2nd Counselor</i></span></div> -->
           <!-- <div></div> -->
 
-          <!-- <hymn-row :hymn="getHymn(38)">Congregational Hymn</hymn-row>
+          <!-- <hymn-row :hymn="getHymn(162)">Congregational Hymn</hymn-row>
           <div></div> -->
 
           <!-- <div><span>Music Number</span><span>I Feel My Savior's Love</span></div>
           <div><span></span><span>Sister Tiffany Sackley & Hailey Peay</span></div>
           <div></div> -->
 
-          <!-- <div><span>Speaker</span><span>Brother Michael Lambert</span></div> -->
+          <!-- <div><span>Speaker</span><span>Elder Ammon Hatch</span></div> -->
           <!-- <div><span></span><span><i>Elders Quorum 1st Counselor</i></span></div> -->
+          <!-- <div></div> -->
 
-          <hymn-row :hymn="getHymn(308)">Closing Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(100)">Closing Hymn</hymn-row>
 
-          <div><span>Benediction</span><span>Brother Scott Beardall</span></div>
+          <div><span>Benediction</span><span>Brother Darrick Hall</span></div>
+          <!-- <div><span>Benediction</span><span>Brother Ryley Enz</span></div> -->
         </div>
 
         <!-- <hr id="music" />
@@ -84,8 +88,8 @@ I will find my own sacred grove.
         <div></div>
         <div>
           Those at home can 
-          <!-- <a href="http://mywebcast.churchofjesuschrist.org/Events/paysonutahsouthstake">watch online</a>. -->
-          <a href="http://highlineward.org/sacrament">watch online</a>.
+          <a href="http://mywebcast.churchofjesuschrist.org/Events/paysonutahsouthstake">watch online</a>.
+          <!-- <a href="http://highlineward.org/sacrament">watch online</a>. -->
         </div>
       </div>
     </ion-content>
@@ -106,7 +110,10 @@ export default defineComponent({
     HymnRow
   },
   setup() {
-    return { getHymn };
+    const nextSunday = new Date();
+    nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() ? 7 : 0));
+    const sundate = nextSunday.toLocaleDateString(['en-US'], {month: 'long', day: '2-digit', year: 'numeric'})
+    return { getHymn, sundate };
   }
 });
 </script>

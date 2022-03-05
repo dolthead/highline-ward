@@ -2,12 +2,11 @@
     <div>
         <span><slot></slot></span>
         <span>
-            <a v-if="hymn.url" :href="baseUrl + hymn.url">{{ hymn.hymno }} {{ hymn.title }}</a>
+            <a v-if="hymn?.url" :href="baseUrl + hymn?.url">{{ hymn?.hymno }} {{ hymn?.title }}</a>
             <span v-else>
-              {{ hymn.hymno }} {{ hymn.title }}<br />
-              <span style="margin-bottom:6px">(not available online)</span>
+              {{ hymn?.hymno }} {{ hymn?.title }}<br />
+              <span v-if="!hymn?.notSetup" style="margin-bottom:6px">(not available online)</span>
             </span>
-            
         </span>
     </div>
 </template>
@@ -15,11 +14,8 @@
 <script lang="ts" setup>
 import { defineProps, PropType } from 'vue';
 import { Hymn, baseUrl } from '@/data/hymns';
-const props = defineProps({
-  hymn: {
-      type: Object as PropType<Hymn>,
-      required: true
-    }
+defineProps({
+  hymn: Object as PropType<Hymn>
 });
 </script>
 
