@@ -12,22 +12,23 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, PropType } from 'vue';
-import { Hymn, baseUrl } from '@/data/hymns';
-defineProps({
-  hymn: Object as PropType<Hymn>
-});
+  import { defineProps, PropType } from 'vue';
+  import { Hymn, baseUrl } from '@/data/hymns';
+
+  defineProps({
+    hymn: Object as PropType<Hymn>
+  });
 </script>
 
 <style scoped>
-div.table div {
-  width: 100%;
-}
-div.table span:last-child {
-  float: right;
-}
-div.table span:first-child {
-  clear: both;
-  float: left;
-}
+  div.table div {
+    width: 100%;
+  }
+  div.table span:last-child {
+    float: right;
+  }
+  div.table span:first-child {
+    clear: both;
+    float: left;
+  }
 </style>

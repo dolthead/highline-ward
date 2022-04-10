@@ -10,20 +10,20 @@
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
+          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
 
-          <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
-          <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
+          <div><span>Music Director</span><span>Sister Sherry Chapman</span></div>
+          <!-- <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div> -->
+          <!-- <div><span>Music Director</span><span>Brother Ian Hopper</span></div> -->
 
-          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(96)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Shandra Garrett</span></div>
-          <!-- <div><span>Invocation</span><span>Sister Lauren Ingalls</span></div> -->
+          <hymn-row :hymn="getHymn(83)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Janette Park</span></div>
           <div></div>
 
           <div>
@@ -33,32 +33,32 @@
           <div><i>The video feed for those at home will resume after the sacrament</i></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(177)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(190)">Sacrament Hymn</hymn-row>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
           <div><span>Testimonies</span></div>
           <div></div>
 
-          <!-- <div><span>Speaker</span><span>Elder Alexander McPhie</span></div> -->
-          <!-- <div><span></span><span><i>Elders Quorum 2nd Counselor</i></span></div> -->
+          <!-- <div><span>Youth Speaker</span><span>Mary Hinton</span></div> -->
+          <!-- <div><span>Speaker</span><span>Sister Dansi Davis</span></div> -->
+          <!-- <div><span></span><span><em>Elders Quorum 2nd Counselor</em></span></div> -->
           <!-- <div></div> -->
 
-          <!-- <hymn-row :hymn="getHymn(162)">Congregational Hymn</hymn-row>
+          <!-- <hymn-row :hymn="getHymn(308)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <!-- <div><span>Music Number</span><span>I Feel My Savior's Love</span></div>
-          <div><span></span><span>Sister Tiffany Sackley & Hailey Peay</span></div>
+          <!-- <div><span>Music Number</span><span>My Shepherd Will Supply My Need</span></div>
+          <div><span></span><span>Double Quartet</span></div>
           <div></div> -->
 
-          <!-- <div><span>Speaker</span><span>Elder Ammon Hatch</span></div> -->
-          <!-- <div><span></span><span><i>Elders Quorum 1st Counselor</i></span></div> -->
+          <!-- <div><span>Speaker</span><span>Brother Matt Callister</span></div> -->
+          <!-- <div><span></span><span><em>Stake High Counselor</em></span></div> -->
           <!-- <div></div> -->
 
-          <hymn-row :hymn="getHymn(100)">Closing Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(7)">Closing Hymn</hymn-row>
 
-          <div><span>Benediction</span><span>Brother Darrick Hall</span></div>
-          <!-- <div><span>Benediction</span><span>Brother Ryley Enz</span></div> -->
+          <div><span>Benediction</span><span>Brother Jon Park</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -75,8 +75,7 @@ I will find my own sacred grove.
         <div>
           Upcoming events and leadership contact information are listed in
           <a href="https://docs.google.com/document/d/1F_U2DQ9kuWxroPF3CBEBRspZXj_uCbxQE7BxDJ91LwY/edit?usp=sharing">
-            the ward newsletter
-          </a>.
+            the ward newsletter</a>.
         </div>
         <div></div>
         <div>
@@ -96,66 +95,54 @@ I will find my own sacred grove.
   </ion-page>
 </template>
 
-<script lang="ts">
-import { IonContent, IonPage } from "@ionic/vue";
-import HymnRow from "./HymnRow.vue";
-import { getHymn } from '@/data/hymns';
-import { defineComponent } from "vue";
+<script lang="ts" setup>
+  import { IonContent, IonPage } from "@ionic/vue";
+  import HymnRow from "./HymnRow.vue";
+  import { getHymn } from '@/data/hymns';
 
-export default defineComponent({
-  name: "Home",
-  components: {
-    IonContent,
-    IonPage,
-    HymnRow
-  },
-  setup() {
-    const nextSunday = new Date();
-    nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() ? 7 : 0));
-    const sundate = nextSunday.toLocaleDateString(['en-US'], {month: 'long', day: '2-digit', year: 'numeric'})
-    return { getHymn, sundate };
-  }
-});
+  const nextSunday = new Date();
+  nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() ? 7 : 0));
+  const sundate = nextSunday.toLocaleDateString(['en-US'], {month: 'long', day: '2-digit', year: 'numeric'})
 </script>
 
 <style scoped>
-.container {
-  margin: 20px;
-  text-align: center;
-  font-size: 3.2vw;
-}
-img {
-  width: 30vw;
-  max-width: 250px;
-}
-div {
-  min-height: 1.6em;
-}
-.title {
-  text-align: center;
-  font-weight: bold;
-}
-div.table div {
-  width: 100%;
-}
-div.table span:last-child {
-  float: right;
-}
-div.table span:first-child {
-  clear: both;
-  float: left;
-}
-hr {
-  border-top: 1px navy solid;
-  margin: 2em 0;
-}
-pre {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-}
-.smaller {
-  font-size: x-small;
-}
-.program div {
-  margin: 6px;
-}
+  .container {
+    margin: 20px;
+    text-align: center;
+    font-size: 3.2vw;
+  }
+  img {
+    width: 30vw;
+    max-width: 250px;
+  }
+  div {
+    min-height: 1.6em;
+  }
+  .title {
+    text-align: center;
+    font-weight: bold;
+  }
+  div.table div {
+    width: 100%;
+  }
+  div.table span:last-child {
+    float: right;
+  }
+  div.table span:first-child {
+    clear: both;
+    float: left;
+  }
+  hr {
+    border-top: 1px navy solid;
+    margin: 2em 0;
+  }
+  pre {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+  .smaller {
+    font-size: x-small;
+  }
+  .program div {
+    margin: 6px;
+  }
 </style>
