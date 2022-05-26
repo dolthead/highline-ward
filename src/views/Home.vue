@@ -10,10 +10,10 @@
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
+          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
 
-          <div><span>Music Director</span><span>Sister Sherry Chapman</span></div>
-          <!-- <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div> -->
+          <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
+          <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
           <!-- <div><span>Music Director</span><span>Brother Ian Hopper</span></div> -->
 
           <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
@@ -22,8 +22,8 @@
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(83)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Janette Park</span></div>
+          <hymn-row :hymn="getHymn(254)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
           <div>
@@ -33,32 +33,36 @@
           <div><i>The video feed for those at home will resume after the sacrament</i></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(190)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(191)">Sacrament Hymn</hymn-row>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-          <div><span>Testimonies</span></div>
+          <!-- <div><span>Testimonies</span></div>
+          <div></div> -->
+
+          <!-- <div><span>Music Number</span><span>Primary Children</span></div>
+          <div></div> -->
+
+          <div><span>Speaker</span><span>Sister Schmid</span></div>
+          <div><span>Speaker</span><span>Sister Chan</span></div>
+
+          <div><span>Speaker</span><span>Sister Penny Southwick</span></div>
+          <!-- <div><span></span><span><em>Elders Quorum 2nd Counselor</em></span></div> -->
           <div></div>
 
-          <!-- <div><span>Youth Speaker</span><span>Mary Hinton</span></div> -->
-          <!-- <div><span>Speaker</span><span>Sister Dansi Davis</span></div> -->
-          <!-- <div><span></span><span><em>Elders Quorum 2nd Counselor</em></span></div> -->
-          <!-- <div></div> -->
-
-          <!-- <hymn-row :hymn="getHymn(308)">Congregational Hymn</hymn-row>
+          <!-- <hymn-row :hymn="getHymn(223)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <!-- <div><span>Music Number</span><span>My Shepherd Will Supply My Need</span></div>
-          <div><span></span><span>Double Quartet</span></div>
-          <div></div> -->
+          <div><span>Music Number</span><span>TBD</span></div>
+          <div><span></span><span>Ward Choir</span></div>
+          <div></div>
 
-          <!-- <div><span>Speaker</span><span>Brother Matt Callister</span></div> -->
+          <div><span>Speaker</span><span>Brother Rod Southwick</span></div>
           <!-- <div><span></span><span><em>Stake High Counselor</em></span></div> -->
-          <!-- <div></div> -->
+          <div></div>
 
-          <hymn-row :hymn="getHymn(7)">Closing Hymn</hymn-row>
-
-          <div><span>Benediction</span><span>Brother Jon Park</span></div>
+          <hymn-row :hymn="getHymn(256)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>TBD</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -87,8 +91,13 @@ I will find my own sacred grove.
         <div></div>
         <div>
           Those at home can 
-          <a href="http://mywebcast.churchofjesuschrist.org/Events/paysonutahsouthstake">watch online</a>.
-          <!-- <a href="http://highlineward.org/sacrament">watch online</a>. -->
+          <!-- <a href="https://zoom.us/j/94316361881">watch online</a>. -->
+          <a href="http://highlineward.org/sacrament">watch online</a> 
+          (now using <a href="https://zoom.us/j/94316361881">Zoom</a>).
+        </div>
+        <div></div>
+        <div class="smaller">
+          This is not an official website of The Church of Jesus Christ of Latter-day Saints.
         </div>
       </div>
     </ion-content>
