@@ -23,7 +23,7 @@
 
           <div></div>
           <hymn-row :hymn="getHymn(254)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <div><span>Invocation</span><span>Sister Savannah Reeves</span></div>
           <div></div>
 
           <div>
@@ -53,8 +53,8 @@
           <!-- <hymn-row :hymn="getHymn(223)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <div><span>Music Number</span><span>TBD</span></div>
-          <div><span></span><span>Ward Choir</span></div>
+          <div><span>Music Number</span><span>Ward Choir</span></div>
+          <div>Come Sing to the Lord / The Priesthood of Our Lord</div>
           <div></div>
 
           <div><span>Speaker</span><span>Brother Rod Southwick</span></div>
@@ -62,7 +62,7 @@
           <div></div>
 
           <hymn-row :hymn="getHymn(256)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>TBD</span></div>
+          <div><span>Benediction</span><span>Brother Craig Reeves</span></div>
         </div>
 
         <!-- <hr id="music" />
