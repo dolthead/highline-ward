@@ -9,21 +9,23 @@
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
-          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
+          <!-- <div><span>Presiding</span><span>President Matthew Hinton</span></div> -->
+          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
+          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
-          <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
-          <!-- <div><span>Music Director</span><span>Brother Ian Hopper</span></div> -->
+          <!-- <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div> -->
+          <div><span>Music Director</span><span>Brother Michael Lambert</span></div>
 
-          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(254)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Savannah Reeves</span></div>
+          <hymn-row :hymn="getHymn(143)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
           <div>
@@ -33,36 +35,32 @@
           <div><i>The video feed for those at home will resume after the sacrament</i></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(191)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(193)">Sacrament Hymn</hymn-row>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-          <!-- <div><span>Testimonies</span></div>
-          <div></div> -->
+          <div><span>Testimonies</span></div>
+          <div></div>
 
           <!-- <div><span>Music Number</span><span>Primary Children</span></div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>Sister Schmid</span></div>
-          <div><span>Speaker</span><span>Sister Chan</span></div>
-
-          <div><span>Speaker</span><span>Sister Penny Southwick</span></div>
-          <!-- <div><span></span><span><em>Elders Quorum 2nd Counselor</em></span></div> -->
-          <div></div>
-
-          <!-- <hymn-row :hymn="getHymn(223)">Congregational Hymn</hymn-row>
+          <!-- <div><span>Speaker</span><span>Brother Jeremy Grimshaw</span></div>
+          <div><span></span><span><em>Stake High Councilor</em></span></div>
           <div></div> -->
 
-          <div><span>Music Number</span><span>Ward Choir</span></div>
-          <div>Come Sing to the Lord / The Priesthood of Our Lord</div>
-          <div></div>
+          <!-- <hymn-row :hymn="getHymn(319)">Congregational Hymn</hymn-row>
+          <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Rod Southwick</span></div>
-          <!-- <div><span></span><span><em>Stake High Counselor</em></span></div> -->
-          <div></div>
+          <!-- <div><span>Music Number</span><span><i>O My Father</i>, Ward Choir</span></div>
+          <div></div> -->
 
-          <hymn-row :hymn="getHymn(256)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Craig Reeves</span></div>
+          <!-- <div><span>Speaker</span><span>Sister Marcey Humpherys</span></div>
+          <div><span></span><span><em>Stake Primary First Counselor</em></span></div>
+          <div></div> -->
+
+          <hymn-row :hymn="getHymn(340)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>TBD</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -76,6 +74,11 @@ I will find my own sacred grove.
 </a> -->
         <hr />
 
+        <!-- <div>
+          ♡ <i>Happy Father's Day!</i> ♡
+        </div>
+        <div></div>  -->
+        
         <div>
           Upcoming events and leadership contact information are listed in
           <a href="https://docs.google.com/document/d/1F_U2DQ9kuWxroPF3CBEBRspZXj_uCbxQE7BxDJ91LwY/edit?usp=sharing">
