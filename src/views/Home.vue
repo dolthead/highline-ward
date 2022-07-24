@@ -9,23 +9,22 @@
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
-          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
-          <!-- <div><span>Presiding</span><span>President Matthew Hinton</span></div> -->
-          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
-          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
+          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
+          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
-          <!-- <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div> -->
-          <div><span>Music Director</span><span>Brother Michael Lambert</span></div>
+          <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
+          <!-- <div><span>Music Director</span><span>Brother Michael Lambert</span></div> -->
 
-          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(143)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(5)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Shelley Smith</span></div>
           <div></div>
 
           <div>
@@ -35,32 +34,35 @@
           <div><i>The video feed for those at home will resume after the sacrament</i></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(193)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(183)">Sacrament Hymn</hymn-row>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
-          <div><span>Testimonies</span></div>
-          <div></div>
+          <!-- <div><span>Testimonies</span></div>
+          <div></div> -->
 
           <!-- <div><span>Music Number</span><span>Primary Children</span></div>
           <div></div> -->
 
-          <!-- <div><span>Speaker</span><span>Brother Jeremy Grimshaw</span></div>
-          <div><span></span><span><em>Stake High Councilor</em></span></div>
+          <div><span>Youth Speaker</span><span>Sidonna Davis</span></div>
+          <div><span>Speaker</span><span>Sister Michele Eggleston</span></div>
+          <div><span>Speaker</span><span>Sister Ericka Eggleston</span></div>
+          <!-- <div><span></span><span><em>Full-time Missionary</em></span></div> -->
+          <!-- <div></div> -->
+
+          <!-- <hymn-row :hymn="getHymn(30)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <!-- <hymn-row :hymn="getHymn(319)">Congregational Hymn</hymn-row>
+          <!-- <div><span>Music Number</span><span>Sister Michele Eggleston</span></div>
+          <div><i>Jesu, Joy of Man's Desiring</i>, Johann Sebastian Bach</div>
           <div></div> -->
 
-          <!-- <div><span>Music Number</span><span><i>O My Father</i>, Ward Choir</span></div>
-          <div></div> -->
+          <div><span>Speaker</span><span>Brother Steve Eggleston</span></div>
+          <!-- <div><span></span><span><em>High Councilor</em></span></div> -->
+          <div></div>
 
-          <!-- <div><span>Speaker</span><span>Sister Marcey Humpherys</span></div>
-          <div><span></span><span><em>Stake Primary First Counselor</em></span></div>
-          <div></div> -->
-
-          <hymn-row :hymn="getHymn(340)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(30)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Brother Vince Butterfield</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -80,10 +82,11 @@ I will find my own sacred grove.
         <div></div>  -->
         
         <div>
-          Upcoming events and leadership contact information are listed in
-          <a href="https://docs.google.com/document/d/1F_U2DQ9kuWxroPF3CBEBRspZXj_uCbxQE7BxDJ91LwY/edit?usp=sharing">
-            the ward newsletter</a>.
+          Upcoming events and leadership contact information are listed on
+          <a href="http://highlineward.org">the ward website</a>.
         </div>
+        <div></div>
+        <div><b>Please have your children use the restroom before Primary.</b> If your child does need to use the restroom during the second hour, a parent or legal guardian will need to take them per handbook guidelines. A member of the Primary presidency will locate the parent when needed. Thank you for your cooperation with this!</div>
         <div></div>
         <div>
           Easily share this program with others by having them point their phone
