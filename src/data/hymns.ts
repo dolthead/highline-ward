@@ -352,7 +352,9 @@ const hymns = [
     "God Save the King"
 ];
 
-const getURL = (hymnno: number) => (hymnno === 124 
+const unavailable = [124];
+
+const getURL = (hymnno: number) => (unavailable.includes(hymnno)
     ? undefined 
     : hymns[hymnno - 1].toLowerCase().replaceAll(' ', '-').replace(/[^a-z-]/g, ''));
 
