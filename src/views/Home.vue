@@ -11,20 +11,20 @@
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
           <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
-          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
+          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
           <!-- <div><span>Music Director</span><span>Brother Michael Lambert</span></div> -->
 
-          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(5)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Shelley Smith</span></div>
+          <hymn-row :hymn="getHymn(239)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
           <div>
@@ -34,7 +34,7 @@
           <div><i>The video feed for those at home will resume after the sacrament</i></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(183)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(197)">Sacrament Hymn</hymn-row>
           <div><b>Administration of the Sacrament</b></div>
           <div></div>
 
@@ -44,25 +44,26 @@
           <!-- <div><span>Music Number</span><span>Primary Children</span></div>
           <div></div> -->
 
-          <div><span>Youth Speaker</span><span>Sidonna Davis</span></div>
-          <div><span>Speaker</span><span>Sister Michele Eggleston</span></div>
-          <div><span>Speaker</span><span>Sister Ericka Eggleston</span></div>
+          <div><span>Youth Speakers</span><span>Xane Harmon</span></div>
+          <div><span></span><span>Kylie Christensen</span></div>
+          <div></div>
+          <div><span>Speaker</span><span>Sister Laurin Irons</span></div>
           <!-- <div><span></span><span><em>Full-time Missionary</em></span></div> -->
-          <!-- <div></div> -->
+          <div></div>
 
           <!-- <hymn-row :hymn="getHymn(30)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <!-- <div><span>Music Number</span><span>Sister Michele Eggleston</span></div>
-          <div><i>Jesu, Joy of Man's Desiring</i>, Johann Sebastian Bach</div>
-          <div></div> -->
+          <div><span>Music Number</span><span>Ward Choir</span></div>
+          <div><i>Let the Mountains Shout For Joy</i></div>
+          <div></div>
 
-          <div><span>Speaker</span><span>Brother Steve Eggleston</span></div>
+          <div><span>Speaker</span><span>Brother Casey Irons</span></div>
           <!-- <div><span></span><span><em>High Councilor</em></span></div> -->
           <div></div>
 
-          <hymn-row :hymn="getHymn(30)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Vince Butterfield</span></div>
+          <hymn-row :hymn="getHymn(237)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>TBD</span></div>
         </div>
 
         <!-- <hr id="music" />

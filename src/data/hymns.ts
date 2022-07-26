@@ -4,6 +4,7 @@ export interface Hymn {
     hymno: number;
     title: string;
     url?: string;
+    notSetup?: boolean;
 }
 
 // Go to https://www.churchofjesuschrist.org/music/library/hymns?lang=eng
@@ -354,14 +355,15 @@ const hymns = [
 
 const unavailable = [124];
 
-const getURL = (hymnno: number) => (unavailable.includes(hymnno)
+const getURL = (hymno: number) => (unavailable.includes(hymno)
     ? undefined 
-    : hymns[hymnno - 1].toLowerCase().replaceAll(' ', '-').replace(/[^a-z-]/g, ''));
+    : hymns[hymno - 1].toLowerCase().replaceAll(' ', '-').replace(/[^a-z-]/g, ''));
 
-export const getHymn = (hymnno: number) => {
+export const getHymn = (hymno: number) => {
     return {
-        hymnno, 
-        title: hymns[hymnno - 1],
-        url: getURL(hymnno)
+        hymno, 
+        title: hymns[hymno - 1],
+        url: getURL(hymno),
+        notSetup: unavailable.includes(hymno)
     }
 };
