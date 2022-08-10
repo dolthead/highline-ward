@@ -11,7 +11,7 @@
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
           <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
-          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
+          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
@@ -23,7 +23,7 @@
           <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(239)">Opening Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(108)">Opening Hymn</hymn-row>
           <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
@@ -31,11 +31,11 @@
             <span>Ward & Stake Business</span>
           </div>
           <div></div>
-          <div><i>The video feed for those at home will resume after the sacrament</i></div>
+          <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(197)">Sacrament Hymn</hymn-row>
-          <div><b>Administration of the Sacrament</b></div>
+          <hymn-row :hymn="getHymn(195)">Sacrament Hymn</hymn-row>
+          <div><strong>Administration of the Sacrament</strong></div>
           <div></div>
 
           <!-- <div><span>Testimonies</span></div>
@@ -44,25 +44,26 @@
           <!-- <div><span>Music Number</span><span>Primary Children</span></div>
           <div></div> -->
 
-          <div><span>Youth Speakers</span><span>Xane Harmon</span></div>
+          <!-- <div><span>Youth Speakers</span><span>Hannah Hinton</span></div>
           <div><span></span><span>Kylie Christensen</span></div>
-          <div></div>
-          <div><span>Speaker</span><span>Sister Laurin Irons</span></div>
+          <div></div> -->
+          <div><span>Speaker</span><span>Sister Elise McCauley</span></div>
           <!-- <div><span></span><span><em>Full-time Missionary</em></span></div> -->
           <div></div>
 
           <!-- <hymn-row :hymn="getHymn(30)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <div><span>Music Number</span><span>Ward Choir</span></div>
-          <div><i>Let the Mountains Shout For Joy</i></div>
+          <div><span>Music Number</span><span><em>Battle Hymn of the Republic</em></span></div>
+          <div>Sung by Sisters Kirsten Harmon & Laurel Piccolo</div>
+          <div>Accompanied by Sister Kristin Grimshaw</div>
           <div></div>
 
-          <div><span>Speaker</span><span>Brother Casey Irons</span></div>
-          <!-- <div><span></span><span><em>High Councilor</em></span></div> -->
+          <div><span>Speaker</span><span>Brother Ed Danielson</span></div>
+          <div><span></span><span><em>High Councilor</em></span></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(237)">Closing Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(221)">Closing Hymn</hymn-row>
           <div><span>Benediction</span><span>TBD</span></div>
         </div>
 
@@ -78,7 +79,7 @@ I will find my own sacred grove.
         <hr />
 
         <!-- <div>
-          ♡ <i>Happy Father's Day!</i> ♡
+          ♡ <em>Happy Father's Day!</em> ♡
         </div>
         <div></div>  -->
         
@@ -87,11 +88,10 @@ I will find my own sacred grove.
           <a href="http://highlineward.org">the ward website</a>.
         </div>
         <div></div>
-        <div><b>Please have your children use the restroom before Primary.</b> If your child does need to use the restroom during the second hour, a parent or legal guardian will need to take them per handbook guidelines. A member of the Primary presidency will locate the parent when needed. Thank you for your cooperation with this!</div>
-        <div></div>
         <div>
-          Easily share this program with others by having them point their phone
-          camera at this "QR code":
+          Easily share this program with others by 
+          <a href="sms:?&body=https://highlineward.org">sending them a text message</a>,
+          or by having them point their phone camera at this QR code:
         </div>
         <div></div>
         <img src="/assets/qrcode.png" alt="QR code for this church program" />
@@ -99,8 +99,8 @@ I will find my own sacred grove.
         <div>
           Those at home can 
           <!-- <a href="https://zoom.us/j/94316361881">watch online</a>. -->
-          <a href="http://highlineward.org/sacrament">watch online</a> 
-          (now using <a href="https://zoom.us/j/94316361881">Zoom</a>).
+          <a href="http://highlineward.org/sacrament">watch online</a>.
+          <!-- (now using <a href="https://zoom.us/j/94316361881">Zoom</a>). -->
         </div>
         <div></div>
         <div class="smaller">
