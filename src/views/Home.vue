@@ -24,7 +24,7 @@
 
           <div></div>
           <hymn-row :hymn="getHymn(108)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <div><span>Invocation</span><span>Sister Aleesa Hale</span></div>
           <div></div>
 
           <div>
@@ -64,7 +64,7 @@
           <div></div>
 
           <hymn-row :hymn="getHymn(221)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>TBD</span></div>
+          <div><span>Benediction</span><span>Brother Lance Broderick</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -126,6 +126,17 @@ I will find my own sacred grove.
     margin: 20px;
     text-align: center;
     font-size: 3.2vw;
+  }
+  @media print {
+    .container {
+      font-size: 13pt;
+      max-width: 70%;
+      margin: 0 auto;
+      
+    }
+    .container img:nth-child(1) {
+      display: none;
+    }
   }
   img {
     width: 30vw;
