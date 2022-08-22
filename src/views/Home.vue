@@ -20,11 +20,11 @@
           <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
           <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
-          <!-- <div><span>Organist</span><span>Sister Rachel Broderick</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Michele Eggleston</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(108)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Aleesa Hale</span></div>
+          <hymn-row :hymn="getHymn(304)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
           <div>
@@ -34,37 +34,34 @@
           <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(195)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(173)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Sacrament</strong></div>
           <div></div>
 
           <!-- <div><span>Testimonies</span></div>
           <div></div> -->
 
-          <!-- <div><span>Music Number</span><span>Primary Children</span></div>
-          <div></div> -->
-
-          <!-- <div><span>Youth Speakers</span><span>Hannah Hinton</span></div>
-          <div><span></span><span>Kylie Christensen</span></div>
-          <div></div> -->
-          <div><span>Speaker</span><span>Sister Elise McCauley</span></div>
+          <!-- <div><span>Youth Speaker</span><span>Xane Harmon</span></div> -->
+          <!-- <div><span></span><span>Kylie Christensen</span></div> -->
+          <!-- <div></div> -->
+          <div><span>Speaker</span><span>Sister Kate Reeves</span></div>
           <!-- <div><span></span><span><em>Full-time Missionary</em></span></div> -->
           <div></div>
 
-          <!-- <hymn-row :hymn="getHymn(30)">Congregational Hymn</hymn-row>
+          <!-- <hymn-row :hymn="getHymn(166)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <div><span>Music Number</span><span><em>Battle Hymn of the Republic</em></span></div>
-          <div>Sung by Sisters Kirsten Harmon & Laurel Piccolo</div>
-          <div>Accompanied by Sister Kristin Grimshaw</div>
+          <div><span>Music Number</span><span><em>TBD</em></span></div>
+          <div>Sister Kate Reeves</div>
+          <!-- <div>Accompanied by Sister Kristin Grimshaw</div> -->
           <div></div>
 
-          <div><span>Speaker</span><span>Brother Ed Danielson</span></div>
-          <div><span></span><span><em>High Councilor</em></span></div>
+          <div><span>Speaker</span><span>Brother Weldon Reeves</span></div>
+          <!-- <div><span></span><span><em>Stake Presidency, 2nd Counselor</em></span></div> -->
           <div></div>
 
-          <hymn-row :hymn="getHymn(221)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Lance Broderick</span></div>
+          <hymn-row :hymn="getHymn(301)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>TBD</span></div>
         </div>
 
         <!-- <hr id="music" />

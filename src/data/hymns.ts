@@ -354,10 +354,16 @@ const hymns = [
 ];
 
 const unavailable = [124];
+const updatedUrls = [
+    { hymno: 173, url: 'while-of-these-emblems-we-partake-saul' },
+    { hymno: 174, url: 'while-of-these-emblems-we-partake-aeolian' },
+    { hymno: 176, url: 'tis-sweet-to-sing-the-matchless-love-meredith' },
+    { hymno: 177, url: 'tis-sweet-to-sing-the-matchless-love-hancock' },
+];
 
-const getURL = (hymno: number) => (unavailable.includes(hymno)
-    ? undefined 
-    : hymns[hymno - 1].toLowerCase().replaceAll(' ', '-').replace(/[^a-z-]/g, ''));
+const getURL = (hymno: number) => (unavailable.includes(hymno) ? undefined 
+    : updatedUrls.find(h => h.hymno === hymno)?.url
+    || hymns[hymno - 1].toLowerCase().replaceAll(' ', '-').replace(/[^a-z-]/g, ''));
 
 export const getHymn = (hymno: number) => {
     return {
