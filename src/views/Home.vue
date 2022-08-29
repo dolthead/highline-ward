@@ -24,7 +24,7 @@
 
           <div></div>
           <hymn-row :hymn="getHymn(304)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <div><span>Invocation</span><span>Sister Natalie Jensen</span></div>
           <div></div>
 
           <div>
@@ -51,9 +51,9 @@
           <!-- <hymn-row :hymn="getHymn(166)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <div><span>Music Number</span><span><em>TBD</em></span></div>
+          <div><span>Music Number</span><span><em>Adagio</em> by Corelli</span></div>
           <div>Sister Kate Reeves</div>
-          <!-- <div>Accompanied by Sister Kristin Grimshaw</div> -->
+          <div>Accompanied by Brother Harrison Wynn</div>
           <div></div>
 
           <div><span>Speaker</span><span>Brother Weldon Reeves</span></div>
@@ -61,7 +61,7 @@
           <div></div>
 
           <hymn-row :hymn="getHymn(301)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>TBD</span></div>
+          <div><span>Benediction</span><span>Brother Mike Kunz</span></div>
         </div>
 
         <!-- <hr id="music" />
