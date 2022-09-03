@@ -9,22 +9,23 @@
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
-          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
-          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
+          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
+          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
+          <!-- <div><span>Conducting</span><span>Bishop Glen Ostler</span></div> -->
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
           <!-- <div><span>Music Director</span><span>Brother Michael Lambert</span></div> -->
 
-          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Michele Eggleston</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(304)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Natalie Jensen</span></div>
+          <hymn-row :hymn="getHymn(87)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Laurin Irons</span></div>
           <div></div>
 
           <div>
@@ -34,34 +35,34 @@
           <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(173)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(174)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Sacrament</strong></div>
           <div></div>
 
-          <!-- <div><span>Testimonies</span></div>
-          <div></div> -->
+          <div><span>Testimonies</span></div>
+          <div></div>
 
           <!-- <div><span>Youth Speaker</span><span>Xane Harmon</span></div> -->
           <!-- <div><span></span><span>Kylie Christensen</span></div> -->
           <!-- <div></div> -->
-          <div><span>Speaker</span><span>Sister Kate Reeves</span></div>
+          <!-- <div><span>Speaker</span><span>Sister Kate Reeves</span></div> -->
           <!-- <div><span></span><span><em>Full-time Missionary</em></span></div> -->
-          <div></div>
+          <!-- <div></div> -->
 
           <!-- <hymn-row :hymn="getHymn(166)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <div><span>Music Number</span><span><em>Adagio</em> by Corelli</span></div>
+          <!-- <div><span>Music Number</span><span><em>Adagio</em> by Corelli</span></div>
           <div>Sister Kate Reeves</div>
           <div>Accompanied by Brother Harrison Wynn</div>
-          <div></div>
+          <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Weldon Reeves</span></div>
+          <!-- <div><span>Speaker</span><span>Brother Weldon Reeves</span></div> -->
           <!-- <div><span></span><span><em>Stake Presidency, 2nd Counselor</em></span></div> -->
-          <div></div>
+          <!-- <div></div> -->
 
-          <hymn-row :hymn="getHymn(301)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Mike Kunz</span></div>
+          <hymn-row :hymn="getHymn(308)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Brother Drew Schmidt</span></div>
         </div>
 
         <!-- <hr id="music" />
