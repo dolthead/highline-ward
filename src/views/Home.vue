@@ -9,8 +9,8 @@
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
-          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
-          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
+          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
           <div><span>Conducting</span><span>Brother Jason Manning</span></div>
           <!-- <div><span>Conducting</span><span>Bishop Glen Ostler</span></div> -->
 
@@ -24,8 +24,8 @@
           <!-- <div><span>Organist</span><span>Sister Michele Eggleston</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(87)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Laurin Irons</span></div>
+          <hymn-row :hymn="getHymn(38)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Jennifer Hinton</span></div>
           <div></div>
 
           <div>
@@ -35,34 +35,35 @@
           <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(174)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(186)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Sacrament</strong></div>
           <div></div>
 
-          <div><span>Testimonies</span></div>
-          <div></div>
+          <!-- <div><span>Testimonies</span></div>
+          <div></div> -->
 
-          <!-- <div><span>Youth Speaker</span><span>Xane Harmon</span></div> -->
+          <!-- <div><span>Youth Speakers</span><span>Ira Stetser</span></div> -->
+          <!-- <div><span></span><span>Colin Stetser</span></div> -->
           <!-- <div><span></span><span>Kylie Christensen</span></div> -->
           <!-- <div></div> -->
-          <!-- <div><span>Speaker</span><span>Sister Kate Reeves</span></div> -->
+
+          <div><span>Speaker</span><span>Brother Reed Slack</span></div>
           <!-- <div><span></span><span><em>Full-time Missionary</em></span></div> -->
-          <!-- <div></div> -->
+          <div></div>
 
-          <!-- <hymn-row :hymn="getHymn(166)">Congregational Hymn</hymn-row>
+          <!-- <hymn-row :hymn="getHymn(59)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <!-- <div><span>Music Number</span><span><em>Adagio</em> by Corelli</span></div>
-          <div>Sister Kate Reeves</div>
-          <div>Accompanied by Brother Harrison Wynn</div>
-          <div></div> -->
+          <div><span>Choir Number</span><span><em>Where Can I Turn for Peace</em></span></div>
+          <!-- <div>Ward Choir</div> -->
+          <div></div>
 
-          <!-- <div><span>Speaker</span><span>Brother Weldon Reeves</span></div> -->
-          <!-- <div><span></span><span><em>Stake Presidency, 2nd Counselor</em></span></div> -->
-          <!-- <div></div> -->
+          <div><span>Speaker</span><span>Brother Gary Miyasaki</span></div>
+          <div><span></span><span><em>Stake High Counselor</em></span></div>
+          <div></div>
 
-          <hymn-row :hymn="getHymn(308)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Drew Schmidt</span></div>
+          <hymn-row :hymn="getHymn(59)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Brother Ryley Enz</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -82,13 +83,18 @@ I will find my own sacred grove.
         <div></div>  -->
         
         <div>
+          Sign up for tithing declarations with Bishop Ostler on
+          <a href="https://docs.google.com/document/d/1oChAm94PKdQl9Gauts96YNsDHyNCNSZmnCxt43_Aujw/edit?usp=sharing">this sign-up sheet</a>.
+        </div>
+        <div></div>
+        <div>
           Upcoming events and leadership contact information are listed on
           <a href="http://highlineward.org">the ward website</a>.
         </div>
         <div></div>
         <div>
           Easily share this program with others by 
-          <a href="sms:?&body=https://highlineward.org">sending them a text message</a>,
+          <a href="sms:?&body=http://highlineward.org">sending them a text message</a>,
           or by having them point their phone camera at this QR code:
         </div>
         <div></div>
