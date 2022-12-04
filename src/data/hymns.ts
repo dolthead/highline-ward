@@ -353,7 +353,7 @@ const hymns = [
     "God Save the King"
 ];
 
-const unavailable = [124];
+const unavailable = [124, 219];
 const updatedUrls = [
     { hymno: 173, url: 'while-of-these-emblems-we-partake-saul' },
     { hymno: 174, url: 'while-of-these-emblems-we-partake-aeolian' },
@@ -368,7 +368,7 @@ const getURL = (hymno: number) => (unavailable.includes(hymno) ? undefined
 export const getHymn = (hymno: number) => {
     return {
         hymno, 
-        title: hymns[hymno - 1],
+        title: hymns[hymno - 1].replace(/[\\*]/g, ''),
         url: getURL(hymno),
         notSetup: unavailable.includes(hymno)
     }

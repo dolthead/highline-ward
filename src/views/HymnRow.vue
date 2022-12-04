@@ -5,7 +5,7 @@
             <a v-if="hymn?.url" :href="baseUrl + hymn?.url">{{ hymn?.hymno }} {{ hymn?.title }}</a>
             <span v-else>
               {{ hymn?.hymno }} {{ hymn?.title }}<br />
-              <span v-if="!hymn?.notSetup" style="margin-bottom:6px">(not available online)</span>
+              <span v-if="hymn?.notSetup" style="margin-bottom:6px;font-size:smaller">(not available online)</span>
             </span>
         </span>
     </div>
