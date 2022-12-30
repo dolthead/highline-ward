@@ -2,8 +2,7 @@
   <ion-page>
     <ion-content :fullscreen="true">
       <div class="container">
-        <!-- <img src="/assets/Christus.png" alt="Statue of Christ" /> -->
-        <img src="/assets/maryjesus.jpeg" alt="Mary holding baby Jesus" />
+        <img :src="image.path" :alt="image.alt" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
         <div>{{ sundate }}</div>
@@ -11,31 +10,31 @@
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
           <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
-          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
-          <!-- <div><span>Conducting</span><span>Bishop Glen Ostler</span></div> -->
+          <!-- <div><span>Conducting</span><span>Brother Jason Manning</span></div> -->
+          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
           <!-- <div><span>Music Director</span><span>Brother Michael Lambert</span></div> -->
 
           <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
-          <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
           <!-- <div><span>Organist</span><span>Sister Michele Eggleston</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(214)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(215)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Brother Corwin Bennett</span></div>
           <div></div>
 
           <div>
             <span>Ward & Stake Items</span>
           </div>
           <div></div>
-          <div><em>The video feed for those at home will resume after the sacrament</em></div>
-          <div></div>
+          <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
+          <div></div> -->
 
-          <hymn-row :hymn="getHymn(180)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(188)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
@@ -46,23 +45,24 @@
           <div><span></span><span>Cale Sackley</span></div>
           <div></div> -->
 
-          <div><span>Speakers</span><span>Sister Meghan Queen</span></div>
-          <div><span></span><span>Sister Melanie Harris</span></div>
+          <div><span>Speaker</span><span>Brother Kayle Smith</span></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(205)">Congregational Hymn</hymn-row>
+          <div><span>Speaker</span><span>Brother Jason Manning</span></div>
+          <div></div>
+
+          <hymn-row :hymn="getHymn(308)">Congregational Hymn</hymn-row>
           <div></div>
 
           <!-- <div><span>Choir Number</span><span>Ward Choir</span></div>
           <div><em>Thanksgiving Hymn Medley</em></div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>President Kirsten Harmon</span></div>
+          <div><span>Speaker</span><span>Bishop Glen Ostler</span></div>
           <div></div>
 
-          <!-- <div><span>Closing Hymn</span><span><a href="https://www.churchofjesuschrist.org/study/liahona/2020/02/the-friend/go-and-do/i-will-walk-with-jesus?lang=eng">I Will Walk With Jesus</a></span></div> -->
-          <hymn-row :hymn="getHymn(209)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(217)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Brother Roger Brock</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -76,16 +76,17 @@ I will find my own sacred grove.
 </a> -->
         <hr />
 
-        <!-- <div>
-          ♡ <em>Happy Father's Day!</em> ♡
-        </div>
-        <div></div>  -->
-        
         <div>
+          <em>Happy New Year!</em>
+          <!-- ♡ <em>Merry Christmas!</em> ♡ -->
+        </div>
+        <div></div> 
+        
+        <!-- <div>
           Sign up for tithing declarations with Bishop Ostler on
           <a href="https://docs.google.com/document/d/1oChAm94PKdQl9Gauts96YNsDHyNCNSZmnCxt43_Aujw/edit?usp=sharing">this sign-up sheet</a>.
         </div>
-        <div></div>
+        <div></div> -->
         <div>
           Upcoming events and leadership contact information are listed on
           <a href="https://sites.google.com/view/highlineward/home">the ward website</a>.
@@ -100,11 +101,7 @@ I will find my own sacred grove.
         <img src="/assets/qrcode.png" alt="QR code for this church program" />
         <div></div>
         <div>
-          Those at home can 
-          <!-- <a href="https://zoom.us/j/94316361881">watch online</a>. -->
-          <a href="http://highlineward.org/sacrament">watch online</a>.
-          Starting Jan 1, the live stream will be restricted to homebound members. You will need to get the new link from Bishop Ostler.
-          <!-- (now using <a href="https://zoom.us/j/94316361881">Zoom</a>). -->
+          The live stream is no longer available for general use. Bishop Ostler will give out the new link, as deemed necessary.
         </div>
         <div></div>
         <div class="smaller">
@@ -123,6 +120,10 @@ I will find my own sacred grove.
   const nextSunday = new Date();
   nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
   const sundate = nextSunday.toLocaleDateString(['en-US'], {month: 'long', day: '2-digit', year: 'numeric'});
+  const isDecember = nextSunday.getMonth() === 11;
+  const image = isDecember 
+    ? { path: '/assets/maryjesus.jpeg', alt: 'Mary holding baby Jesus' }
+    : { path: '/assets/Christus.png', alt: 'Statue of Christ' };
 </script>
 
 <style scoped>
@@ -136,7 +137,6 @@ I will find my own sacred grove.
       font-size: 13pt;
       max-width: 70%;
       margin: 0 auto;
-      
     }
     .container img:nth-child(1) {
       display: none;
