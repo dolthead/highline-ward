@@ -18,13 +18,13 @@
           <!-- <div><span>Music Director</span><span>Brother Michael Lambert</span></div> -->
 
           <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Michele Eggleston</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(215)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Brother Corwin Bennett</span></div>
+          <hymn-row :hymn="getHymn(208)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
           <div>
@@ -34,35 +34,32 @@
           <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(188)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(187)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
-          <!-- <div><span>Testimonies</span></div>
-          <div></div> -->
+          <div><span>Testimonies</span></div>
+          <div></div>
 
           <!-- <div><span>Youth Speakers</span><span>Parker Sackley</span></div>
           <div><span></span><span>Cale Sackley</span></div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Kayle Smith</span></div>
-          <div></div>
+          <!-- <div><span>Speaker</span><span>Brother Kayle Smith</span></div>
+          <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Jason Manning</span></div>
-          <div></div>
-
-          <hymn-row :hymn="getHymn(308)">Congregational Hymn</hymn-row>
-          <div></div>
+          <!-- <hymn-row :hymn="getHymn(308)">Congregational Hymn</hymn-row>
+          <div></div> -->
 
           <!-- <div><span>Choir Number</span><span>Ward Choir</span></div>
           <div><em>Thanksgiving Hymn Medley</em></div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>Bishop Glen Ostler</span></div>
-          <div></div>
+          <!-- <div><span>Speaker</span><span>Bishop Glen Ostler</span></div>
+          <div></div> -->
 
-          <hymn-row :hymn="getHymn(217)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Roger Brock</span></div>
+          <hymn-row :hymn="getHymn(202)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>TBD</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -76,11 +73,10 @@ I will find my own sacred grove.
 </a> -->
         <hr />
 
-        <div>
-          <em>Happy New Year!</em>
-          <!-- ♡ <em>Merry Christmas!</em> ♡ -->
+        <!-- <div>
+          ♡ <em>Merry Christmas!</em> ♡
         </div>
-        <div></div> 
+        <div></div>  -->
         
         <!-- <div>
           Sign up for tithing declarations with Bishop Ostler on
@@ -88,21 +84,21 @@ I will find my own sacred grove.
         </div>
         <div></div> -->
         <div>
-          Upcoming events and leadership contact information are listed on
+          Weekly lesson topics, upcoming events, and leadership contact information are available on
           <a href="https://sites.google.com/view/highlineward/home">the ward website</a>.
         </div>
         <div></div>
         <div>
-          Easily share this program with others by 
-          <a href="sms:?&body=https://highline-ward.web.app">sending them a text message</a>,
-          or by having them point their phone camera at this QR code:
+          The <a href="https://highlineward.org/sacrament">live stream for Sacrament meeting</a> now requires a password, which can be requested from Bishop Ostler.
+        </div>
+        <div></div>
+        <div>
+          Easily share this program by 
+          <a href="sms:?&body=https://highline-ward.web.app">sending a text message</a>,
+          or by having the person point their phone camera at this QR code:
         </div>
         <div></div>
         <img src="/assets/qrcode.png" alt="QR code for this church program" />
-        <div></div>
-        <div>
-          The live stream is no longer available for general use. Bishop Ostler will give out the new link, as deemed necessary.
-        </div>
         <div></div>
         <div class="smaller">
           This is not an official website of <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a>.
