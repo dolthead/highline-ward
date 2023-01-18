@@ -8,10 +8,10 @@
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
-          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
-          <!-- <div><span>Conducting</span><span>Brother Jason Manning</span></div> -->
-          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
+          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
+          <div><span>Conducting</span><span>Brother Jason Manning</span></div>
+          <!-- <div><span>Conducting</span><span>Bishop Glen Ostler</span></div> -->
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
@@ -23,7 +23,7 @@
           <!-- <div><span>Organist</span><span>Sister Michele Eggleston</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(208)">Opening Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(89)">Opening Hymn</hymn-row>
           <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
@@ -34,31 +34,31 @@
           <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(187)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(190)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
-          <div><span>Testimonies</span></div>
+          <!-- <div><span>Testimonies</span></div>
+          <div></div> -->
+
+          <!-- <div><span>Youth Speaker</span><span>Kelton Smith</span></div> -->
+          <!-- <div><span></span><span>Cale Sackley</span></div> -->
+          <!-- <div></div> -->
+
+          <div><span>Speaker</span><span>Brother Darren Cobia</span></div>
           <div></div>
 
-          <!-- <div><span>Youth Speakers</span><span>Parker Sackley</span></div>
-          <div><span></span><span>Cale Sackley</span></div>
-          <div></div> -->
-
-          <!-- <div><span>Speaker</span><span>Brother Kayle Smith</span></div>
-          <div></div> -->
-
-          <!-- <hymn-row :hymn="getHymn(308)">Congregational Hymn</hymn-row>
-          <div></div> -->
+          <hymn-row :hymn="getHymn(83)">Congregational Hymn</hymn-row>
+          <div></div>
 
           <!-- <div><span>Choir Number</span><span>Ward Choir</span></div>
           <div><em>Thanksgiving Hymn Medley</em></div>
           <div></div> -->
 
-          <!-- <div><span>Speaker</span><span>Bishop Glen Ostler</span></div>
-          <div></div> -->
+          <div><span>Speaker</span><span>Brother Ed Danielson</span></div>
+          <div></div>
 
-          <hymn-row :hymn="getHymn(202)">Closing Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(134)">Closing Hymn</hymn-row>
           <div><span>Benediction</span><span>TBD</span></div>
         </div>
 
