@@ -1,3 +1,17 @@
+<script lang="ts" setup>
+  import { IonContent, IonPage } from "@ionic/vue";
+  import HymnRow from "./HymnRow.vue";
+  import { getHymn } from '@/data/hymns';
+
+  const nextSunday = new Date();
+  nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
+  const sundate = nextSunday.toLocaleDateString(['en-US'], {month: 'long', day: '2-digit', year: 'numeric'});
+  const isDecember = nextSunday.getMonth() === 11;
+  const image = isDecember 
+    ? { path: '/assets/maryjesus.jpeg', alt: 'Mary holding baby Jesus' }
+    : { path: '/assets/Christus.png', alt: 'Statue of Christ' };
+</script>
+
 <template>
   <ion-page>
     <ion-content :fullscreen="true">
@@ -8,10 +22,10 @@
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
+          <div><span>Presiding</span><span>President Matthew Hinton</span></div>
           <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
-          <div><span>Presiding</span><span>Brother Jason Manning</span></div>
+          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
           <div><span>Conducting</span><span>Brother Jason Manning</span></div>
-          <!-- <div><span>Conducting</span><span>Bishop Glen Ostler</span></div> -->
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
@@ -20,11 +34,10 @@
           <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
           <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
-          <!-- <div><span>Organist</span><span>Sister Michele Eggleston</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(89)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(227)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Xane Harmon</span></div>
           <div></div>
 
           <div>
@@ -34,7 +47,7 @@
           <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(190)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(170)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
@@ -45,21 +58,21 @@
           <!-- <div><span></span><span>Cale Sackley</span></div> -->
           <!-- <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Darren Cobia</span></div>
+          <div><span>Speaker</span><span>Sister Katy Hinton</span></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(83)">Congregational Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(131)">Congregational Hymn</hymn-row>
           <div></div>
 
-          <!-- <div><span>Choir Number</span><span>Ward Choir</span></div>
-          <div><em>Thanksgiving Hymn Medley</em></div>
+          <!-- <div><span>Choir Number</span><span>Ye Have Done It Unto Me</span></div>
+          <div><em>Arr. by Marika Lee Connole, Dir. by Michael Lambert</em></div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Ed Danielson</span></div>
+          <div><span>Speaker</span><span>President Matthew Hinton</span></div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(134)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(85)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Brother Sergio Gonzalez</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -107,20 +120,6 @@ I will find my own sacred grove.
     </ion-content>
   </ion-page>
 </template>
-
-<script lang="ts" setup>
-  import { IonContent, IonPage } from "@ionic/vue";
-  import HymnRow from "./HymnRow.vue";
-  import { getHymn } from '@/data/hymns';
-
-  const nextSunday = new Date();
-  nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
-  const sundate = nextSunday.toLocaleDateString(['en-US'], {month: 'long', day: '2-digit', year: 'numeric'});
-  const isDecember = nextSunday.getMonth() === 11;
-  const image = isDecember 
-    ? { path: '/assets/maryjesus.jpeg', alt: 'Mary holding baby Jesus' }
-    : { path: '/assets/Christus.png', alt: 'Statue of Christ' };
-</script>
 
 <style scoped>
   .container {
