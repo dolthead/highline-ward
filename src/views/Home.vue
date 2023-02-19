@@ -84,37 +84,39 @@ I will find my own sacred grove.
 <a href="https://www.angiekillian.com/shop?Collection=My+Own+Sacred+Grove&page=3" class="smaller">
   ©2021 by Angie Killian Music | All Rights Reserved.
 </a> -->
-        <hr />
+        <div class="announcements">
+          <hr />
 
-        <!-- <div>
-          ♡ <em>Merry Christmas!</em> ♡
-        </div>
-        <div></div>  -->
-        
-        <!-- <div>
-          Sign up for tithing declarations with Bishop Ostler on
-          <a href="https://docs.google.com/document/d/1oChAm94PKdQl9Gauts96YNsDHyNCNSZmnCxt43_Aujw/edit?usp=sharing">this sign-up sheet</a>.
-        </div>
-        <div></div> -->
-        <div>
-          Weekly lesson topics, upcoming events, and leadership contact information are available on
-          <a href="https://sites.google.com/view/highlineward/home">the ward website</a>.
-        </div>
-        <div></div>
-        <div>
-          The <a href="https://highlineward.org/sacrament">live stream for Sacrament meeting</a> now requires a password, which can be requested from Bishop Ostler.
-        </div>
-        <div></div>
-        <div>
-          Easily share this program by 
-          <a href="sms:?&body=https://highline-ward.web.app">sending a text message</a>,
-          or by having the person point their phone camera at this QR code:
-        </div>
-        <div></div>
-        <img src="/assets/qrcode.png" alt="QR code for this church program" />
-        <div></div>
-        <div class="smaller">
-          This is not an official website of <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a>.
+          <!-- <div>
+            ♡ <em>Merry Christmas!</em> ♡
+          </div>
+          <div></div>  -->
+          
+          <!-- <div>
+            Sign up for tithing declarations with Bishop Ostler on
+            <a href="https://docs.google.com/document/d/1oChAm94PKdQl9Gauts96YNsDHyNCNSZmnCxt43_Aujw/edit?usp=sharing">this sign-up sheet</a>.
+          </div>
+          <div></div> -->
+          <div>
+            Weekly lesson topics, upcoming events, and leadership contact information are available on
+            <a href="https://sites.google.com/view/highlineward/home">the ward website</a>.
+          </div>
+          <div></div>
+          <div>
+            The <a href="https://highlineward.org/sacrament">live stream for Sacrament meeting</a> now requires a password, which can be requested from Bishop Ostler.
+          </div>
+          <div></div>
+          <div>
+            Easily share this program by 
+            <a href="sms:?&body=https://highline-ward.web.app">sending a text message</a>,
+            or by having the person point their phone camera at this QR code:
+          </div>
+          <div></div>
+          <img src="/assets/qrcode.png" alt="QR code for this church program" />
+          <div></div>
+          <div class="smaller">
+            This is not an official website of <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a>.
+          </div>
         </div>
       </div>
     </ion-content>
@@ -129,11 +131,11 @@ I will find my own sacred grove.
   }
   @media print {
     .container {
-      font-size: 13pt;
-      max-width: 70%;
+      font-size: 14pt;
+      max-width: 75%;
       margin: 0 auto;
     }
-    .container img:nth-child(1) {
+    .container img:nth-child(1), .announcements {
       display: none;
     }
   }
