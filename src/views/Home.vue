@@ -19,7 +19,7 @@
         <img :src="image.path" :alt="image.alt" />
         <div class="title">Highline Ward</div>
         <div class="title">Sacrament Meeting</div>
-        <div class="title"><em>Easter Sunday</em></div>
+        <!-- <div class="title"><em>Easter Sunday</em></div> -->
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
@@ -32,13 +32,13 @@
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
           <!-- <div><span>Music Director</span><span>Brother Michael Lambert</span></div> -->
 
-          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
           <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
+          <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(200)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Brother Michael Sackley</span></div>
+          <hymn-row :hymn="getHymn(108)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Siona Davis</span></div>
           <div></div>
 
           <div>
@@ -48,42 +48,38 @@
           <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(193)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(187)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
-          <!-- <div><span>Testimonies</span></div>
-          <div></div> -->
-
-          <!-- <div><span>Youth Speaker</span><span>Kelton Smith</span></div> -->
-          <!-- <div><span></span><span>Cale Sackley</span></div> -->
-          <!-- <div></div> -->
+          <div><span>Testimonies</span></div>
+          <div></div>
 
           <!-- <div><span>Youth Speaker</span><span>TBD</span></div> -->
-          <div><span>Speaker</span><span>Sister Sherry Chapman</span></div>
-          <div></div>
+          <!-- <div><span>Speaker</span><span>TBD</span></div>
+          <div></div> -->
 
-          <div><span>Music Number</span><span>Gethsemane</span></div>
+          <!-- <hymn-row :hymn="getHymn(113)">Congregational Hymn</hymn-row>
+          <div></div> -->
+
+          <!-- <div><span>Music Number</span><span>Gethsemane</span></div>
           <div><em>by Melanie Hoffman, Sung by Aleesa Hale & Paizley Adams</em></div>
-          <div></div>
-
-          <!-- <hymn-row :hymn="getHymn(131)">Congregational Hymn</hymn-row>
           <div></div> -->
 
           <!-- <div><span>Men's Choir</span><span><em>328 An Angel From on High</em></span></div>
           <div class="smaller">Directed by Brooke Porter, Accompanied by Shellie Vanfleet</div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>Brother Joseph Chapman</span></div>
-          <!-- <div class="smaller"><span></span><span>Stake Young Women First Counselor</span></div> -->
-          <div></div>
+          <!-- <div><span>Speaker</span><span>Brother Michael Hudson</span></div>
+          <div class="smaller"><span></span><span>Stake High Councilor</span></div>
+          <div></div> -->
 
-          <div><span>Choir Number</span><span>On This Holy Easter Morning</span></div>
+          <!-- <div><span>Choir Number</span><span>On This Holy Easter Morning</span></div>
           <div><em>by Hamblin & Moffit, Dir. by Michael Lambert</em></div>
-          <div></div>
+          <div></div> -->
 
-          <hymn-row :hymn="getHymn(199)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Sister Kami Lane</span></div>
+          <hymn-row :hymn="getHymn(221)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Brother Michael Lambert</span></div>
         </div>
 
         <!-- <hr id="music" />
