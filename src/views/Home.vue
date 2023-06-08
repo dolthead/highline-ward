@@ -24,9 +24,10 @@
         <div class="table">
           <div></div>
           <!-- <div><span>Presiding</span><span>President Matthew Hinton</span></div> -->
-          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Presiding</span><span>Brother Jason Manning</span></div> -->
-          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
+          <div><span>Presiding</span><span>Brother Kayle Smith</span></div>
+          
+          <div><span>Conducting</span><span>Brother Brent Oakeson</span></div>
 
           <!-- <div><span>Music Director</span><span>Sister Sherry Chapman</span></div> -->
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
@@ -37,8 +38,8 @@
           <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(108)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Siona Davis</span></div>
+          <hymn-row :hymn="getHymn(302)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
           <div>
@@ -48,38 +49,41 @@
           <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(187)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(185)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
-          <div><span>Testimonies</span></div>
+          <!-- <div><span>Testimonies</span></div>
+          <div></div> -->
+
+          <div><span>Speakers</span><span>Sidonna Davis</span></div>
+          <div><span></span><span>Cade Oakeson</span></div>
+          <div><span></span><span>Kambri Muir</span></div>
+          <div><span></span><span>Natali Bennett</span></div>
+          <div><span></span><span>Tallon Harmon</span></div>
           <div></div>
 
-          <!-- <div><span>Youth Speaker</span><span>TBD</span></div> -->
-          <!-- <div><span>Speaker</span><span>TBD</span></div>
-          <div></div> -->
+          <hymn-row :hymn="getHymn(143)">Congregational Hymn</hymn-row>
+          <div></div>
 
-          <!-- <hymn-row :hymn="getHymn(113)">Congregational Hymn</hymn-row>
-          <div></div> -->
-
-          <!-- <div><span>Music Number</span><span>Gethsemane</span></div>
-          <div><em>by Melanie Hoffman, Sung by Aleesa Hale & Paizley Adams</em></div>
+          <!-- <div><span>Choir Number</span><span>Consider the Lilies</span></div>
+          <div class="smaller"><em>Dir by Brother Michael Lambert, Accomp by Sister Kaylene Demasi</em></div>
           <div></div> -->
 
           <!-- <div><span>Men's Choir</span><span><em>328 An Angel From on High</em></span></div>
           <div class="smaller">Directed by Brooke Porter, Accompanied by Shellie Vanfleet</div>
           <div></div> -->
 
-          <!-- <div><span>Speaker</span><span>Brother Michael Hudson</span></div>
-          <div class="smaller"><span></span><span>Stake High Councilor</span></div>
-          <div></div> -->
+          <div><span>Speakers</span><span>Sister Janette Park</span></div>
+          <div><span></span><span>Brother Jon Park</span></div>
+          <div></div>
 
           <!-- <div><span>Choir Number</span><span>On This Holy Easter Morning</span></div>
           <div><em>by Hamblin & Moffit, Dir. by Michael Lambert</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(221)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Michael Lambert</span></div>
+          <hymn-row :hymn="getHymn(137)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>TBD</span></div>
         </div>
 
         <!-- <hr id="music" />
@@ -95,7 +99,7 @@ I will find my own sacred grove.
           <hr />
 
           <!-- <div>
-            ♡ <em>Merry Christmas!</em> ♡
+            ♡ <em>Happy Mother's Day!</em> ♡
           </div>
           <div></div>  -->
           
@@ -107,6 +111,11 @@ I will find my own sacred grove.
           <div>
             Weekly lesson topics, upcoming events, and leadership contact information are available on
             <a href="https://sites.google.com/view/highlineward/home">the ward website</a>.
+          </div>
+          <div>
+            <a href="https://sites.google.com/view/highlineward/home#h.6m577x3v5gg5" target="_blank">
+              <button class="clean-button">View upcoming ward events →</button>
+            </a>
           </div>
           <div></div>
           <div>
@@ -179,5 +188,16 @@ I will find my own sacred grove.
   }
   .program div {
     margin: 6px;
+  }
+  .clean-button {
+    background: none;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    margin-top: 6px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   }
 </style>
