@@ -13,7 +13,7 @@
     "coverage": "vitest run --coverage",
     "serve:pwa": "vite build --mode pwa && vite preview --host --mode pwa",
     "serve:dist": "vite preview",
-    "deploy": "vue-tsc --noEmit && vite build && firebase deploy"
+    "deploy": "vue-tsc --noEmit && vite build && firebase deploy --only hosting"
   },
   "dependencies": {
     "@capacitor/app": "4.0.1",
