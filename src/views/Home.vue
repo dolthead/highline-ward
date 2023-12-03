@@ -2,6 +2,7 @@
   import { IonContent, IonPage } from "@ionic/vue";
   import HymnRow from "./HymnRow.vue";
   import { getHymn } from '@/data/hymns';
+  // import ReloadPrompt from '@/components/ReloadPrompt.vue';
 
   const nextSunday = new Date();
   nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
@@ -133,6 +134,7 @@ I will find my own sacred grove.
           </div>
         </div>
       </div>
+      <!-- <reload-prompt /> -->
     </ion-content>
   </ion-page>
 </template>
