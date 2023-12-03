@@ -13,8 +13,8 @@ export default defineConfig({
         },
     },
 	plugins: [ 
-		vue(),,
-		VitePWA({ registerType: 'autoUpdate' })
+		vue(),
+		VitePWA({}),
 	],
 	server: {
 		port: 8100,

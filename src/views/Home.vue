@@ -23,7 +23,7 @@
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
-          <div><span>Presiding</span><span>President Jonathan Young</span></div>
+          <!-- <div><span>Presiding</span><span>President Matthew Hinton</span></div> -->
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
           <!-- <div><span>Presiding</span><span>Brother Kayle Smith</span></div> -->
           
@@ -31,13 +31,13 @@
 
           <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
 
-          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
-          <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <!-- <div><span>Pianist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
 
           <div></div>
-          <hymn-row :hymn="getHymn(129)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Lauren Ingalls</span></div>
+          <hymn-row :hymn="getHymn(207)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Serina Stevens</span></div>
           <div></div>
 
           <div>
@@ -47,34 +47,36 @@
           <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(195)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(176)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
-          <!-- <div><span>Testimonies</span></div>
+          <div><span>Testimonies</span></div>
+          <div></div>
+
+          <!-- <div><span>Youth Speaker</span><span>Zach Jensen</span></div>
           <div></div> -->
 
-          <div><span>Youth Speaker</span><span>Carina Sackley</span></div>
-          <!-- <div class="smaller"><span></span><span>Stake Young Men Secretary</span></div> -->
-          <div></div>
+          <!-- <div><span>Speaker</span><span>Elder Kelton Smith</span></div>
+          <div class="smaller"><span></span><span>Leaving soon for the Kenya Nairobi Mission</span></div>
+          <div></div> -->
 
-          <div><span>Speaker</span><span>Sister Carlie Oakeson</span></div>
-          <div class="smaller"><span></span><span>Leaving for the Nevada Las Vegas West Mission</span></div>
-          <div></div>
+          <!-- <hymn-row :hymn="getHymn(211)">Congregational Hymn</hymn-row>
+          <div></div> -->
 
-          <hymn-row :hymn="getHymn(199)">Congregational Hymn</hymn-row>
-          <div></div>
+          <!-- <div><span>Ward Choir</span><span>Anthem of Praise</span></div>
+          <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet</em></div>
+          <div></div> -->
 
-          <!-- <div><span>Ward Choir</span><span>Abide with Me</span></div> -->
-          <!-- <div class="smaller"><em>Directed by Brother Michael Lambert, Accompanied by TBD</em></div> -->
-          <!-- <div></div> -->
+          <!-- <div><span>Speaker</span><span>President Matthew Hinton</span></div>
+          <div class="smaller"><span></span><span>Stake Presidency, 2nd Counselor</span></div>
+          <div></div> -->
 
-          <div><span>Speaker</span><span>President Jonathan Young</span></div>
-          <div class="smaller"><span></span><span>Stake President</span></div>
-          <div></div>
+          <!-- <div><span>Closing Song</span><span>Ward Choir: The Lord Bless You and Keep You</span></div>
+          <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi</em></div> -->
 
-          <hymn-row :hymn="getHymn(124)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Sister Shaylee Dalton</span></div>
+          <hymn-row :hymn="getHymn(213)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Brother Steve Eggleston</span></div>
           
           <!-- <div></div>
           <div></div>
@@ -139,7 +141,7 @@ I will find my own sacred grove.
   .container {
     margin: 20px;
     text-align: center;
-    font-size: 3.2vw;
+    font-size: 2.9vw;
   }
   @media print {
     .container {
