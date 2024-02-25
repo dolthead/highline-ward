@@ -8,7 +8,7 @@
   nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
   const sundate = nextSunday.toLocaleDateString(['en-US'], {month: 'long', day: '2-digit', year: 'numeric'});
   const isDecember = nextSunday.getMonth() === 11;
-  const image = isDecember 
+  const image = isDecember
     ? { path: '/assets/maryjesus.jpeg', alt: 'Mary holding baby Jesus' }
     : { path: '/assets/Christus.png', alt: 'Statue of Christ' };
 </script>
@@ -30,15 +30,16 @@
           
           <div><span>Conducting</span><span>Brother Brent Oakeson</span></div>
 
-          <div><span>Music Director</span><span>Sister Tatiana Bennett</span></div>
+          <!-- <div><span>Music Director</span><span>Sister Carina Sackley</span></div> -->
+          <div><span>Music Director</span><span>Sister LeAnn Ostler</span></div>
 
+          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
           <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <!-- <div><span>Pianist</span><span>Sister Kaylene DeMasi</span></div> -->
           <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
 
           <div></div>
-          <hymn-row :hymn="getHymn(207)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Serina Stevens</span></div>
+          <hymn-row :hymn="getHymn(6)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>TBD</span></div>
           <div></div>
 
           <div>
@@ -48,36 +49,44 @@
           <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(176)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(174)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
           <div><span>Testimonies</span></div>
           <div></div>
 
-          <!-- <div><span>Youth Speaker</span><span>Zach Jensen</span></div>
-          <div></div> -->
+          <!-- <div><span>Youth Speaker</span><span>Chase Christensen</span></div> -->
+          <!-- <div><span></span><span>TBD</span></div> -->
+          <!-- <div></div> -->
+
+          <!-- <div><span>Speaker</span><span>Sister Dee Dee Gomez</span></div> -->
+          <!-- <div class="smaller"><span></span><span>Stake Aaronic Priesthood Camp Director</span></div> -->
+          <!-- <div></div> -->
 
           <!-- <div><span>Speaker</span><span>Elder Kelton Smith</span></div>
           <div class="smaller"><span></span><span>Leaving soon for the Kenya Nairobi Mission</span></div>
           <div></div> -->
 
-          <!-- <hymn-row :hymn="getHymn(211)">Congregational Hymn</hymn-row>
+          <!-- <hymn-row :hymn="getHymn(5)">Congregational Hymn</hymn-row>
           <div></div> -->
 
-          <!-- <div><span>Ward Choir</span><span>Anthem of Praise</span></div>
+          <!-- <div><span>Primary Number</span><span>Faith</span></div>
+          <div class="smaller"><em>Dir. by Sister Aleesa Hale, Accomp. by Sister Janet Deveraux</em></div>
+          <div></div> -->
+          <!-- <div><span>Ward Choir</span><span>Great Things and Small Things</span></div>
           <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet</em></div>
           <div></div> -->
 
-          <!-- <div><span>Speaker</span><span>President Matthew Hinton</span></div>
-          <div class="smaller"><span></span><span>Stake Presidency, 2nd Counselor</span></div>
-          <div></div> -->
+          <!-- <div><span>Speaker</span><span>Brother Gabe Gomez</span></div> -->
+          <!-- <div class="smaller"><span></span><span>Stake Primary President</span></div> -->
+          <!-- <div></div> -->
 
           <!-- <div><span>Closing Song</span><span>Ward Choir: The Lord Bless You and Keep You</span></div>
           <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi</em></div> -->
 
-          <hymn-row :hymn="getHymn(213)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Steve Eggleston</span></div>
+          <hymn-row :hymn="getHymn(86)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>TBD</span></div>
           
           <!-- <div></div>
           <div></div>
@@ -98,7 +107,7 @@ I will find my own sacred grove.
           <hr />
 
           <!-- <div>
-            ♡ <em>Happy Father's Day!</em> ♡
+            ♡ <em>Merry Christmas!</em> ♡
           </div>
           <div></div>  -->
           
@@ -143,7 +152,7 @@ I will find my own sacred grove.
   .container {
     margin: 20px;
     text-align: center;
-    font-size: 2.9vw;
+    font-size: 3.0vw;
   }
   @media print {
     .container {
@@ -151,7 +160,8 @@ I will find my own sacred grove.
       max-width: 75%;
       margin: 0 auto;
     }
-    .container img:nth-child(1), .announcements {
+    .container img:nth-child(1), 
+    .announcements {
       display: none;
     }
   }
@@ -184,7 +194,7 @@ I will find my own sacred grove.
     font-family: Roboto, "Helvetica Neue", sans-serif;
   }
   .smaller {
-    font-size: 2.4vw;
+    font-size: 2.6vw;
     margin-top: -3px;
     margin-bottom: 3px;
   }
