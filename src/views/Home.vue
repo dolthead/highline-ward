@@ -2,7 +2,6 @@
   import { IonContent, IonPage } from "@ionic/vue";
   import HymnRow from "./HymnRow.vue";
   import { getHymn } from '@/data/hymns';
-  // import ReloadPrompt from '@/components/ReloadPrompt.vue';
 
   const nextSunday = new Date();
   nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
@@ -30,16 +29,16 @@
           
           <div><span>Conducting</span><span>Brother Brent Oakeson</span></div>
 
-          <!-- <div><span>Music Director</span><span>Sister Carina Sackley</span></div> -->
-          <div><span>Music Director</span><span>Sister LeAnn Ostler</span></div>
+          <div><span>Music Director</span><span>Sister Carina Sackley</span></div>
+          <!-- <div><span>Music Director</span><span>Sister LeAnn Ostler</span></div> -->
 
           <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
-          <div><span>Organist</span><span>Brother Vince Butterfield</span></div>
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <!-- <div><span>Organist</span><span>Brother Vince Butterfield</span></div> -->
 
           <div></div>
-          <hymn-row :hymn="getHymn(6)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(72)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Brother Ian Hopper</span></div>
           <div></div>
 
           <div>
@@ -49,27 +48,27 @@
           <!-- <div><em>The video feed for those at home will resume after the sacrament</em></div>
           <div></div> -->
 
-          <hymn-row :hymn="getHymn(174)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(146)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
-          <div><span>Testimonies</span></div>
+          <!-- <div><span>Testimonies</span></div>
+          <div></div> -->
+
+          <div><span>Youth Speaker</span><span>Taryn Serna</span></div>
+          <!-- <div class="smaller"><span></span><span>Stake Primary President</span></div> -->
           <div></div>
 
-          <!-- <div><span>Youth Speaker</span><span>Chase Christensen</span></div> -->
-          <!-- <div><span></span><span>TBD</span></div> -->
-          <!-- <div></div> -->
-
-          <!-- <div><span>Speaker</span><span>Sister Dee Dee Gomez</span></div> -->
+          <div><span>Speaker</span><span>Brother Guy Keisel</span></div>
           <!-- <div class="smaller"><span></span><span>Stake Aaronic Priesthood Camp Director</span></div> -->
-          <!-- <div></div> -->
+          <div></div>
 
           <!-- <div><span>Speaker</span><span>Elder Kelton Smith</span></div>
           <div class="smaller"><span></span><span>Leaving soon for the Kenya Nairobi Mission</span></div>
           <div></div> -->
 
-          <!-- <hymn-row :hymn="getHymn(5)">Congregational Hymn</hymn-row>
-          <div></div> -->
+          <hymn-row :hymn="getHymn(301)">Congregational Hymn</hymn-row>
+          <div></div>
 
           <!-- <div><span>Primary Number</span><span>Faith</span></div>
           <div class="smaller"><em>Dir. by Sister Aleesa Hale, Accomp. by Sister Janet Deveraux</em></div>
@@ -78,15 +77,12 @@
           <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet</em></div>
           <div></div> -->
 
-          <!-- <div><span>Speaker</span><span>Brother Gabe Gomez</span></div> -->
+          <div><span>Speaker</span><span>Brother Vince Butterfield</span></div>
           <!-- <div class="smaller"><span></span><span>Stake Primary President</span></div> -->
-          <!-- <div></div> -->
+          <div></div>
 
-          <!-- <div><span>Closing Song</span><span>Ward Choir: The Lord Bless You and Keep You</span></div>
-          <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi</em></div> -->
-
-          <hymn-row :hymn="getHymn(86)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(241)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Sister Marie Hopper</span></div>
           
           <!-- <div></div>
           <div></div>
@@ -143,7 +139,6 @@ I will find my own sacred grove.
           </div>
         </div>
       </div>
-      <!-- <reload-prompt /> -->
     </ion-content>
   </ion-page>
 </template>
