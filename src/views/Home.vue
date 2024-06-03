@@ -7,7 +7,7 @@ const nextSunday = new Date();
 nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
 const sundate = nextSunday.toLocaleDateString(['en-US'], { month: 'long', day: '2-digit', year: 'numeric' });
 const isDecember = nextSunday.getMonth() === 11;
-const image = isDecember || true
+const image = isDecember
   ? { path: '/assets/maryjesus.jpeg', alt: 'Mary holding baby Jesus' }
   : { path: '/assets/Christus.png', alt: 'Statue of Christ' };
   // : { path: '/assets/ChristPraying.png', alt: 'Christ Kneeling in Prayer' };
@@ -24,20 +24,20 @@ const image = isDecember || true
         <div>{{ sundate }}</div>
         <div class="table">
           <div></div>
-          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Presiding</span><span>Brother Kayle Smith</span></div> -->
+          <!-- <div><span>Presiding</span><span>Bishop Glen Ostler</span></div> -->
+          <div><span>Presiding</span><span>Brother Kayle Smith</span></div>
 
-          <div><span>Conducting</span><span>Brother Kayle Smith</span></div>
+          <div><span>Conducting</span><span>Brother Brent Oakeson</span></div>
 
-          <!-- <div><span>Music Director</span><span>Sister Carina Sackley</span></div> -->
-          <div><span>Music Director</span><span>Sister LeAnn Ostler</span></div>
+          <div><span>Music Director</span><span>Sister Carina Sackley</span></div>
+          <!-- <div><span>Music Director</span><span>Sister LeAnn Ostler</span></div> -->
 
           <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
           <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
 
           <div></div>
-          <hymn-row :hymn="getHymn(52)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Sister Ericka Eggleston</span></div>
+          <hymn-row :hymn="getHymn(258)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Sister Rachel Broderick</span></div>
           <div></div>
 
           <div>
@@ -45,33 +45,38 @@ const image = isDecember || true
           </div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(185)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(187)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
-          <!-- <div><span>Testimonies</span></div>
+          <div><span>Testimonies</span></div>
+          <div></div>
+
+          <!-- <div><span>Speakers</span><span>Gadd Webber</span></div>
+          <div><span></span><span>Molly Webber</span></div>
+          <div><span></span><span>Bryton Webber</span></div>
           <div></div> -->
 
-          <div><span>Speakers</span><span>Finn Kunz</span></div>
-          <div><span></span><span>Tallin Kunz</span></div>
-          <div></div>
+          <!-- <div><span>Speaker</span><span>Sister Becky Jensen</span></div> -->
+          <!-- <div><span></span><span>Tallin Kunz</span></div> -->
+          <!-- <div></div> -->
 
           <!-- <hymn-row :hymn="getHymn(113)">Congregational Hymn</hymn-row>
           <div></div> -->
-          <!-- <div><span>Ward Choir</span><span>Cast Your Burden on the Lord</span></div>
+          <!-- <div><span>Ward Choir</span><span>Abide With Me; 'Tis Eventide</span></div>
           <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet</em></div>
           <div></div> -->
-          <div><span>Primary & Young Women Musical Number</span><span>More Than Enough</span></div>
-          <div class="smaller"><em>Dir. by Sister Aleesa Hale, Accomp. by Sister Janet Deveraux</em></div>
-          <div></div>
+          <!-- <div><span>Priesthood Musical Number</span><span>Rise Up, O Men of God</span></div>
+          <div class="smaller"><em>Dir. by Brother Mike Lambert, Accomp. by Sister Shellie Vanfleet</em></div>
+          <div></div> -->
 
-          <div><span>Speakers</span><span>Case Kunz</span></div>
-          <div><span></span><span>Mike Kunz</span></div>
-          <div class="smaller"><span></span><span>Stake High Councilor</span></div>
-          <div></div>
+          <!-- <div><span>Speaker</span><span>Brother Jesse Webber</span></div> -->
+          <!-- <div><span></span><span>Mike Kunz</span></div> -->
+          <!-- <div class="smaller"><span></span><span>Stake High Councilor</span></div> -->
+          <!-- <div></div> -->
 
-          <hymn-row :hymn="getHymn(86)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Brother Steve Eggleston</span></div>
+          <hymn-row :hymn="getHymn(308)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Brother Matt Broderick</span></div>
 
           <!-- <div></div>
           <div></div>
@@ -91,10 +96,10 @@ I will find my own sacred grove.
         <div class="announcements">
           <hr />
 
-          <div>
+          <!-- <div>
             ♡ <em>Happy Mothers Day!</em> ♡
           </div>
-          <div></div> 
+          <div></div> -->
 
           <!-- <div>
             Sign up for tithing declarations with Bishop Ostler on
