@@ -26,19 +26,20 @@ const image = isDecember
           <div></div>
           <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
           <!-- <div><span>Presiding</span><span>Brother Kayle Smith</span></div> -->
+          <!-- <div><span>Presiding</span><span>President Matthew Hinton</span></div> -->
 
-          <div><span>Conducting</span><span>Brother Brent Oakeson</span></div>
-          <!-- <div><span>Conducting</span><span>Bishop Glen Ostler</span></div> -->
+          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
+          <!-- <div><span>Conducting</span><span>Brother Brent Oakeson</span></div> -->
 
-          <div><span>Music Director</span><span>Sister Carina Sackley</span></div>
-          <!-- <div><span>Music Director</span><span>Sister LeAnn Ostler</span></div> -->
+          <!-- <div><span>Music Director</span><span>Sister Carina Sackley</span></div> -->
+          <div><span>Music Director</span><span>Sister LeAnn Ostler</span></div>
 
-          <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div>
-          <!-- <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div> -->
+          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
+          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
 
           <div></div>
-          <hymn-row :hymn="getHymn(292)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>TBD</span></div>
+          <hymn-row :hymn="getHymn(30)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>Brother David Powell</span></div>
           <div></div>
 
           <div>
@@ -46,37 +47,40 @@ const image = isDecember
           </div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(194)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(184)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
           <!-- <div><span>Testimonies</span></div>
           <div></div> -->
 
-          <!-- <div><span>Speakers</span><span>Gadd Webber</span></div>
-          <div><span></span><span>Molly Webber</span></div>
-          <div><span></span><span>Bryton Webber</span></div>
+          <!-- <div><span>Youth Speakers</span><span>Mary Hinton</span></div>
+          <div><span></span><span>Corver Creviston</span></div>
           <div></div> -->
 
-          <div><span>Speaker</span><span>TBD</span></div>
-          <!-- <div><span></span><span>Tallin Kunz</span></div> -->
+          <div><span>Speaker</span><span>Sister Brenna Worthington</span></div>
           <div></div>
 
-          <!-- <hymn-row :hymn="getHymn(304)">Congregational Hymn</hymn-row>
+          <!-- <hymn-row :hymn="getHymn(273)">Congregational Hymn</hymn-row>
           <div></div> -->
-          <!-- <div><span>Ward Choir</span><span>Abide With Me; 'Tis Eventide</span></div>
+          <div><span>Combined Choir</span><span>America: A Choice Land</span></div>
+          <div class="smaller"><em>Highline Ward and Spring Lake 4th Ward</em></div>
           <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet</em></div>
-          <div></div> -->
-          <div><span>Primary Musical Number</span><span>Fathers Day Medley</span></div>
-          <div class="smaller"><em>Dir. by Sister Aleesa Hale, Accomp. by Sister Janet Deveraux</em></div>
           <div></div>
+          <!-- <div><span>Primary Musical Number</span><span>Fathers Day Medley</span></div>
+          <div class="smaller"><em>Dir. by Sister Aleesa Hale, Accomp. by Sister Janet Deveraux</em></div>
+          <div></div> -->
 
-          <div><span>Speaker</span><span>TBD</span></div>
+          <div><span>Speaker</span><span>Brother Mike Kunz</span></div>
           <!-- <div class="smaller"><span></span><span>Stake High Councilor</span></div> -->
           <div></div>
 
-          <hymn-row :hymn="getHymn(294)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>TBD</span></div>
+          <!-- <div><span>Closing Remarks</span><span>President Matthew Hinton</span></div>
+          <div class="smaller"><span></span><span>Stake Presidency</span></div>
+          <div></div> -->
+
+          <hymn-row :hymn="getHymn(36)">Closing Hymn</hymn-row>
+          <div><span>Benediction</span><span>Sister Brittany Powell</span></div>
 
           <!-- <div></div>
           <div></div>
@@ -96,10 +100,10 @@ I will find my own sacred grove.
         <div class="announcements">
           <hr />
 
-          <div>
+          <!-- <div>
             ♡ <em>Happy Fathers Day!</em> ♡
           </div>
-          <div></div>
+          <div></div> -->
 
           <!-- <div>
             Sign up for tithing declarations with Bishop Ostler on
@@ -156,6 +160,10 @@ I will find my own sacred grove.
   .container img:nth-child(1),
   .announcements {
     display: none;
+  }
+
+  .smaller {
+    font-size: 12pt !important;
   }
 }
 
