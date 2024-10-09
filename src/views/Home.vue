@@ -2,44 +2,28 @@
 import { IonContent, IonPage } from "@ionic/vue";
 import HymnRow from "./HymnRow.vue";
 import { getHymn } from '@/data/hymns';
-
-const nextSunday = new Date();
-nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
-const sundate = nextSunday.toLocaleDateString(['en-US'], { month: 'long', day: '2-digit', year: 'numeric' });
-const isDecember = nextSunday.getMonth() === 11;
-const image = isDecember
-  ? { path: '/assets/maryjesus.jpeg', alt: 'Mary holding baby Jesus' }
-  : { path: '/assets/Christus.png', alt: 'Statue of Christ' };
-  // : { path: '/assets/ChristPraying.png', alt: 'Christ Kneeling in Prayer' };
+import { data } from '@/data/program';
 </script>
 
 <template>
   <ion-page>
     <ion-content :fullscreen="true">
       <div class="container">
-        <img :src="image.path" :alt="image.alt" />
-        <div class="title">Highline Ward</div>
-        <div class="title">Sacrament Meeting</div>
-        <!-- <div class="title"><em>Easter Sunday</em></div> -->
-        <div>{{ sundate }}</div>
+        <img :src="data.image.url" :alt="data.image.description" />
+        <div class="title">{{ data.unitName }}</div>
+        <div class="title">{{ data.meetingName }}</div>
+        <div v-if="data.holiday" class="title"><em>{{ data.holiday }}</em></div>
+        <div>{{ data.meetingDate }}, at {{ data.time }}</div>
         <div class="table">
           <div></div>
-          <div><span>Presiding</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Presiding</span><span>Brother Kayle Smith</span></div> -->
-          <!-- <div><span>Presiding</span><span>President Matthew Hinton</span></div> -->
-
-          <div><span>Conducting</span><span>Bishop Glen Ostler</span></div>
-          <!-- <div><span>Conducting</span><span>Brother Brent Oakeson</span></div> -->
-
-          <!-- <div><span>Music Director</span><span>Sister Carina Sackley</span></div> -->
-          <div><span>Music Director</span><span>Sister LeAnn Ostler</span></div>
-
-          <!-- <div><span>Organist</span><span>Sister Kaylene DeMasi</span></div> -->
-          <div><span>Organist</span><span>Sister Shellie Vanfleet</span></div>
+          <div><span>Presiding</span><span>{{ data.presidingName }}</span></div>
+          <div><span>Conducting</span><span>{{ data.conductingName }}</span></div>
+          <div><span>Music Director</span><span>{{ data.choristerName }}</span></div>
+          <div><span>Organist</span><span>{{ data.organistName }}</span></div>
 
           <div></div>
-          <hymn-row :hymn="getHymn(30)">Opening Hymn</hymn-row>
-          <div><span>Invocation</span><span>Brother David Powell</span></div>
+          <hymn-row :hymn="getHymn(data.openingHymn)">Opening Hymn</hymn-row>
+          <div><span>Invocation</span><span>{{ data.invocationName }}</span></div>
           <div></div>
 
           <div>
@@ -47,44 +31,68 @@ const image = isDecember
           </div>
           <div></div>
 
-          <hymn-row :hymn="getHymn(184)">Sacrament Hymn</hymn-row>
+          <hymn-row :hymn="getHymn(data.sacramentHymn)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
           <div></div>
 
-          <!-- <div><span>Testimonies</span></div>
-          <div></div> -->
+          <div v-if="data.isTestimonyMeeting" class="space-after"><span>Testimonies</span></div>
 
-          <!-- <div><span>Youth Speakers</span><span>Mary Hinton</span></div>
-          <div><span></span><span>Corver Creviston</span></div>
-          <div></div> -->
+          <div v-if="data.isPrimaryProgram" class="space-after"><span>Primary Program</span><span>Highline Ward Children</span></div>
 
-          <div><span>Speaker</span><span>Sister Brenna Worthington</span></div>
-          <div></div>
+          <template v-if="!data.isTestimonyMeeting && !data.isPrimaryProgram">
+            
+            <template v-if="data.speakers && data.speakers[0]">
+              <template v-for="(speaker, index) in data.speakers[0]">
+                <div>
+                  <span>{{ index ? '' : data.speakers[0].length == 1 ? 'Speaker' : 'Speakers' }}</span>
+                  <span>{{ speaker.name }}</span>
+                </div>
+                <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
+                <div></div>
+              </template>
+            </template>
+            
+            <template v-if="data.intermediateHymn">
+              <hymn-row :hymn="getHymn(data.intermediateHymn)">Congregational Hymn</hymn-row>
+              <div></div>
+            </template>
 
-          <!-- <hymn-row :hymn="getHymn(273)">Congregational Hymn</hymn-row>
-          <div></div> -->
-          <div><span>Combined Choir</span><span>America: A Choice Land</span></div>
-          <div class="smaller"><em>Highline Ward and Spring Lake 4th Ward</em></div>
-          <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet</em></div>
-          <div></div>
-          <!-- <div><span>Primary Musical Number</span><span>Fathers Day Medley</span></div>
-          <div class="smaller"><em>Dir. by Sister Aleesa Hale, Accomp. by Sister Janet Deveraux</em></div>
-          <div></div> -->
+            <template v-if="data.musicNumber">
+              <div><span>{{ data.musicNumber.label }}</span><span>{{ data.musicNumber.title }}</span></div>
+              <div class="smaller"><em>{{ data.musicNumber.credits }}</em></div>
+              <div></div>
+            </template>
 
-          <div><span>Speaker</span><span>Brother Mike Kunz</span></div>
-          <!-- <div class="smaller"><span></span><span>Stake High Councilor</span></div> -->
-          <div></div>
+            <template v-if="data.speakers && data.speakers[1]">
+              <template v-for="(speaker, index) in data.speakers[1]">
+                <div>
+                  <span>{{ index ? '' : data.speakers[1].length == 1 ? 'Speaker' : 'Speakers' }}</span>
+                  <span>{{ speaker.name }}</span>
+                </div>
+                <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
+                <div></div>
+              </template>
+            </template>
+            
+            <!-- <div><span>Speaker</span><span>Brother Matt Nelson</span></div> -->
+            <!-- <div class="smaller"><span></span><span>Stake High Councilor</span></div> -->
+            <!-- <div></div> -->
 
-          <!-- <div><span>Closing Remarks</span><span>President Matthew Hinton</span></div>
-          <div class="smaller"><span></span><span>Stake Presidency</span></div>
-          <div></div> -->
+          </template>
 
-          <hymn-row :hymn="getHymn(36)">Closing Hymn</hymn-row>
-          <div><span>Benediction</span><span>Sister Brittany Powell</span></div>
+          <template v-if="data.closingHymn">
+            <hymn-row :hymn="getHymn(data.closingHymn)">Closing Hymn</hymn-row>
+          </template>
+          <div><span>Closing Hymn</span><span><a href="https://www.churchofjesuschrist.org/media/music/songs/i-will-walk-with-jesus?lang=eng" target="_blank">
+            1004 I Will Walk With Jesus
+          </a></span></div>
+          <div><span>Benediction</span><span>{{ data.benedictionName }}</span></div>
 
-          <!-- <div></div>
-          <div></div>
-          <div><em>Linger longer today: visiting and snacks<br>in the pavilion after church.</em></div> -->
+          <template v-if="data.showLingerLonger">
+            <div></div>
+            <div></div>
+            <div><em>Linger longer today: visiting and snacks<br>in the pavilion after church.</em></div>
+          </template>
 
         </div>
 
@@ -100,10 +108,12 @@ I will find my own sacred grove.
         <div class="announcements">
           <hr />
 
-          <!-- <div>
-            ♡ <em>Happy Fathers Day!</em> ♡
-          </div>
-          <div></div> -->
+          <template v-if="data.happyDay">
+            <div>
+              ♡ <em>{{ data.happyDay }}</em> ♡
+            </div>
+            <div></div>
+          </template>
 
           <!-- <div>
             Sign up for tithing declarations with Bishop Ostler on
@@ -147,7 +157,10 @@ I will find my own sacred grove.
 .container {
   margin: 20px;
   text-align: center;
-  font-size: 3.0vw;
+  font-size: 3.2vw;
+}
+.space-after {
+  margin-bottom: 16px;
 }
 
 @media print {
