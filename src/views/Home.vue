@@ -73,10 +73,6 @@ import { data } from '@/data/program';
                 <div></div>
               </template>
             </template>
-            
-            <!-- <div><span>Speaker</span><span>Brother Matt Nelson</span></div> -->
-            <!-- <div class="smaller"><span></span><span>Stake High Councilor</span></div> -->
-            <!-- <div></div> -->
 
           </template>
 
@@ -96,15 +92,6 @@ import { data } from '@/data/program';
 
         </div>
 
-        <!-- <hr id="music" />
-<pre>
-"My Own Sacred Grove"
-...
-I will find my own sacred grove.
-</pre>
-<a href="https://www.angiekillian.com/shop?Collection=My+Own+Sacred+Grove&page=3" class="smaller">
-  ©2021 by Angie Killian Music | All Rights Reserved.
-</a> -->
         <div class="announcements">
           <hr />
 
@@ -115,17 +102,20 @@ I will find my own sacred grove.
             <div></div>
           </template>
 
-          <!-- <div>
-            Sign up for tithing declarations with Bishop Ostler on
-            <a href="https://docs.google.com/document/d/1oChAm94PKdQl9Gauts96YNsDHyNCNSZmnCxt43_Aujw/edit?usp=sharing">this sign-up sheet</a>.
-          </div>
-          <div></div> -->
+          <template v-if="data.showTithingDeclarations">
+            <div>
+              Sign up for tithing declarations with Bishop Ostler on
+              <a href="https://docs.google.com/document/d/1nCVH1ES1DRA3CI4lq9ZL82oDm-yrS9FVDgY6WZ1YN5Q/edit?usp=sharing">this sign-up sheet</a>.
+            </div>
+            <div></div>
+          </template>
+
           <div>
             Weekly lesson topics, upcoming events, and leadership contact information are available on
             <a href="https://sites.google.com/view/highlineward/home">the ward website</a>.
           </div>
           <div>
-            <a href="https://sites.google.com/view/highlineward/home#h.6m577x3v5gg5" target="_blank">
+            <a href="https://sites.google.com/view/highlineward/home#h.6m577x3v5gg5">
               <button class="clean-button">View upcoming ward events →</button>
             </a>
           </div>

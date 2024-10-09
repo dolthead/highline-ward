@@ -44,4 +44,5 @@ export const data: any = {
     // showLingerLonger: true,
     // happyDay: "Happy Father's Day!"",
     // happyDay: "Happy Mother's Day!",
+    showTithingDeclarations: true,
 };
