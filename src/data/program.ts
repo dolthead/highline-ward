@@ -14,21 +14,32 @@ export const data: any = {
     // holiday: 'Christmas Program',
     meetingDate: sundate,
     time: 'Noon',
+
     presidingName: 'Bishop Glen Ostler',
     conductingName: 'Bishop Glen Ostler',
     choristerName: 'Sister Carina Sackley',
     // choristerName: 'Sister LeAnn Ostler',
     organistName: 'Sister Kaylene DeMasi',
+
     openingHymn: 62,
-    invocationName: 'TBD',
     sacramentHymn: 175,
+    intermediateHymn: null,
+    closingHymn: null,
+
+    invocationName: 'Brother Harley McNeil',
+    benedictionName: 'Sister Emily Mitchell',
     // isTestimonyMeeting: true,
     isPrimaryProgram: false,
-    speakers: [
-        [{ name: 'Elder Tyrus Harmer', calling: null }], // group 1, before the rest hymn
-        [{ name: 'Elder Michael Gomez', calling: null }], // group 2, after the rest hymn
+
+    testimonies: [
+        { name: 'Sister Sherry Chapman', calling: null },
+        { name: 'Sister Shelley Smith', calling: 'Ward Missionaries' },
     ],
-    intermediateHymn: null,
+    speakers: [
+        [{ name: 'Elder Tyrus Harmer', calling: 'Full-time missionary' }], // group 1, before the rest hymn
+        [{ name: 'Elder Michael Gomez', calling: 'Full-time missionary' }], // group 2, after the rest hymn
+    ],
+
     // musicNumber: { 
     //     label: 'Choir Number', 
     //     title: 'I Am a Child of God', 
@@ -39,8 +50,7 @@ export const data: any = {
         title: 'I Am a Child of God', 
         credits: 'Performed by The Sackley Family' 
     },
-    closingHymn: null,
-    benedictionName: 'TBD',
+    
     // showLingerLonger: true,
     // happyDay: "Happy Father's Day!"",
     // happyDay: "Happy Mother's Day!",

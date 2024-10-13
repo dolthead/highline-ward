@@ -41,6 +41,17 @@ import { data } from '@/data/program';
 
           <template v-if="!data.isTestimonyMeeting && !data.isPrimaryProgram">
             
+            <template v-if="data.testimonies">
+              <template v-for="(speaker, index) in data.testimonies">
+                <div>
+                  <span>{{ index ? '' : data.testimonies.length == 1 ? 'Testimony' : 'Testimonies' }}</span>
+                  <span>{{ speaker.name }}</span>
+                </div>
+                <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
+              </template>
+              <div></div>
+            </template>
+            
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
@@ -48,8 +59,8 @@ import { data } from '@/data/program';
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
-                <div></div>
               </template>
+              <div></div>
             </template>
             
             <template v-if="data.intermediateHymn">
@@ -70,8 +81,8 @@ import { data } from '@/data/program';
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
-                <div></div>
               </template>
+              <div></div>
             </template>
 
           </template>
