@@ -90,9 +90,11 @@ import { data } from '@/data/program';
           <template v-if="data.closingHymn">
             <hymn-row :hymn="getHymn(data.closingHymn)">Closing Hymn</hymn-row>
           </template>
-          <div><span>Closing Hymn</span><span><a href="https://www.churchofjesuschrist.org/media/music/songs/i-will-walk-with-jesus?lang=eng" target="_blank">
-            1004 I Will Walk With Jesus
-          </a></span></div>
+          <!-- <div><span>Closing Hymn</span><span>
+            <a href="https://www.churchofjesuschrist.org/media/music/songs/i-will-walk-with-jesus?lang=eng" target="_blank">
+              1004 I Will Walk With Jesus
+            </a>
+          </span></div> -->
           <div><span>Benediction</span><span>{{ data.benedictionName }}</span></div>
 
           <template v-if="data.showLingerLonger">
@@ -182,7 +184,7 @@ import { data } from '@/data/program';
 }
 
 img {
-  width: 30vw;
+  width: 20vw;
   /* width: 40vw; */
   max-width: 250px;
 }

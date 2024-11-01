@@ -1,4 +1,5 @@
-export const baseUrl = 'https://www.churchofjesuschrist.org/music/library/hymns/';
+// export const baseUrl = 'https://www.churchofjesuschrist.org/music/library/hymns/';
+export const baseUrl = 'https://www.churchofjesuschrist.org/media/music/songs/';
 
 export interface Hymn {
     hymno: number;
@@ -9,7 +10,9 @@ export interface Hymn {
 
 // Go to https://www.churchofjesuschrist.org/music/library/hymns?lang=eng
 // Run in console: copy($('tr.music-table-item td:nth-child(3)').toArray().map(x => x.innerText))
+// and add the zero line at the beginning
 const hymns = [
+    "zero--not a hymn",
     "The Morning Breaks",
     "The Spirit of God",
     "Now Let Us Rejoice",
@@ -352,6 +355,7 @@ const hymns = [
     "The Star-Spangled Banner",
     "God Save the King"
 ];
+hymns[1010] = "Amazing Grace";
 
 const unavailable = [124, 219];
 const updatedUrls = [
@@ -359,16 +363,17 @@ const updatedUrls = [
     { hymno: 174, url: 'while-of-these-emblems-we-partake-aeolian' },
     { hymno: 176, url: 'tis-sweet-to-sing-the-matchless-love-meredith' },
     { hymno: 177, url: 'tis-sweet-to-sing-the-matchless-love-hancock' },
+    { hymno: 1010, url: 'amazing-grace' },
 ];
 
 const getURL = (hymno: number) => (unavailable.includes(hymno) ? undefined 
     : updatedUrls.find(h => h.hymno === hymno)?.url
-    || hymns[hymno - 1].toLowerCase().replaceAll(' ', '-').replace(/[^a-z-]/g, ''));
+    ?? hymns[hymno].toLowerCase().replaceAll(' ', '-').replace(/[^a-z-]/g, ''));
 
 export const getHymn = (hymno: number) => {
     return {
         hymno, 
-        title: hymns[hymno - 1].replace(/[\\*]/g, ''),
+        title: hymns[hymno].replace(/[\\*]/g, ''),
         url: getURL(hymno),
         notSetup: unavailable.includes(hymno)
     }

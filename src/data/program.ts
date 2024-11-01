@@ -16,42 +16,43 @@ export const data: any = {
     time: 'Noon',
 
     presidingName: 'Bishop Glen Ostler',
-    conductingName: 'Bishop Glen Ostler',
-    choristerName: 'Sister Carina Sackley',
-    // choristerName: 'Sister LeAnn Ostler',
-    organistName: 'Sister Kaylene DeMasi',
+    conductingName: 'Brother Kayle Smith',
+    // choristerName: 'Sister Carina Sackley',
+    choristerName: 'Sister LeAnn Ostler',
+    // organistName: 'Sister Kaylene DeMasi',
+    organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 62,
-    sacramentHymn: 175,
-    intermediateHymn: null,
-    closingHymn: null,
+    openingHymn: 1010,
+    sacramentHymn: 185,
+    // intermediateHymn: 301,
+    closingHymn: 67,
 
-    invocationName: 'Brother Harley McNeil',
-    benedictionName: 'Sister Emily Mitchell',
-    // isTestimonyMeeting: true,
-    isPrimaryProgram: false,
+    invocationName: 'TBD',
+    benedictionName: 'TBD',
+    isTestimonyMeeting: true,
+    // isPrimaryProgram: true,
 
-    testimonies: [
-        { name: 'Sister Sherry Chapman', calling: null },
-        { name: 'Sister Shelley Smith', calling: 'Ward Missionaries' },
-    ],
-    speakers: [
-        [{ name: 'Elder Tyrus Harmer', calling: 'Full-time missionary' }], // group 1, before the rest hymn
-        [{ name: 'Elder Michael Gomez', calling: 'Full-time missionary' }], // group 2, after the rest hymn
-    ],
+    // testimonies: [
+    //     { name: 'Sister Sherry Chapman', calling: null },
+    //     { name: 'Sister Shelley Smith', calling: 'Ward Missionaries' },
+    // ],
+    // speakers: [
+    //     [{ name: 'Elder Tallin Kunz', calling: null }], // group 1, before the rest hymn
+    //     [{ name: 'Bishop Glen Ostler', calling: null }], // group 2, after the rest hymn
+    // ],
 
     // musicNumber: { 
     //     label: 'Choir Number', 
     //     title: 'I Am a Child of God', 
     //     credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' 
     // },
-    musicNumber: { 
-        label: 'Music Number', 
-        title: 'I Am a Child of God', 
-        credits: 'Performed by The Sackley Family' 
-    },
+    // musicNumber: { 
+    //     label: 'Musical Number', 
+    //     title: 'Amazing Grace', 
+    //     credits: 'Sister Cowan, Sister Hale, Brother Lambert, Brother Hale' 
+    // },
     
-    // showLingerLonger: true,
+    showLingerLonger: true,
     // happyDay: "Happy Father's Day!"",
     // happyDay: "Happy Mother's Day!",
     showTithingDeclarations: true,
