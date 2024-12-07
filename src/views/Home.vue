@@ -41,21 +41,10 @@ import { data } from '@/data/program';
 
           <template v-if="!data.isTestimonyMeeting && !data.isPrimaryProgram">
             
-            <template v-if="data.testimonies">
-              <template v-for="(speaker, index) in data.testimonies">
-                <div>
-                  <span>{{ index ? '' : data.testimonies.length == 1 ? 'Testimony' : 'Testimonies' }}</span>
-                  <span>{{ speaker.name }}</span>
-                </div>
-                <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
-              </template>
-              <div></div>
-            </template>
-            
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
-                  <span>{{ index ? '' : data.speakers[0].length == 1 ? 'Speaker' : 'Speakers' }}</span>
+                  <span>{{ index ? '' : data.speakers[0].length == 1 ? 'Speaker' : 'Youth Speakers' }}</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
@@ -97,12 +86,6 @@ import { data } from '@/data/program';
           </span></div> -->
           <div><span>Benediction</span><span>{{ data.benedictionName }}</span></div>
 
-          <template v-if="data.showLingerLonger">
-            <div></div>
-            <div></div>
-            <div><em>Linger longer today: visiting and snacks<br>in the pavilion after church.</em></div>
-          </template>
-
         </div>
 
         <div class="announcements">
@@ -112,6 +95,11 @@ import { data } from '@/data/program';
             <div>
               ♡ <em>{{ data.happyDay }}</em> ♡
             </div>
+            <div></div>
+          </template>
+
+          <template v-if="data.showLingerLonger">
+            <div><em>Linger longer today: visiting and snacks<br>in the cultural hall after church.</em></div>
             <div></div>
           </template>
 
@@ -138,13 +126,17 @@ import { data } from '@/data/program';
             password, which can be requested from Bishop Ostler.
           </div>
           <div></div>
-          <div>
+          <!-- <div>
             Easily share this program by
             <a href="sms:?&body=https://highline-ward.web.app">sending a text message</a>,
             or by having the person point their phone camera at this QR code:
           </div>
           <div></div>
-          <img src="/assets/qrcode.png" alt="QR code for this church program" />
+          <img src="/assets/qrcode.png" alt="QR code for this church program" /> -->
+          <div>
+            Easily share this program by
+            <a href="sms:?&body=https://highline-ward.web.app">sending a text message</a>.
+          </div>
           <div></div>
           <div class="smaller">
             This is not an official website of <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ

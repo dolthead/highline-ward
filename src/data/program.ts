@@ -16,44 +16,47 @@ export const data: any = {
     time: 'Noon',
 
     presidingName: 'Bishop Glen Ostler',
-    conductingName: 'Brother Kayle Smith',
-    // choristerName: 'Sister Carina Sackley',
-    choristerName: 'Sister LeAnn Ostler',
+    // presidingName: 'President Matthew Hinton',
+    conductingName: 'Brother Brent Oakeson',
+    choristerName: 'Sister Carina Sackley',
+    // choristerName: 'Sister LeAnn Ostler',
     // organistName: 'Sister Kaylene DeMasi',
     organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 1010,
-    sacramentHymn: 185,
-    // intermediateHymn: 301,
-    closingHymn: 67,
+    openingHymn: 207,
+    sacramentHymn: 170,
+    // intermediateHymn: 125,
+    closingHymn: 203,
 
     invocationName: 'TBD',
     benedictionName: 'TBD',
-    isTestimonyMeeting: true,
+    // isTestimonyMeeting: true,
     // isPrimaryProgram: true,
 
-    // testimonies: [
-    //     { name: 'Sister Sherry Chapman', calling: null },
-    //     { name: 'Sister Shelley Smith', calling: 'Ward Missionaries' },
-    // ],
-    // speakers: [
-    //     [{ name: 'Elder Tallin Kunz', calling: null }], // group 1, before the rest hymn
-    //     [{ name: 'Bishop Glen Ostler', calling: null }], // group 2, after the rest hymn
-    // ],
-
-    // musicNumber: { 
-    //     label: 'Choir Number', 
-    //     title: 'I Am a Child of God', 
-    //     credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' 
-    // },
-    // musicNumber: { 
-    //     label: 'Musical Number', 
-    //     title: 'Amazing Grace', 
-    //     credits: 'Sister Cowan, Sister Hale, Brother Lambert, Brother Hale' 
-    // },
+    speakers: [
+        [
+            { name: 'Stellar Hemming', calling: null },
+            { name: 'Serene Hemming', calling: null },
+            { name: 'Marvel Hemming', calling: null },
+        ], // group 1, before the rest hymn
+        [
+            { name: 'Sister Emily Mitchell', calling: null },
+        ], // group 2, after the rest hymn
+    ],
     
-    showLingerLonger: true,
+    // musicNumber: { 
+    //     label: 'Choir Number',
+    //     title: 'Praise to the Man',
+    //     credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi',
+    // },
+    musicNumber: {
+        label: 'Musical Number',
+        title: 'He Sent His Son',
+        credits: 'Wesley Mitchell, Revere & Rainy Hemmming, Accomp. by Sister DeMasi',
+    },
+    
+    // showLingerLonger: true,
     // happyDay: "Happy Father's Day!"",
     // happyDay: "Happy Mother's Day!",
-    showTithingDeclarations: true,
+    // showTithingDeclarations: true,
 };
