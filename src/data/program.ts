@@ -11,37 +11,35 @@ export const data: any = {
     unitName: 'Highline Ward',
     meetingName: 'Sacrament Meeting',
     // holiday: 'Easter Sunday',
-    // holiday: 'Christmas Program',
+    holiday: 'Christmas Program',
     meetingDate: sundate,
     time: 'Noon',
 
-    presidingName: 'Bishop Glen Ostler',
-    // presidingName: 'President Matthew Hinton',
+    // presidingName: 'Bishop Glen Ostler',
+    presidingName: 'President Matthew Hinton',
     conductingName: 'Brother Brent Oakeson',
     choristerName: 'Sister Carina Sackley',
     // choristerName: 'Sister LeAnn Ostler',
     // organistName: 'Sister Kaylene DeMasi',
     organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 207,
-    sacramentHymn: 170,
-    // intermediateHymn: 125,
-    closingHymn: 203,
+    openingHymn: 213,
+    sacramentHymn: 196,
+    // intermediateHymn: 202,
+    closingHymn: 204,
 
-    invocationName: 'TBD',
-    benedictionName: 'TBD',
+    invocationName: 'Brother Dan Davis',
+    benedictionName: 'Sister Dee Dee Gomez',
     // isTestimonyMeeting: true,
     // isPrimaryProgram: true,
 
     speakers: [
-        [
-            { name: 'Stellar Hemming', calling: null },
-            { name: 'Serene Hemming', calling: null },
-            { name: 'Marvel Hemming', calling: null },
-        ], // group 1, before the rest hymn
-        [
-            { name: 'Sister Emily Mitchell', calling: null },
-        ], // group 2, after the rest hymn
+        [ // group 1, before the rest hymn
+            // { name: 'Brother ', calling: null },
+        ],
+        [ // group 2, after the rest hymn
+            { name: 'Bishop Glen Ostler', calling: null },
+        ],
     ],
     
     // musicNumber: { 
@@ -49,14 +47,28 @@ export const data: any = {
     //     title: 'Praise to the Man',
     //     credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi',
     // },
-    musicNumber: {
-        label: 'Musical Number',
-        title: 'He Sent His Son',
-        credits: 'Wesley Mitchell, Revere & Rainy Hemmming, Accomp. by Sister DeMasi',
-    },
+    // musicNumber: {
+    //     label: 'Musical Number',
+    //     title: 'He Sent His Son',
+    //     credits: 'Wesley Mitchell, Revere & Rainy Hemmming, Accomp. by Sister DeMasi',
+    // },
+
+    musicNumbers: [
+        { title: 'Oh, Come, All Ye Faithful', credits: 'Violin solo by Sister Sackley' },
+        { hymn: 208 },
+        { title: 'Away in a Manger', credits: 'Primary Children, Dir by Sister Hale, Accomp by Sister Deveraux' },
+        { title: 'Little Baby', credits: 'Primary Children, Accomp by Sister Hale' },
+        { hymn: 212 },
+        { title: 'As Sudden Angels Filled the Night', credits: 'Ward Choir, Dir by Brother Lambert, Accomp by Sister DeMasi, Flutes by Sister Porter and Sister Kunz' },
+        { title: 'What Child is This?', credits: 'Performed by Malia Cook' },
+        { hymn: 201 },
+        { hymn: 210 },
+        { title: `And the Glory of the Lord (Handel)`, credits: 'Ward Choir, Dir by Brother Lambert, Accomp by Sister DeMasi' },
+    ],
     
     // showLingerLonger: true,
-    // happyDay: "Happy Father's Day!"",
-    // happyDay: "Happy Mother's Day!",
+    // happyDay: "♡ Happy Father's Day! ♡",
+    // happyDay: "♡ Happy Mother's Day! ♡",
+    happyDay: "☆ Merry Christmas! ☆",
     // showTithingDeclarations: true,
 };

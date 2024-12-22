@@ -41,6 +41,12 @@ import { data } from '@/data/program';
 
           <template v-if="!data.isTestimonyMeeting && !data.isPrimaryProgram">
             
+
+            <div>
+              <span>Narrator</span>
+              <span>Brother Steve Taylor</span>
+            </div>
+
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
@@ -63,6 +69,18 @@ import { data } from '@/data/program';
               <div></div>
             </template>
 
+            <template v-if="data.musicNumbers?.length">
+              <template v-for="song in data.musicNumbers">
+                <hymn-row v-if="song.hymn" :hymn="getHymn(song.hymn)">Congregational Hymn</hymn-row>
+                <div v-if="!song.hymn">
+                  <span>Music Number</span>
+                  <span>{{ song.title }}</span>
+                </div>
+                <div v-if="song.credits" class="smaller"><em>{{ song.credits }}</em></div>
+              <div></div>
+              </template>
+            </template>
+
             <template v-if="data.speakers && data.speakers[1]">
               <template v-for="(speaker, index) in data.speakers[1]">
                 <div>
@@ -79,11 +97,7 @@ import { data } from '@/data/program';
           <template v-if="data.closingHymn">
             <hymn-row :hymn="getHymn(data.closingHymn)">Closing Hymn</hymn-row>
           </template>
-          <!-- <div><span>Closing Hymn</span><span>
-            <a href="https://www.churchofjesuschrist.org/media/music/songs/i-will-walk-with-jesus?lang=eng" target="_blank">
-              1004 I Will Walk With Jesus
-            </a>
-          </span></div> -->
+
           <div><span>Benediction</span><span>{{ data.benedictionName }}</span></div>
 
         </div>
@@ -93,7 +107,7 @@ import { data } from '@/data/program';
 
           <template v-if="data.happyDay">
             <div>
-              ♡ <em>{{ data.happyDay }}</em> ♡
+              <em>{{ data.happyDay }}</em>
             </div>
             <div></div>
           </template>
