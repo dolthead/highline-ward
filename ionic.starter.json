@@ -4,7 +4,7 @@
   "tarignore": [
     "node_modules",
     "package-lock.json",
-    "www"
+    "dist"
   ],
   "scripts": {
     "test": "npm run build"
