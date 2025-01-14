@@ -355,14 +355,16 @@ const hymns = [
     "The Star-Spangled Banner",
     "God Save the King"
 ];
+hymns[1001] = "Come, Thou Fount of Every Blessing";
 hymns[1010] = "Amazing Grace";
 
-const unavailable = [124, 219];
+const unavailable = [86, 124, 219];
 const updatedUrls = [
     { hymno: 173, url: 'while-of-these-emblems-we-partake-saul' },
     { hymno: 174, url: 'while-of-these-emblems-we-partake-aeolian' },
     { hymno: 176, url: 'tis-sweet-to-sing-the-matchless-love-meredith' },
     { hymno: 177, url: 'tis-sweet-to-sing-the-matchless-love-hancock' },
+    { hymno: 1001, url: 'come-thou-fount-of-every-blessing' },
     { hymno: 1010, url: 'amazing-grace' },
 ];
 

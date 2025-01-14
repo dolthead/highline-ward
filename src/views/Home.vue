@@ -13,7 +13,7 @@ import { data } from '@/data/program';
         <div class="title">{{ data.unitName }}</div>
         <div class="title">{{ data.meetingName }}</div>
         <div v-if="data.holiday" class="title"><em>{{ data.holiday }}</em></div>
-        <div>{{ data.meetingDate }}, at {{ data.time }}</div>
+        <div>{{ data.meetingDate }}, {{ data.time }}</div>
         <div class="table">
           <div></div>
           <div><span>Presiding</span><span>{{ data.presidingName }}</span></div>
@@ -41,11 +41,10 @@ import { data } from '@/data/program';
 
           <template v-if="!data.isTestimonyMeeting && !data.isPrimaryProgram">
             
-
-            <div>
+            <!-- <div>
               <span>Narrator</span>
               <span>Brother Steve Taylor</span>
-            </div>
+            </div> -->
 
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
@@ -136,7 +135,7 @@ import { data } from '@/data/program';
           </div>
           <div></div>
           <div>
-            The <a href="https://highlineward.org/sacrament">live stream for Sacrament meeting</a> requires a
+            The <a href="https://zoom.us/j/94316361881">live stream for Sacrament meeting</a> requires a
             password, which can be requested from Bishop Ostler.
           </div>
           <div></div>
