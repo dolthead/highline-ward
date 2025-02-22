@@ -15,42 +15,44 @@ export const data: any = {
     meetingDate: sundate,
     time: '9:00am',
 
-    presidingName: 'Bishop Glen Ostler',
-    // presidingName: 'President Matthew Hinton',
+    // presidingName: 'Bishop Glen Ostler',
+    presidingName: 'Brother Kayle Smith',
     conductingName: 'Bishop Glen Ostler',
-    // choristerName: 'Sister Carina Sackley',
-    choristerName: 'Sister LeAnn Ostler',
+    choristerName: 'Sister Carina Sackley',
+    // choristerName: 'Sister LeAnn Ostler',
     // organistName: 'Sister Kaylene DeMasi',
     organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 247,
-    sacramentHymn: 183,
-    intermediateHymn: 58,
-    closingHymn: 153,
+    openingHymn: 27,
+    sacramentHymn: 194,
+    // intermediateHymn: 301,
+    closingHymn: 302,
 
-    invocationName: 'Brother John Harmon',
-    benedictionName: 'Brother Jeff Heller',
+    invocationName: 'Sister Kami Lane',
+    benedictionName: 'Sister Diane Lambert',
     // isTestimonyMeeting: true,
     // isPrimaryProgram: true,
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Brother Logan Kennard', calling: null },
+            { name: 'Brother Steve Eggleston', calling: 'Sunday School Secretary' },
+            { name: 'Brother Jesse Webber', calling: 'Sunday School 2nd Counselor' },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Rick Baxter', calling: 'Stake High Councilor' },
+            { name: 'Brother Ben Gowans', calling: 'Sunday School 1st Counselor' },
+            { name: 'President Steve Cox', calling: 'Ward Sunday School President' },
         ],
     ],
     
-    // musicNumber: { 
-    //     label: 'Choir Number',
-    //     title: 'Praise to the Man',
-    //     credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi',
-    // },
+    musicNumber: { 
+        label: 'Choir Number',
+        title: '1015 Oh, the Deep, Deep Love of Jesus',
+        credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi',
+    },
     // musicNumber: {
-    //     label: 'Musical Number',
-    //     title: 'He Sent His Son',
-    //     credits: 'Wesley Mitchell, Revere & Rainy Hemmming, Accomp. by Sister DeMasi',
+    //     label: 'Youth Musical Number',
+    //     title: "YM/YW Medley",
+    //     credits: 'Dir. by Sister Brooke Porter, Accomp. by Sister Shellie Vanfleet',
     // },
 
     // musicNumbers: [
