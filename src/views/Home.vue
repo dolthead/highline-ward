@@ -135,7 +135,7 @@ import { data } from '@/data/program';
           </div>
           <div></div>
           <div>
-            The <a href="https://zoom.us/j/94316361881">live stream for Sacrament meeting</a> requires a
+            The <a href="https://zoom.us/j/97386762119">live stream for Sacrament meeting</a> requires a
             password, which can be requested from Bishop Ostler.
           </div>
           <div></div>

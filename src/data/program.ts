@@ -15,40 +15,40 @@ export const data: any = {
     meetingDate: sundate,
     time: '9:00am',
 
-    // presidingName: 'Bishop Glen Ostler',
-    presidingName: 'Brother Kayle Smith',
-    conductingName: 'Bishop Glen Ostler',
-    choristerName: 'Sister Carina Sackley',
-    // choristerName: 'Sister LeAnn Ostler',
-    // organistName: 'Sister Kaylene DeMasi',
-    organistName: 'Sister Shellie Vanfleet',
+    presidingName: 'Bishop Glen Ostler',
+    // presidingName: 'Brother Kayle Smith',
+    conductingName: 'Brother Brent Oakeson',
+    // conductingName: 'Bishop Glen Ostler',
+    // choristerName: 'Sister Carina Sackley',
+    choristerName: 'Sister LeAnn Ostler',
+    organistName: 'Sister Kaylene DeMasi',
+    // organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 27,
-    sacramentHymn: 194,
-    // intermediateHymn: 301,
-    closingHymn: 302,
+    openingHymn: 23,
+    sacramentHymn: 172,
+    // intermediateHymn: 304,
+    closingHymn: 232,
 
-    invocationName: 'Sister Kami Lane',
-    benedictionName: 'Sister Diane Lambert',
-    // isTestimonyMeeting: true,
+    invocationName: 'TBD',
+    benedictionName: 'TBD',
+    isTestimonyMeeting: true,
     // isPrimaryProgram: true,
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Brother Steve Eggleston', calling: 'Sunday School Secretary' },
-            { name: 'Brother Jesse Webber', calling: 'Sunday School 2nd Counselor' },
+            { name: 'Elder Derek Adams', calling: 'Full-time Missionary' },
+            { name: 'Sister Kris Kearns', calling: 'Stake Missionary' },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Ben Gowans', calling: 'Sunday School 1st Counselor' },
-            { name: 'President Steve Cox', calling: 'Ward Sunday School President' },
+            { name: 'Elder Jeff Kearns', calling: 'Stake Missionary' },
         ],
     ],
     
-    musicNumber: { 
-        label: 'Choir Number',
-        title: '1015 Oh, the Deep, Deep Love of Jesus',
-        credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi',
-    },
+    // musicNumber: { 
+    //     label: 'Choir Number',
+    //     title: "I'll Go Where You Want Me to Go",
+    //     credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet',
+    // },
     // musicNumber: {
     //     label: 'Youth Musical Number',
     //     title: "YM/YW Medley",

@@ -357,6 +357,8 @@ const hymns = [
 ];
 hymns[1001] = "Come, Thou Fount of Every Blessing";
 hymns[1002] = "When the Savior Comes Again";
+hymns[1003] = "It Is Well with My Soul";
+hymns[1004] = "I Will Walk with Jesus";
 hymns[1007] = "As Bread is Broken";
 hymns[1010] = "Amazing Grace";
 
@@ -367,6 +369,9 @@ const updatedUrls = [
     { hymno: 176, url: 'tis-sweet-to-sing-the-matchless-love-meredith' },
     { hymno: 177, url: 'tis-sweet-to-sing-the-matchless-love-hancock' },
     { hymno: 1001, url: 'come-thou-fount-of-every-blessing' },
+    { hymno: 1002, url: 'when-the-savior-comes-again' },
+    { hymno: 1003, url: 'it-is-well-with-my-soul' },
+    { hymno: 1004, url: 'i-will-walk-with-jesus' },
     { hymno: 1007, url: 'as-bread-is-broken' },
     { hymno: 1010, url: 'amazing-grace' },
 ];
