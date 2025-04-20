@@ -41,10 +41,23 @@ import { data } from '@/data/program';
 
           <template v-if="!data.isTestimonyMeeting && !data.isPrimaryProgram">
             
-            <!-- <div>
+            <div>
               <span>Narrator</span>
-              <span>Brother Steve Taylor</span>
-            </div> -->
+              <span>Brother Brent Oakeson</span>
+            </div>
+            <div></div>
+            <div>
+              <span>Women's Choir Number</span>
+              <span>He Sent His Son</span>
+            </div>
+            <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi</em></div>
+            <div></div>
+            <div>
+              <span>Primary Number</span>
+              <span>Gethsemane</span>
+            </div>
+            <div class="smaller"><em>Dir. by Sister Aleesa Hale, Accomp. by Sister Janet Deveraux</em></div>
+            <div></div>
 
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
@@ -91,6 +104,13 @@ import { data } from '@/data/program';
               <div></div>
             </template>
 
+            <div>
+              <span>Musical Number</span>
+              <span>That Easter Morn</span>
+            </div>
+            <div class="smaller"><em>Davis Family, Accomp. by Sis. Shellie Vanfleet</em></div>
+            <div></div>
+
           </template>
 
           <template v-if="data.closingHymn">
@@ -132,11 +152,6 @@ import { data } from '@/data/program';
             <a href="https://sites.google.com/view/highlineward/home#h.6m577x3v5gg5">
               <button class="clean-button">View upcoming ward events →</button>
             </a>
-          </div>
-          <div></div>
-          <div>
-            The <a href="https://zoom.us/j/97386762119">live stream for Sacrament meeting</a> requires a
-            password, which can be requested from Bishop Ostler.
           </div>
           <div></div>
           <!-- <div>
