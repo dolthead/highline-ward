@@ -41,24 +41,16 @@ import { data } from '@/data/program';
 
           <template v-if="!data.isTestimonyMeeting && !data.isPrimaryProgram">
             
-            <div>
-              <span>Narrator</span>
-              <span>Brother Brent Oakeson</span>
-            </div>
-            <div></div>
-            <div>
-              <span>Women's Choir Number</span>
-              <span>He Sent His Son</span>
-            </div>
-            <div class="smaller"><em>Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi</em></div>
-            <div></div>
-            <div>
-              <span>Primary Number</span>
-              <span>Gethsemane</span>
-            </div>
-            <div class="smaller"><em>Dir. by Sister Aleesa Hale, Accomp. by Sister Janet Deveraux</em></div>
-            <div></div>
-
+            <template v-if="data.youthSpeakers">
+              <template v-for="(speaker, index) in data.youthSpeakers">
+                <div>
+                  <span>{{ index ? '' : data.youthSpeakers.length == 1 ? 'Youth Speaker' : 'Youth Speakers' }}</span>
+                  <span>{{ speaker.name }}</span>
+                </div>
+              </template>
+              <div></div>
+            </template>
+            
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
@@ -103,13 +95,6 @@ import { data } from '@/data/program';
               </template>
               <div></div>
             </template>
-
-            <div>
-              <span>Musical Number</span>
-              <span>That Easter Morn</span>
-            </div>
-            <div class="smaller"><em>Davis Family, Accomp. by Sis. Shellie Vanfleet</em></div>
-            <div></div>
 
           </template>
 
@@ -205,7 +190,6 @@ import { data } from '@/data/program';
 
 img {
   width: 20vw;
-  /* width: 40vw; */
   max-width: 250px;
 }
 

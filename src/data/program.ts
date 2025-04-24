@@ -10,40 +10,43 @@ export const data: any = {
           // : { url: '/assets/ChristPraying.png', description: 'Christ Kneeling in Prayer' },
     unitName: 'Highline Ward',
     meetingName: 'Sacrament Meeting',
-    holiday: 'Easter Sunday',
+    // holiday: 'Easter Sunday',
+    holiday: 'Ward Conference',
     // holiday: 'Christmas Program',
     meetingDate: sundate,
     time: '9:00am',
 
-    // presidingName: 'Bishop Glen Ostler',
+    presidingName: 'Bishop Glen Ostler',
     // presidingName: 'Brother Kayle Smith',
-    presidingName: 'President Matthew Hinton',
-    conductingName: 'Brother Brent Oakeson',
-    // conductingName: 'Bishop Glen Ostler',
+    // presidingName: 'President Matthew Hinton',
+    // conductingName: 'Brother Brent Oakeson',
+    conductingName: 'Bishop Glen Ostler',
     choristerName: 'Sister Carina Sackley',
     // choristerName: 'Sister LeAnn Ostler',
     // organistName: 'Sister Kaylene DeMasi',
     organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 200,
-    sacramentHymn: 184,
-    intermediateHymn: 193,
-    closingHymn: 199,
+    openingHymn: 294,
+    sacramentHymn: 182,
+    intermediateHymn: 308,
+    closingHymn: 1004,
 
-    invocationName: 'Brother Tom Stetser',
-    benedictionName: 'Sister Jane Taylor',
+    invocationName: 'Sister Shelley Smith',
+    benedictionName: 'Brother Michael Sackley',
     // isTestimonyMeeting: true,
     // isPrimaryProgram: true,
 
+    youthSpeakers: [
+        { name: 'Lincoln Ainsworth' },
+        { name: 'Brynn Sackley' },
+    ],
+
     speakers: [
         [ // group 1, before the rest hymn
-            // { name: 'Cooper Craft', calling: null },
-            // { name: 'Tanner Craft', calling: null },
-            // { name: 'Brayden Craft', calling: null },
-            { name: 'Sister Miriam Broderick', calling: null },
+            { name: 'Bishop Glen Ostler', calling: 'Bishop of the Highline Ward' },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Lance Broderick', calling: null },
+            { name: 'President Jonathan Young', calling: 'President of the Payson South Stake' },
         ],
     ],
     
@@ -72,7 +75,7 @@ export const data: any = {
     // ],
     
     // showLingerLonger: true,
-    happyDay: "☆ Happy Easter! ☆",
+    // happyDay: "☆ Happy Easter! ☆",
     // happyDay: "♡ Happy Father's Day! ♡",
     // happyDay: "♡ Happy Mother's Day! ♡",
     // happyDay: "☆ Merry Christmas! ☆",
