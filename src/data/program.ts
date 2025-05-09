@@ -4,49 +4,52 @@ const sundate = nextSunday.toLocaleDateString(['en-US'], { month: 'long', day: '
 const isDecember = nextSunday.getMonth() === 11;
 
 export const data: any = {
-    image: isDecember
+    image: !isDecember
         ? { url: '/assets/maryjesus.jpeg', description: 'Mary holding baby Jesus' }
         : { url: '/assets/Christus.png', description: 'Statue of Christ' },
           // : { url: '/assets/ChristPraying.png', description: 'Christ Kneeling in Prayer' },
     unitName: 'Highline Ward',
     meetingName: 'Sacrament Meeting',
     // holiday: 'Easter Sunday',
-    holiday: 'Ward Conference',
+    // holiday: 'Ward Conference',
     // holiday: 'Christmas Program',
     meetingDate: sundate,
     time: '9:00am',
 
     presidingName: 'Bishop Glen Ostler',
     // presidingName: 'Brother Kayle Smith',
-    // presidingName: 'President Matthew Hinton',
-    // conductingName: 'Brother Brent Oakeson',
-    conductingName: 'Bishop Glen Ostler',
-    choristerName: 'Sister Carina Sackley',
-    // choristerName: 'Sister LeAnn Ostler',
-    // organistName: 'Sister Kaylene DeMasi',
-    organistName: 'Sister Shellie Vanfleet',
+    // presidingName: 'President Jothathan Young',
+    conductingName: 'Brother Kayle Smith',
+    // conductingName: 'Bishop Glen Ostler',
+    // choristerName: 'Sister Carina Sackley',
+    choristerName: 'Sister LeAnn Ostler',
+    organistName: 'Sister Kaylene DeMasi',
+    // organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 294,
-    sacramentHymn: 182,
-    intermediateHymn: 308,
-    closingHymn: 1004,
+    openingHymn: 1020,
+    sacramentHymn: 183,
+    // intermediateHymn: 308,
+    closingHymn: 116,
 
-    invocationName: 'Sister Shelley Smith',
-    benedictionName: 'Brother Michael Sackley',
+    invocationName: 'Sister Ally Adams',
+    benedictionName: 'Brother Steve Taylor',
     // isTestimonyMeeting: true,
     // isPrimaryProgram: true,
 
     youthSpeakers: [
-        { name: 'Lincoln Ainsworth' },
-        { name: 'Brynn Sackley' },
+        { name: 'Austin Cowan' },
+        { name: 'Taryn Serna' },
     ],
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Bishop Glen Ostler', calling: 'Bishop of the Highline Ward' },
+            { name: 'Alexa Cowan', calling: null },
+            { name: 'Colin Stetser', calling: null },
         ],
         [ // group 2, after the rest hymn
-            { name: 'President Jonathan Young', calling: 'President of the Payson South Stake' },
+            { name: 'Nicole Hall', calling: null },
+            { name: 'Talon Harmon', calling: null },
+            { name: 'Mary Hinton', calling: null },
         ],
     ],
     
@@ -55,29 +58,20 @@ export const data: any = {
     //     title: "I'll Go Where You Want Me to Go",
     //     credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet',
     // },
-    // musicNumber: {
-    //     label: 'Youth Musical Number',
-    //     title: "YM/YW Medley",
-    //     credits: 'Dir. by Sister Brooke Porter, Accomp. by Sister Shellie Vanfleet',
-    // },
+    musicNumber: {
+        label: 'Primary Musical Number',
+        title: 'Love is Spoken Here', 
+        credits: 'Dir by Sister Hale & Sister Harmon, Accomp by Sister Deveraux',
+    },
 
-    // musicNumbers: [
-    //     { title: 'Oh, Come, All Ye Faithful', credits: 'Violin solo by Sister Sackley' },
-    //     { hymn: 208 },
-    //     { title: 'Away in a Manger', credits: 'Primary Children, Dir by Sister Hale, Accomp by Sister Deveraux' },
-    //     { title: 'Little Baby', credits: 'Primary Children, Accomp by Sister Hale' },
-    //     { hymn: 212 },
-    //     { title: 'As Sudden Angels Filled the Night', credits: 'Ward Choir, Dir by Brother Lambert, Accomp by Sister DeMasi, Flutes by Sister Porter and Sister Kunz' },
-    //     { title: 'What Child is This?', credits: 'Performed by Malia Cook' },
-    //     { hymn: 201 },
-    //     { hymn: 210 },
-    //     { title: `And the Glory of the Lord (Handel)`, credits: 'Ward Choir, Dir by Brother Lambert, Accomp by Sister DeMasi' },
-    // ],
+    musicNumbers: [
+        { label: 'YM/YW Musical Number', title: 'Two Thousand Valiant-Hearted Youth', credits: 'Dir by Sister Porter, Accomp by Sister Sackley' },
+    ],
     
     // showLingerLonger: true,
     // happyDay: "☆ Happy Easter! ☆",
     // happyDay: "♡ Happy Father's Day! ♡",
-    // happyDay: "♡ Happy Mother's Day! ♡",
+    happyDay: "♡ Happy Mother's Day! ♡",
     // happyDay: "☆ Merry Christmas! ☆",
     // showTithingDeclarations: true,
 };

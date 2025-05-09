@@ -9,7 +9,7 @@ export interface Hymn {
 }
 
 // Go to https://www.churchofjesuschrist.org/music/library/hymns?lang=eng
-// Run in console: copy($('tr.music-table-item td:nth-child(3)').toArray().map(x => x.innerText))
+// Run in console: copy(Array.from(document.querySelectorAll('a h4 div')).map(x => x.innerText.split('.')[1].trim()))
 // and add the zero line at the beginning
 const hymns = [
     "zero--not a hymn",
@@ -359,8 +359,13 @@ hymns[1001] = "Come, Thou Fount of Every Blessing";
 hymns[1002] = "When the Savior Comes Again";
 hymns[1003] = "It Is Well with My Soul";
 hymns[1004] = "I Will Walk with Jesus";
+hymns[1005] = "His Eye Is on the Sparrow";
+hymns[1006] = "Think a Sacred Song";
 hymns[1007] = "As Bread is Broken";
+hymns[1008] = "Bread of Life, Living Water";
+hymns[1009] = "Gethsemane";
 hymns[1010] = "Amazing Grace";
+hymns[1020] = "Softly and Tenderly Jesus Is Calling";
 
 const unavailable = [86, 124, 219];
 const updatedUrls = [
@@ -372,8 +377,13 @@ const updatedUrls = [
     { hymno: 1002, url: 'when-the-savior-comes-again' },
     { hymno: 1003, url: 'it-is-well-with-my-soul' },
     { hymno: 1004, url: 'i-will-walk-with-jesus' },
+    { hymno: 1005, url: 'his-eye-is-on-the-sparrow' },
+    { hymno: 1006, url: 'think-a-sacred-song' },
     { hymno: 1007, url: 'as-bread-is-broken' },
+    { hymno: 1008, url: 'bread-of-life-living-water' },
+    { hymno: 1009, url: 'gethsemane' },
     { hymno: 1010, url: 'amazing-grace' },
+    { hymno: 1020, url: 'softly-and-tenderly-jesus-is-calling-release-3' },
 ];
 
 const getURL = (hymno: number) => (unavailable.includes(hymno) ? undefined 
