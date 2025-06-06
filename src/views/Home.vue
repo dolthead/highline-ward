@@ -60,7 +60,7 @@ import { data } from '@/data/program';
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
-                  <span>{{ index ? '' : data.speakers[0].length == 1 ? 'Speaker' : 'Youth Speakers' }}</span>
+                  <span>{{ index ? '' : data.speakers[0].length == 1 ? 'Speaker' : 'Speakers' }}</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
@@ -87,7 +87,7 @@ import { data } from '@/data/program';
             <template v-if="data.speakers && data.speakers[1]">
               <template v-for="(speaker, index) in data.speakers[1]">
                 <div>
-                  <span>{{ index ? '' : data.speakers[1].length == 1 ? 'Speaker' : 'Youth Speakers' }}</span>
+                  <span>{{ index ? '' : data.speakers[1].length == 1 ? 'Speaker' : 'Speakers' }}</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
