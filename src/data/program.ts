@@ -24,16 +24,16 @@ export const data: any = {
     conductingName: 'Bishop Glen Ostler',
     // choristerName: 'Sister Carina Sackley',
     choristerName: 'Sister LeAnn Ostler',
-    organistName: 'Sister Kaylene DeMasi',
-    // organistName: 'Sister Shellie Vanfleet',
+    // organistName: 'Sister Kaylene DeMasi',
+    organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 10,
-    sacramentHymn: 175,
-    intermediateHymn: 302,
-    closingHymn: 338,
+    openingHymn: 41,
+    sacramentHymn: 191,
+    // intermediateHymn: 35,
+    closingHymn: 255,
 
-    invocationName: 'Sister Ashley Cowan',
-    benedictionName: 'Brother Ryley Enz',
+    invocationName: 'Sister Erika Eggleston',
+    benedictionName: 'Sister Jennifer Creviston',
     // isTestimonyMeeting: true,
     // isPrimaryProgram: true,
 
@@ -43,15 +43,15 @@ export const data: any = {
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Brother David Rosenstein', calling: null },
+            { name: 'Sister Kirsten Harmon', calling: 'Ward Primary President' },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Sister Lorna Rosenstein', calling: null },
+            { name: 'Sister Ashley Turner', calling: 'Stake Primary First Counselor' },
         ],
     ],
 
     // musicNumbers: [
-    //     { label: 'Choir Number', title: `A Choice Land`, credits: 'Dir by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    //     { label: 'Choir Number (w/ Spring Lake 4th Ward)', title: `The Lord is My Light`, credits: 'Dir by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
     // ],
     // musicNumbers: [{
     //     label: 'String Trio',
@@ -59,9 +59,7 @@ export const data: any = {
     //     credits: 'Sister Sidonna Davis & friends',
     // }],
     
-    // musicNumber: {
-    //     label: 'Choir Number', title: `A Choice Land`, credits: 'Dir by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi',
-    // },
+    musicNumber: { label: 'Choir Number (w/ Spring Lake 4th Ward)', title: `The Lord is My Light`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
     // musicNumber: {
     //     label: 'Primary Musical Number',
     //     title: 'Love is Spoken Here', 
@@ -70,8 +68,9 @@ export const data: any = {
     
     // showLingerLonger: true,
     // happyDay: "☆ Happy Easter! ☆",
-    // happyDay: "♡ Happy Father's Day! ♡",
     // happyDay: "♡ Happy Mother's Day! ♡",
+    // happyDay: "♡ Happy Father's Day! ♡",
+    happyDay: "☆ Happy Pioneer Day! ☆",
     // happyDay: "☆ Merry Christmas! ☆",
     // showTithingDeclarations: true,
 };
