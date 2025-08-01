@@ -20,21 +20,24 @@ export const data: any = {
     // presidingName: 'Brother Kayle Smith',
     // presidingName: 'President Jothathan Young',
     // presidingName: 'President Matthew Hinton',
+
+    // conductingName: 'Bishop Glen Ostler',
+    conductingName: 'Brother Kayle Smith',
     // conductingName: 'Brother Brent Oakeson',
-    conductingName: 'Bishop Glen Ostler',
+
     // choristerName: 'Sister Carina Sackley',
     choristerName: 'Sister LeAnn Ostler',
-    // organistName: 'Sister Kaylene DeMasi',
-    organistName: 'Sister Shellie Vanfleet',
+    organistName: 'Sister Kaylene DeMasi',
+    // organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 41,
-    sacramentHymn: 191,
+    openingHymn: 21,
+    sacramentHymn: 170,
     // intermediateHymn: 35,
-    closingHymn: 255,
+    closingHymn: 38,
 
-    invocationName: 'Sister Erika Eggleston',
-    benedictionName: 'Sister Jennifer Creviston',
-    // isTestimonyMeeting: true,
+    invocationName: 'Brother Ben Gowan',
+    benedictionName: 'Brother Gabe Gomez',
+    isTestimonyMeeting: true,
     // isPrimaryProgram: true,
 
     // youthSpeakers: [
@@ -43,10 +46,10 @@ export const data: any = {
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Sister Kirsten Harmon', calling: 'Ward Primary President' },
+            // { name: 'Sister Kirsten Harmon', calling: 'Ward Primary President' },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Sister Ashley Turner', calling: 'Stake Primary First Counselor' },
+            // { name: 'Sister Ashley Turner', calling: 'Stake Primary First Counselor' },
         ],
     ],
 
@@ -59,7 +62,7 @@ export const data: any = {
     //     credits: 'Sister Sidonna Davis & friends',
     // }],
     
-    musicNumber: { label: 'Choir Number (w/ Spring Lake 4th Ward)', title: `The Lord is My Light`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    // musicNumber: { label: 'Choir Number (w/ Spring Lake 4th Ward)', title: `The Lord is My Light`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
     // musicNumber: {
     //     label: 'Primary Musical Number',
     //     title: 'Love is Spoken Here', 
@@ -70,7 +73,7 @@ export const data: any = {
     // happyDay: "☆ Happy Easter! ☆",
     // happyDay: "♡ Happy Mother's Day! ♡",
     // happyDay: "♡ Happy Father's Day! ♡",
-    happyDay: "☆ Happy Pioneer Day! ☆",
+    // happyDay: "☆ Happy Pioneer Day! ☆",
     // happyDay: "☆ Merry Christmas! ☆",
     // showTithingDeclarations: true,
 };
