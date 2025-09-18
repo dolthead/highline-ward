@@ -65,7 +65,7 @@ import { data } from '@/data/program';
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
-                  <span>{{ index ? '' : data.speakers[0].length == 1 ? 'Speaker' : 'Speakers' }}</span>
+                  <span>Speaker</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
@@ -87,7 +87,7 @@ import { data } from '@/data/program';
             <template v-if="data.speakers && data.speakers[1]">
               <template v-for="(speaker, index) in data.speakers[1]">
                 <div>
-                  <span>{{ index ? '' : data.speakers[1].length == 1 ? 'Speaker' : 'Speakers' }}</span>
+                  <span>Speaker</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
@@ -175,7 +175,7 @@ import { data } from '@/data/program';
 .container {
   margin: 4vw;
   text-align: center;
-  font-size: 3.0vw;
+  font-size: 3.4vw;
 }
 .space-after {
   margin-bottom: 16px;
@@ -205,6 +205,7 @@ img {
 
 div {
   min-height: 1.6em;
+  text-wrap: balance;
 }
 
 .title {
@@ -255,5 +256,10 @@ pre {
   cursor: pointer;
   outline: inherit;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a {
+  color: #0000EE;
 }
 </style>

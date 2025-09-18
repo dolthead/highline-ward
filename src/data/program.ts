@@ -10,11 +10,20 @@ export const data: any = {
           // : { url: '/assets/ChristPraying.png', description: 'Christ Kneeling in Prayer' },
     unitName: 'Highline Ward',
     meetingName: 'Sacrament Meeting',
+    meetingDate: sundate,
+    time: '9:00am',
     // holiday: 'Easter Sunday',
     // holiday: 'Ward Conference',
     // holiday: 'Christmas Program',
-    meetingDate: sundate,
-    time: '9:00am',
+    // isTestimonyMeeting: true,
+    // isPrimaryProgram: true,
+    // showLingerLonger: true,
+    // happyDay: "☆ Happy Easter! ☆",
+    // happyDay: "♡ Happy Mother's Day! ♡",
+    // happyDay: "♡ Happy Father's Day! ♡",
+    // happyDay: "☆ Happy Pioneer Day! ☆",
+    // happyDay: "☆ Merry Christmas! ☆",
+    showTithingDeclarations: true,
 
     presidingName: 'Bishop Glen Ostler',
     // presidingName: 'Brother Kayle Smith',
@@ -22,23 +31,21 @@ export const data: any = {
     // presidingName: 'President Matthew Hinton',
 
     // conductingName: 'Bishop Glen Ostler',
-    conductingName: 'Brother Kayle Smith',
-    // conductingName: 'Brother Brent Oakeson',
+    // conductingName: 'Brother Kayle Smith',
+    conductingName: 'Brother Brent Oakeson',
 
     // choristerName: 'Sister Carina Sackley',
     choristerName: 'Sister LeAnn Ostler',
-    organistName: 'Sister Kaylene DeMasi',
-    // organistName: 'Sister Shellie Vanfleet',
+    // organistName: 'Sister Kaylene DeMasi',
+    organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 21,
-    sacramentHymn: 170,
-    // intermediateHymn: 35,
-    closingHymn: 38,
+    openingHymn: 229,
+    sacramentHymn: 1009,
+    // intermediateHymn: 241,
+    closingHymn: 219,
 
-    invocationName: 'Brother Ben Gowan',
-    benedictionName: 'Brother Gabe Gomez',
-    isTestimonyMeeting: true,
-    // isPrimaryProgram: true,
+    invocationName: 'Sister Lauren Ingals',
+    benedictionName: 'Sister Becky Jensen',
 
     // youthSpeakers: [
         // { name: 'Talon Harmon' },
@@ -46,10 +53,10 @@ export const data: any = {
 
     speakers: [
         [ // group 1, before the rest hymn
-            // { name: 'Sister Kirsten Harmon', calling: 'Ward Primary President' },
+            { name: 'TBD', calling: null },
         ],
         [ // group 2, after the rest hymn
-            // { name: 'Sister Ashley Turner', calling: 'Stake Primary First Counselor' },
+            { name: 'Brother Chuck Richards', calling: 'Stake High Council' },
         ],
     ],
 
@@ -57,23 +64,12 @@ export const data: any = {
     //     { label: 'Choir Number (w/ Spring Lake 4th Ward)', title: `The Lord is My Light`, credits: 'Dir by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
     // ],
     // musicNumbers: [{
-    //     label: 'String Trio',
-    //     title: 'Come Thou Fount', 
-    //     credits: 'Sister Sidonna Davis & friends',
+    //     label: 'Musical Number',
+    //     title: 'This Little Light of Mine', 
+    //     credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi',
     // }],
     
-    // musicNumber: { label: 'Choir Number (w/ Spring Lake 4th Ward)', title: `The Lord is My Light`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
-    // musicNumber: {
-    //     label: 'Primary Musical Number',
-    //     title: 'Love is Spoken Here', 
-    //     credits: 'Dir by Sister Hale & Sister Harmon, Accomp by Sister Deveraux',
-    // },
-    
-    // showLingerLonger: true,
-    // happyDay: "☆ Happy Easter! ☆",
-    // happyDay: "♡ Happy Mother's Day! ♡",
-    // happyDay: "♡ Happy Father's Day! ♡",
-    // happyDay: "☆ Happy Pioneer Day! ☆",
-    // happyDay: "☆ Merry Christmas! ☆",
-    // showTithingDeclarations: true,
+    // musicNumber: { label: 'Choir Number', title: `I'm Gonna Live So God Can Use Me`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
+    // musicNumber: { label: 'Primary Musical Number', title: 'I Belong to the Church of Jesus Christ', credits: 'Dir. by Sister Hale, Accomp. by Sister Deveraux', },
 };

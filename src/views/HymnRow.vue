@@ -31,4 +31,7 @@
     clear: both;
     float: left;
   }
+  a {
+    color: #0000EE;
+  }
 </style>
