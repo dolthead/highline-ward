@@ -15,7 +15,7 @@ export const data: any = {
     // holiday: 'Easter Sunday',
     // holiday: 'Ward Conference',
     // holiday: 'Christmas Program',
-    // isTestimonyMeeting: true,
+    isTestimonyMeeting: true,
     // isPrimaryProgram: true,
     // showLingerLonger: true,
     // happyDay: "☆ Happy Easter! ☆",
@@ -25,8 +25,8 @@ export const data: any = {
     // happyDay: "☆ Merry Christmas! ☆",
     showTithingDeclarations: true,
 
-    presidingName: 'Bishop Glen Ostler',
-    // presidingName: 'Brother Kayle Smith',
+    // presidingName: 'Bishop Glen Ostler',
+    presidingName: 'Brother Kayle Smith',
     // presidingName: 'President Jothathan Young',
     // presidingName: 'President Matthew Hinton',
 
@@ -39,37 +39,32 @@ export const data: any = {
     // organistName: 'Sister Kaylene DeMasi',
     organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 229,
-    sacramentHymn: 1009,
+    openingHymn: 243,
+    sacramentHymn: 184,
     // intermediateHymn: 241,
-    closingHymn: 219,
+    closingHymn: 21,
 
-    invocationName: 'Sister Lauren Ingals',
-    benedictionName: 'Sister Becky Jensen',
+    invocationName: 'Brother John Jensen',
+    benedictionName: 'Brother Jonathan Ingalls',
 
     // youthSpeakers: [
         // { name: 'Talon Harmon' },
     // ],
 
-    speakers: [
-        [ // group 1, before the rest hymn
-            { name: 'TBD', calling: null },
-        ],
-        [ // group 2, after the rest hymn
-            { name: 'Brother Chuck Richards', calling: 'Stake High Council' },
-        ],
-    ],
-
-    // musicNumbers: [
-    //     { label: 'Choir Number (w/ Spring Lake 4th Ward)', title: `The Lord is My Light`, credits: 'Dir by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    // speakers: [
+    //     [ // group 1, before the rest hymn
+    //         { name: 'Sister Kennedy Orme', calling: null },
+    //     ],
+    //     [ // group 2, after the rest hymn
+    //         { name: 'Brother Chuck Richards', calling: 'Stake High Council' },
+    //     ],
     // ],
-    // musicNumbers: [{
-    //     label: 'Musical Number',
-    //     title: 'This Little Light of Mine', 
-    //     credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi',
-    // }],
     
-    // musicNumber: { label: 'Choir Number', title: `I'm Gonna Live So God Can Use Me`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    // musicNumber: { label: 'Choir Number', title: `God so Loved the World`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
     // musicNumber: { label: 'Primary Musical Number', title: 'I Belong to the Church of Jesus Christ', credits: 'Dir. by Sister Hale, Accomp. by Sister Deveraux', },
+
+    // musicNumbers: [
+    //     { label: 'Choir Number', title: `God so Loved the World`, credits: 'Dir by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet' },
+    // ],
 };
