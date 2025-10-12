@@ -87,7 +87,7 @@ import { data } from '@/data/program';
             <template v-if="data.speakers && data.speakers[1]">
               <template v-for="(speaker, index) in data.speakers[1]">
                 <div>
-                  <span>Speaker</span>
+                  <span>Speakers</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
@@ -175,7 +175,7 @@ import { data } from '@/data/program';
 .container {
   margin: 4vw;
   text-align: center;
-  font-size: 3.4vw;
+  font-size: 3.2vw;
 }
 .space-after {
   margin-bottom: 16px;

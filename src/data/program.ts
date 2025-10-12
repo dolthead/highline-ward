@@ -15,7 +15,7 @@ export const data: any = {
     // holiday: 'Easter Sunday',
     // holiday: 'Ward Conference',
     // holiday: 'Christmas Program',
-    isTestimonyMeeting: true,
+    // isTestimonyMeeting: true,
     // isPrimaryProgram: true,
     // showLingerLonger: true,
     // happyDay: "☆ Happy Easter! ☆",
@@ -26,39 +26,40 @@ export const data: any = {
     showTithingDeclarations: true,
 
     // presidingName: 'Bishop Glen Ostler',
-    presidingName: 'Brother Kayle Smith',
-    // presidingName: 'President Jothathan Young',
+    // presidingName: 'Brother Kayle Smith',
+    presidingName: 'President Jothathan Young',
     // presidingName: 'President Matthew Hinton',
 
-    // conductingName: 'Bishop Glen Ostler',
+    conductingName: 'Bishop Glen Ostler',
     // conductingName: 'Brother Kayle Smith',
-    conductingName: 'Brother Brent Oakeson',
+    // conductingName: 'Brother Brent Oakeson',
 
-    // choristerName: 'Sister Carina Sackley',
-    choristerName: 'Sister LeAnn Ostler',
+    choristerName: 'Sister Carina Sackley',
+    // choristerName: 'Sister LeAnn Ostler',
     // organistName: 'Sister Kaylene DeMasi',
     organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 243,
-    sacramentHymn: 184,
-    // intermediateHymn: 241,
-    closingHymn: 21,
+    openingHymn: 145,
+    sacramentHymn: 195,
+    // intermediateHymn: 301,
+    closingHymn: 267,
 
-    invocationName: 'Brother John Jensen',
-    benedictionName: 'Brother Jonathan Ingalls',
+    invocationName: 'Sister Natalie Jensen',
+    benedictionName: 'Brother Stan Hunter',
 
     // youthSpeakers: [
         // { name: 'Talon Harmon' },
     // ],
 
-    // speakers: [
-    //     [ // group 1, before the rest hymn
-    //         { name: 'Sister Kennedy Orme', calling: null },
-    //     ],
-    //     [ // group 2, after the rest hymn
-    //         { name: 'Brother Chuck Richards', calling: 'Stake High Council' },
-    //     ],
-    // ],
+    speakers: [
+        [ // group 1, before the rest hymn
+            { name: 'President Jonathan Young', calling: 'Stake President' },
+            // { name: 'By Invitation', calling: null },
+        ],
+        [ // group 2, after the rest hymn
+            { name: 'By Invitation', calling: null },
+        ],
+    ],
     
     // musicNumber: { label: 'Choir Number', title: `God so Loved the World`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
