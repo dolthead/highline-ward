@@ -21,7 +21,7 @@ export const data: any = {
     // happyDay: "☆ Happy Easter! ☆",
     // happyDay: "♡ Happy Mother's Day! ♡",
     // happyDay: "♡ Happy Father's Day! ♡",
-    // happyDay: "☆ Happy Pioneer Day! ☆",
+    happyDay: "☆ Happy Thanksgiving! ☆",
     // happyDay: "☆ Merry Christmas! ☆",
     showTithingDeclarations: true,
 
@@ -30,22 +30,22 @@ export const data: any = {
     presidingName: 'President Jothathan Young',
     // presidingName: 'President Matthew Hinton',
 
-    conductingName: 'Bishop Glen Ostler',
-    // conductingName: 'Brother Kayle Smith',
-    // conductingName: 'Brother Brent Oakeson',
+    // conductingName: 'Bishop Ryley Enz',
+    conductingName: 'Brother Ben Gowans',
+    // conductingName: 'Brother Ben Cook',
 
-    choristerName: 'Sister Carina Sackley',
-    // choristerName: 'Sister LeAnn Ostler',
+    // choristerName: 'Sister Carina Sackley',
+    choristerName: 'Sister LeAnn Ostler',
     // organistName: 'Sister Kaylene DeMasi',
     organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 145,
-    sacramentHymn: 195,
+    openingHymn: 92,
+    sacramentHymn: 183,
     // intermediateHymn: 301,
-    closingHymn: 267,
+    closingHymn: 94,
 
-    invocationName: 'Sister Natalie Jensen',
-    benedictionName: 'Brother Stan Hunter',
+    invocationName: 'Brother Michael Lambert',
+    benedictionName: 'Brother Brent Oakeson',
 
     // youthSpeakers: [
         // { name: 'Talon Harmon' },
@@ -53,19 +53,17 @@ export const data: any = {
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'President Jonathan Young', calling: 'Stake President' },
+            { name: 'Jo Webber', calling: null },
+            { name: 'Brother Rhett Webber', calling: 'Returned from the Missouri Independence Mission' },
             // { name: 'By Invitation', calling: null },
         ],
         [ // group 2, after the rest hymn
-            { name: 'By Invitation', calling: null },
+            { name: 'President Jonathan Young', calling: 'Stake President' },
         ],
     ],
     
-    // musicNumber: { label: 'Choir Number', title: `God so Loved the World`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet' },
+    musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
+    // musicNumber: { label: 'Choir Number', title: `Thanksgiving In My Heart`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
     // musicNumber: { label: 'Primary Musical Number', title: 'I Belong to the Church of Jesus Christ', credits: 'Dir. by Sister Hale, Accomp. by Sister Deveraux', },
-
-    // musicNumbers: [
-    //     { label: 'Choir Number', title: `God so Loved the World`, credits: 'Dir by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet' },
-    // ],
 };

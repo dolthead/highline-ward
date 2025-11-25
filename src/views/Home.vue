@@ -69,8 +69,8 @@ import { data } from '@/data/program';
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
+                <div></div>
               </template>
-              <div></div>
             </template>
             
             <template v-if="data.intermediateHymn">
@@ -87,22 +87,11 @@ import { data } from '@/data/program';
             <template v-if="data.speakers && data.speakers[1]">
               <template v-for="(speaker, index) in data.speakers[1]">
                 <div>
-                  <span>Speakers</span>
+                  <span>Speaker</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
-              </template>
-              <div></div>
-            </template>
-
-            <template v-if="data.musicNumbers?.length">
-              <template v-for="song in data.musicNumbers">
-                <hymn-row v-if="song.hymn" :hymn="getHymn(song.hymn)">Congregational Hymn</hymn-row>
-                <div v-if="!song.hymn">
-                  <div><span>{{ song.label }}</span><span>{{ song.title }}</span></div>
-                </div>
-                <div v-if="song.credits" class="smaller"><em>{{ song.credits }}</em></div>
-              <div></div>
+                <div></div>
               </template>
             </template>
 
