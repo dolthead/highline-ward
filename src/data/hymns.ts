@@ -367,6 +367,7 @@ hymns[1009] = "Gethsemane";
 hymns[1010] = "Amazing Grace";
 hymns[1020] = "Softly and Tenderly Jesus Is Calling";
 hymns[1037] = "I'm Gonna Live So God Can Use Me";
+hymns[1207] = "Still, Still, Still";
 
 const unavailable = [86, 124, 219];
 const updatedUrls = [
@@ -386,6 +387,7 @@ const updatedUrls = [
     { hymno: 1010, url: 'amazing-grace' },
     { hymno: 1020, url: 'softly-and-tenderly-jesus-is-calling-release-3' },
     { hymno: 1037, url: 'im-gonna-live-so-god-can-use-me' },
+    { hymno: 1207, url: 'still-still-still' },
 ];
 
 const getURL = (hymno: number) => (unavailable.includes(hymno) ? undefined 

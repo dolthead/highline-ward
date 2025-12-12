@@ -21,49 +21,51 @@ export const data: any = {
     // happyDay: "☆ Happy Easter! ☆",
     // happyDay: "♡ Happy Mother's Day! ♡",
     // happyDay: "♡ Happy Father's Day! ♡",
-    happyDay: "☆ Happy Thanksgiving! ☆",
+    // happyDay: "☆ Happy Thanksgiving! ☆",
     // happyDay: "☆ Merry Christmas! ☆",
     showTithingDeclarations: true,
 
-    // presidingName: 'Bishop Glen Ostler',
-    // presidingName: 'Brother Kayle Smith',
-    presidingName: 'President Jothathan Young',
+    presidingName: 'Bishop Ryley Enz',
+    // presidingName: 'Brother Ben Gowans',
+    // presidingName: 'President Jothathan Young',
     // presidingName: 'President Matthew Hinton',
 
     // conductingName: 'Bishop Ryley Enz',
-    conductingName: 'Brother Ben Gowans',
-    // conductingName: 'Brother Ben Cook',
+    // conductingName: 'Brother Ben Gowans',
+    conductingName: 'Brother Ben Cook',
 
-    // choristerName: 'Sister Carina Sackley',
-    choristerName: 'Sister LeAnn Ostler',
+    choristerName: 'Sister Carina Sackley',
+    // choristerName: 'Sister LeAnn Ostler',
     // organistName: 'Sister Kaylene DeMasi',
-    organistName: 'Sister Shellie Vanfleet',
+    // organistName: 'Sister Shellie Vanfleet',
+    organistName: 'Sister Kelsey Eastmond',
 
-    openingHymn: 92,
-    sacramentHymn: 183,
+    openingHymn: 202,
+    sacramentHymn: 196,
     // intermediateHymn: 301,
-    closingHymn: 94,
+    closingHymn: 203,
 
-    invocationName: 'Brother Michael Lambert',
-    benedictionName: 'Brother Brent Oakeson',
+    invocationName: 'Brother Jeff Queen',
+    benedictionName: 'Sister Hannah Olson',
 
     // youthSpeakers: [
         // { name: 'Talon Harmon' },
     // ],
-
+// Chase Christensen	Jackson Adams	Collin Stetsor
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Jo Webber', calling: null },
-            { name: 'Brother Rhett Webber', calling: 'Returned from the Missouri Independence Mission' },
+            { name: 'Chase Christensen', calling: null },
+            { name: 'Jackson Adams', calling: null },
+            { name: 'Collin Stetsor', calling: null },
             // { name: 'By Invitation', calling: null },
         ],
         [ // group 2, after the rest hymn
-            { name: 'President Jonathan Young', calling: 'Stake President' },
+            { name: 'Brother Sean O\'Donnell', calling: 'Stake High Council' },
         ],
     ],
     
-    musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Choir Number', title: `Thanksgiving In My Heart`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    // musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
-    // musicNumber: { label: 'Primary Musical Number', title: 'I Belong to the Church of Jesus Christ', credits: 'Dir. by Sister Hale, Accomp. by Sister Deveraux', },
+    musicNumber: { label: 'Primary Musical Number', title: 'If I Were at the Manger', credits: 'Dir. by Sister Hale, Accomp. by Sister Deveraux', },
 };

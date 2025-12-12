@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import { IonContent, IonPage } from "@ionic/vue";
 import HymnRow from "./HymnRow.vue";
 import { getHymn } from '@/data/hymns';
 import { data } from '@/data/program';
+import { IonPage, IonContent } from "@ionic/vue/";
 </script>
 
 <template>
@@ -20,6 +20,7 @@ import { data } from '@/data/program';
           <div><span>Conducting</span><span>{{ data.conductingName }}</span></div>
           <div><span>Music Director</span><span>{{ data.choristerName }}</span></div>
           <div><span>Organist</span><span>{{ data.organistName }}</span></div>
+              <div class="smaller"><span></span><span>Spring Lake 4th Ward</span></div>
 
           <div></div>
           <hymn-row :hymn="getHymn(data.openingHymn)">Opening Hymn</hymn-row>
@@ -65,13 +66,17 @@ import { data } from '@/data/program';
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
-                  <span>Speaker</span>
+                  <span>{{ index ? '' : 'Youth Speakers' }}</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
-                <div></div>
+                <!-- <div></div> -->
               </template>
+              <div></div>
             </template>
+
+            <!-- <div><span>Scriptures & Testimonies</span></div>
+            <div></div> -->
             
             <template v-if="data.intermediateHymn">
               <hymn-row :hymn="getHymn(data.intermediateHymn)">Congregational Hymn</hymn-row>
@@ -83,6 +88,9 @@ import { data } from '@/data/program';
               <div class="smaller"><em>{{ data.musicNumber.credits }}</em></div>
               <div></div>
             </template>
+
+            <div><span>Scriptures & Testimonies</span></div>
+            <div></div>
 
             <template v-if="data.speakers && data.speakers[1]">
               <template v-for="(speaker, index) in data.speakers[1]">
@@ -122,7 +130,7 @@ import { data } from '@/data/program';
 
           <template v-if="data.showTithingDeclarations">
             <div>
-              Sign up for tithing declarations with Bishop Ostler on
+              Sign up for tithing declarations with Bishop Enz on
               <a href="https://docs.google.com/document/d/1nCVH1ES1DRA3CI4lq9ZL82oDm-yrS9FVDgY6WZ1YN5Q/edit?usp=sharing">this sign-up sheet</a>.
             </div>
             <div></div>
