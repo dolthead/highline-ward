@@ -20,7 +20,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
           <div><span>Conducting</span><span>{{ data.conductingName }}</span></div>
           <div><span>Music Director</span><span>{{ data.choristerName }}</span></div>
           <div><span>Organist</span><span>{{ data.organistName }}</span></div>
-              <div class="smaller"><span></span><span>Spring Lake 4th Ward</span></div>
+          <!-- <div class="smaller"><span></span><span>Spring Lake 4th Ward</span></div> -->
 
           <div></div>
           <hymn-row :hymn="getHymn(data.openingHymn)">Opening Hymn</hymn-row>
@@ -38,10 +38,11 @@ import { IonPage, IonContent } from "@ionic/vue/";
 
           <div v-if="data.isTestimonyMeeting" class="space-after"><span>Testimonies</span></div>
 
-          <div v-if="data.isPrimaryProgram" class="space-after"><span>Primary Program</span><span>Highline Ward Children</span></div>
+          <div v-if="data.isPrimaryProgram" class="space-after"><span>Primary Program</span><span>Highline Ward
+              Children</span></div>
 
           <template v-if="!data.isTestimonyMeeting && !data.isPrimaryProgram">
-            
+
             <template v-if="data.youthSpeakers">
               <template v-for="(speaker, index) in data.youthSpeakers">
                 <div>
@@ -52,17 +53,11 @@ import { IonPage, IonContent } from "@ionic/vue/";
               <div></div>
             </template>
 
-            <!-- <template v-if="data.musicNumbers?.length">
-              <template v-for="song in data.musicNumbers">
-                <hymn-row v-if="song.hymn" :hymn="getHymn(song.hymn)">Congregational Hymn</hymn-row>
-                <div v-if="!song.hymn">
-                  <div><span>{{ song.label }}</span><span>{{ song.title }}</span></div>
-                </div>
-                <div v-if="song.credits" class="smaller"><em>{{ song.credits }}</em></div>
-              <div></div>
-              </template>
-            </template> -->
-            
+            <div>
+              <span>Narrators</span>
+              <span>Stellar Hemming and Sister Emily Mitchell</span>
+            </div>
+
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
@@ -77,7 +72,18 @@ import { IonPage, IonContent } from "@ionic/vue/";
 
             <!-- <div><span>Scriptures & Testimonies</span></div>
             <div></div> -->
-            
+
+            <template v-if="data.musicNumbers?.length">
+              <template v-for="song in data.musicNumbers">
+                <hymn-row v-if="song.hymn" :hymn="getHymn(song.hymn)">Congregational Hymn</hymn-row>
+                <div v-if="!song.hymn">
+                  <div><span>{{ song.label }}</span><span>{{ song.title }}</span></div>
+                </div>
+                <div v-if="song.credits" class="smaller"><em>{{ song.credits }}</em></div>
+                <div></div>
+              </template>
+            </template>
+
             <template v-if="data.intermediateHymn">
               <hymn-row :hymn="getHymn(data.intermediateHymn)">Congregational Hymn</hymn-row>
               <div></div>
@@ -88,9 +94,6 @@ import { IonPage, IonContent } from "@ionic/vue/";
               <div class="smaller"><em>{{ data.musicNumber.credits }}</em></div>
               <div></div>
             </template>
-
-            <div><span>Scriptures & Testimonies</span></div>
-            <div></div>
 
             <template v-if="data.speakers && data.speakers[1]">
               <template v-for="(speaker, index) in data.speakers[1]">
@@ -131,7 +134,9 @@ import { IonPage, IonContent } from "@ionic/vue/";
           <template v-if="data.showTithingDeclarations">
             <div>
               Sign up for tithing declarations with Bishop Enz on
-              <a href="https://docs.google.com/document/d/1nCVH1ES1DRA3CI4lq9ZL82oDm-yrS9FVDgY6WZ1YN5Q/edit?usp=sharing">this sign-up sheet</a>.
+              <a
+                href="https://docs.google.com/document/d/1nCVH1ES1DRA3CI4lq9ZL82oDm-yrS9FVDgY6WZ1YN5Q/edit?usp=sharing">this
+                sign-up sheet</a>.
             </div>
             <div></div>
           </template>
@@ -172,15 +177,16 @@ import { IonPage, IonContent } from "@ionic/vue/";
 .container {
   margin: 4vw;
   text-align: center;
-  font-size: 3.2vw;
+  font-size: 3.0vw;
 }
+
 .space-after {
   margin-bottom: 16px;
 }
 
 @media print {
   .container {
-    font-size: 14pt;
+    font-size: 11pt;
     max-width: 75%;
     margin: 0 auto;
   }
