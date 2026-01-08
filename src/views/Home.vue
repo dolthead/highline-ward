@@ -53,15 +53,15 @@ import { IonPage, IonContent } from "@ionic/vue/";
               <div></div>
             </template>
 
-            <div>
+            <!-- <div>
               <span>Narrators</span>
               <span>Stellar Hemming and Sister Emily Mitchell</span>
-            </div>
+            </div> -->
 
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
-                  <span>{{ index ? '' : 'Youth Speakers' }}</span>
+                  <span>{{ index ? '' : 'Speaker' }}</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
