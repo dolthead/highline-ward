@@ -32,42 +32,43 @@ export const data: any = {
     // presidingName: 'President Matthew Hinton',
     // presidingName: 'President Tim Clayson',
 
-    conductingName: 'Bishop Ryley Enz',
-    // conductingName: 'Brother Ben Gowans',
+    // conductingName: 'Bishop Ryley Enz',
+    conductingName: 'Brother Ben Gowans',
     // conductingName: 'Brother Ben Cook',
 
-    choristerName: 'Sister Carina Sackley',
-    // choristerName: 'Sister LeAnn Ostler',
-    // organistName: 'Sister Kaylene DeMasi',
-    organistName: 'Sister Shellie Vanfleet',
+    // choristerName: 'Sister Carina Sackley',
+    choristerName: 'Sister LeAnn Ostler',
+    organistName: 'Sister Kaylene DeMasi',
+    // organistName: 'Sister Shellie Vanfleet',
     // organistName: 'Sister Kelsey Eastmond',
 
-    openingHymn: 303,
-    sacramentHymn: 170,
-    intermediateHymn: 274,
-    closingHymn: 264,
+    openingHymn: 1020,
+    sacramentHymn: 172,
+    // intermediateHymn: 1015,
+    closingHymn: 163,
 
-    invocationName: 'Brother Michael Sackley',
-    benedictionName: 'Sister Brooke Porter',
+    invocationName: 'Sister Tiffany Schmidt',
+    benedictionName: 'Sister Jen Stetser',
 
-    youthSpeakers: [
-        { name: 'Mia Enz' },
-    ],
+    // youthSpeakers: [
+        // { name: 'Seth Cox' },
+    // ],
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Sister Makenzi Starr', calling: null },
+            { name: 'Brother Brogen Broderick', calling: null },
+            { name: 'Brother Josh Pitcher', calling: null },
+            { name: 'Brother Dustin Wardle', calling: 'Stake High Councilor' },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Sean Starr', calling: null },
-            // { name: 'President Tim Clayson', calling: 'Stake Presidency 1st Counselor' },
+            // { name: 'Brother Howard Vanfleet', calling: null },
         ],
     ],
     
-    // musicNumber: { label: 'Choir Number', title: `Thanksgiving In My Heart`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    // musicNumber: { label: 'Choir Number', title: `Jesus Is the Way`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
-    // musicNumber: { label: 'Primary Musical Number', title: 'If I Were at the Manger', credits: 'Dir. by Sister Hale, Accomp. by Sister Deveraux', },
+    // musicNumber: { label: 'Primary Musical Number', title: 'Love is Spoken Here', credits: 'Dir. by Sister Hale & Sister Harmon, Accomp. by Sister Deveraux', },
 
     // musicNumbers: [
     //     { label: 'Quartet', title: 'Samuel Tells of Baby Jesus', credits: 'Oakley Olson, Shannon Olson, Lizzy Porter, and Lilly Porter' },
