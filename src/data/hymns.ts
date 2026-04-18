@@ -365,10 +365,15 @@ hymns[1007] = "As Bread is Broken";
 hymns[1008] = "Bread of Life, Living Water";
 hymns[1009] = "Gethsemane";
 hymns[1010] = "Amazing Grace";
+hymns[1014] = "My Shepherd Will Supply My Need";
 hymns[1015] = "Oh, the Deep, Deep Love of Jesus";
+hymns[1017] = "This Is the Christ";
 hymns[1020] = "Softly and Tenderly Jesus Is Calling";
+hymns[1023] = "Standing on the Promises";
+hymns[1027] = "Welcome Home";
 hymns[1037] = "I'm Gonna Live So God Can Use Me";
 hymns[1045] = "Jesus Is the Way";
+hymns[1205] = "Let Easter Anthems Ring";
 hymns[1207] = "Still, Still, Still";
 
 const unavailable = [86, 124, 219];
@@ -387,10 +392,15 @@ const updatedUrls = [
     { hymno: 1008, url: 'bread-of-life-living-water' },
     { hymno: 1009, url: 'gethsemane' },
     { hymno: 1010, url: 'amazing-grace' },
+    { hymno: 1014, url: 'my-shepherd-will-supply-my-need' },
     { hymno: 1015, url: 'oh-the-deep-deep-love-of-jesus' },
+    { hymno: 1017, url: 'this-is-the-christ' },
     { hymno: 1020, url: 'softly-and-tenderly-jesus-is-calling-release-3' },
+    { hymno: 1023, url: 'standing-on-the-promises-release-3' },
+    { hymno: 1027, url: 'welcome-home-release-3' },
     { hymno: 1037, url: 'im-gonna-live-so-god-can-use-me' },
     { hymno: 1045, url: 'jesus-is-the-way' },
+    { hymno: 1205, url: 'let-easter-anthems-ring' },
     { hymno: 1207, url: 'still-still-still' },
 ];
 

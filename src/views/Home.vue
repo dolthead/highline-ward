@@ -58,14 +58,19 @@ import { IonPage, IonContent } from "@ionic/vue/";
               <span>Stellar Hemming and Sister Emily Mitchell</span>
             </div> -->
 
+            <!-- <div class="space-after">
+              <span>Stake Business</span>
+              <span>President Matthew Hinton</span>
+            </div>
+            <div class="space-after"><span>Testimonies</span></div> -->
+
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
-                  <span>{{ index ? '' : 'Speakers' }}</span>
+                  <span>{{ index ? '' : 'Speaker' }}</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
-                <!-- <div></div> -->
               </template>
               <div></div>
             </template>
@@ -98,13 +103,14 @@ import { IonPage, IonContent } from "@ionic/vue/";
             <template v-if="data.speakers && data.speakers[1]">
               <template v-for="(speaker, index) in data.speakers[1]">
                 <div>
-                  <span>Speaker</span>
+                  <span>{{ index ? '' : 'Speaker' }}</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
-                <div></div>
+                <!-- <div></div> -->
               </template>
             </template>
+            <br>
 
           </template>
 
