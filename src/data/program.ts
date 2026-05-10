@@ -16,11 +16,10 @@ export const data: any = {
     // holiday: 'Ward Conference',
     // holiday: 'Christmas Program',
     // isTestimonyMeeting: true,
-    // isFastSunday: true,
     // isPrimaryProgram: true,
     // showLingerLonger: true,
     // happyDay: "☆ Happy Easter Week! ☆",
-    // happyDay: "♡ Happy Mother's Day! ♡",
+    happyDay: "♡ Happy Mother's Day! ♡",
     // happyDay: "♡ Happy Father's Day! ♡",
     // happyDay: "☆ Happy Thanksgiving! ☆",
     // happyDay: "☆ Merry Christmas!",
@@ -33,40 +32,40 @@ export const data: any = {
     // presidingName: 'President Tim Clayson',
     // presidingName: 'President Matthew Hinton',
 
-    conductingName: 'Bishop Ryley Enz',
-    // conductingName: 'Brother John Harmon',
+    // conductingName: 'Bishop Ryley Enz',
+    conductingName: 'Brother John Harmon',
     // conductingName: 'Brother Ben Cook',
 
     // choristerName: 'TBD',
     choristerName: 'Brother Mike Lambert',
-    organistName: 'Sister Kaylene DeMasi',
-    // organistName: 'Sister Shellie Vanfleet',
+    // organistName: 'Sister Kaylene DeMasi',
+    organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 1023,
-    sacramentHymn: 196,
-    intermediateHymn: 143,
-    closingHymn: 274,
+    openingHymn: 300,
+    sacramentHymn: 180,
+    // intermediateHymn: 143,
+    closingHymn: 298,
 
-    invocationName: 'Brother Corwin Bennett',
-    benedictionName: 'Sister Angela Christensen',
+    invocationName: 'Sister Ashley Cowan',
+    benedictionName: 'Brother Dan Davis',
 
     youthSpeakers: [
-        { name: 'Ira Stetser' },
+        { name: 'Seth Cox' },
     ],
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Sister Kathleen Heller', calling: null },
+            { name: 'Brother Danny Grimes', calling: null },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Jeff Heller', calling: null },
+            { name: 'Brother Steve Cox', calling: null },
         ],
     ],
     
-    // musicNumber: { label: 'Choir Number', title: `Dedication, by Willy Reske`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    // musicNumber: { label: 'Choir Number', title: `Zion`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
     // musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
-    // musicNumber: { label: 'Primary Musical Number', title: 'Love is Spoken Here', credits: 'Dir. by Sister Hale & Sister Harmon, Accomp. by Sister Deveraux', },
+    musicNumber: { label: 'Primary Musical Number', title: 'Mother\'s Day Medley', credits: 'Dir. by Sister Hale & Sister Harmon, Accomp. by Sister Deveraux', },
 
     // musicNumbers: [
     //     { label: 'Easter Service Narrators', title: 'Brother & Sister Ingalls', credits: null },
