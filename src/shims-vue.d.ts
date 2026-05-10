@@ -4,6 +4,16 @@ declare module '*.vue' {
   export default component
 }
 
+declare module '*.css' {
+  const content: string
+  export default content
+}
+
+declare module '@ionic/vue/css/*.css' {
+  const content: string
+  export default content
+}
+
 // declare module 'virtual:pwa-register/vue' {
 //   import type { Ref } from 'vue'
 //   import type { RegisterSWOptions } from 'vite-plugin-pwa/types'
