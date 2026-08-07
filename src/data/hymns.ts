@@ -369,10 +369,14 @@ hymns[1014] = "My Shepherd Will Supply My Need";
 hymns[1015] = "Oh, the Deep, Deep Love of Jesus";
 hymns[1017] = "This Is the Christ";
 hymns[1020] = "Softly and Tenderly Jesus Is Calling";
+hymns[1022] = "Faith in Every Footstep";
 hymns[1023] = "Standing on the Promises";
 hymns[1027] = "Welcome Home";
+hymns[1028] = "This Little Light of Mine";
 hymns[1037] = "I'm Gonna Live So God Can Use Me";
+hymns[1040] = "His Voice as the Sound";
 hymns[1045] = "Jesus Is the Way";
+hymns[1051] = "This Day Is a Good Day, Lord";
 hymns[1205] = "Let Easter Anthems Ring";
 hymns[1207] = "Still, Still, Still";
 
@@ -396,10 +400,14 @@ const updatedUrls = [
     { hymno: 1015, url: 'oh-the-deep-deep-love-of-jesus' },
     { hymno: 1017, url: 'this-is-the-christ' },
     { hymno: 1020, url: 'softly-and-tenderly-jesus-is-calling-release-3' },
+    { hymno: 1022, url: 'faith-in-every-footstep' },
     { hymno: 1023, url: 'standing-on-the-promises-release-3' },
     { hymno: 1027, url: 'welcome-home-release-3' },
+    { hymno: 1028, url: 'this-little-light-of-mine' },
     { hymno: 1037, url: 'im-gonna-live-so-god-can-use-me' },
+    { hymno: 1040, url: 'his-voice-as-the-sound' },
     { hymno: 1045, url: 'jesus-is-the-way' },
+    { hymno: 1051, url: 'this-day-is-a-good-day-lord' },
     { hymno: 1205, url: 'let-easter-anthems-ring' },
     { hymno: 1207, url: 'still-still-still' },
 ];

@@ -14,7 +14,7 @@
     "serve:pwa": "vite build --mode pwa && vite preview --host --mode pwa",
     "serve:dist": "vite preview",
     "deploy": "vue-tsc --noEmit && vite build && firebase deploy --only hosting",
-    "updates": "pnpm i -g @ionic/cli @angular/cli firebase-tools && pnpm self-update"
+    "updates": "pnpm self-update && pnpm i -g @ionic/cli @angular/cli firebase-tools"
   },
   "dependencies": {
     "@ionic/core": "^8.8.6",

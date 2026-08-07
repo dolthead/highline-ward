@@ -14,8 +14,11 @@ import { IonPage, IonContent } from "@ionic/vue/";
         <div class="title">{{ data.meetingName }}</div>
         <div v-if="data.holiday" class="title"><em>{{ data.holiday }}</em></div>
         <div>{{ data.meetingDate }}, {{ data.time }}</div>
-        <div class="table">
-          <div></div>
+        <div v-if="data.isStakeConference" class="space-after"><span>at the Stake Center</span></div>
+
+        <div></div>
+
+        <div v-if="!data.isStakeConference" class="table">
           <div><span>Presiding</span><span>{{ data.presidingName }}</span></div>
           <div><span>Conducting</span><span>{{ data.conductingName }}</span></div>
           <div><span>Music Director</span><span>{{ data.choristerName }}</span></div>
@@ -58,26 +61,22 @@ import { IonPage, IonContent } from "@ionic/vue/";
               <span>Stellar Hemming and Sister Emily Mitchell</span>
             </div> -->
 
-            <!-- <div class="space-after">
-              <span>Stake Business</span>
-              <span>President Matthew Hinton</span>
-            </div>
-            <div class="space-after"><span>Testimonies</span></div> -->
-
             <template v-if="data.speakers && data.speakers[0]">
               <template v-for="(speaker, index) in data.speakers[0]">
                 <div>
-                  <span>{{ index ? '' : data.speakers[0].length == 1 ? 'Speaker' : 'Speakers' }}</span>
+                  <!-- <span>{{ index ? '' : data.speakers[0].length == 1 ? 'Speaker' : 'Speakers' }}</span> -->
+                  <span>Speaker</span>
                   <span>{{ speaker.name }}</span>
                 </div>
                 <div v-if="speaker.calling" class="smaller"><span></span><span>{{ speaker.calling }}</span></div>
-              </template>
               <div></div>
+              </template>
             </template>
 
             <!-- <div><span>Scriptures & Testimonies</span></div>
             <div></div> -->
 
+            <!-- <div></div> -->
             <template v-if="data.musicNumbers?.length">
               <template v-for="song in data.musicNumbers">
                 <hymn-row v-if="song.hymn" :hymn="getHymn(song.hymn)">Congregational Hymn</hymn-row>
@@ -114,6 +113,11 @@ import { IonPage, IonContent } from "@ionic/vue/";
 
           </template>
 
+          <!-- <div>
+            <span>Closing Hymn</span>
+            <span><a href="https://www.churchofjesuschrist.org/study/manual/childrens-songbook/fathers?lang=eng">Fathers</a></span>
+          </div> -->
+
           <template v-if="data.closingHymn">
             <hymn-row :hymn="getHymn(data.closingHymn)">Closing Hymn</hymn-row>
           </template>
@@ -140,7 +144,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
           <template v-if="data.showTithingDeclarations">
             <div>
               Sign up for tithing declarations with Bishop Enz on
-              <a
+              <a target="_blank"
                 href="https://docs.google.com/document/d/1nCVH1ES1DRA3CI4lq9ZL82oDm-yrS9FVDgY6WZ1YN5Q/edit?usp=sharing">this
                 sign-up sheet</a>.
             </div>
@@ -148,11 +152,17 @@ import { IonPage, IonContent } from "@ionic/vue/";
           </template>
 
           <div>
+            The hymns and weekly lessons are best viewed in
+            <a href="https://www.churchofjesuschrist.org/study?lang=eng" target="_blank">the Gospel Library app</a>.
+          </div>
+          <div></div>
+
+          <div>
             Weekly lesson topics, upcoming events, and leadership contact information are available on
-            <a href="https://sites.google.com/view/highlineward/home">the ward website</a>.
+            <a href="https://sites.google.com/view/highlineward/home" target="_blank">the Highline Ward website</a>.
           </div>
           <div>
-            <a href="https://sites.google.com/view/highlineward/home#h.6m577x3v5gg5">
+            <a href="https://sites.google.com/view/highlineward/home#h.6m577x3v5gg5" target="_blank">
               <button class="clean-button">View upcoming ward events →</button>
             </a>
           </div>
@@ -170,7 +180,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
           </div>
           <div></div>
           <div class="smaller">
-            This is not an official website of <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ
+            This is not an official website of <a href="https://www.churchofjesuschrist.org/" target="_blank">The Church of Jesus Christ
               of Latter-day Saints</a>.
           </div>
         </div>
@@ -187,7 +197,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
 }
 
 .space-after {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 @media print {
@@ -253,6 +263,7 @@ pre {
 
 .program div {
   margin: 6px;
+  text-wrap: balance;
 }
 
 .clean-button {
