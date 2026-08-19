@@ -18,27 +18,27 @@
     "updates": "pnpm self-update && pnpm i -g @ionic/cli @angular/cli firebase-tools"
   },
   "dependencies": {
-    "@ionic/core": "8.8.6",
-    "@ionic/vue": "8.8.6",
-    "@ionic/vue-router": "8.8.6",
-    "core-js": "3.49.0",
-    "vue": "3.5.34",
-    "vue-router": "5.0.6"
+    "@ionic/core": "8.8.18",
+    "@ionic/vue": "8.8.18",
+    "@ionic/vue-router": "8.8.18",
+    "core-js": "3.50.0",
+    "vue": "3.5.41",
+    "vue-router": "5.2.0"
   },
   "devDependencies": {
-    "@types/node": "25.6.2",
-    "@typescript-eslint/eslint-plugin": "8.59.2",
-    "@typescript-eslint/parser": "8.59.2",
-    "@vitejs/plugin-vue": "6.0.6",
-    "@vue/eslint-config-typescript": "14.7.0",
-    "esbuild": "0.28.0",
-    "eslint": "10.3.0",
-    "eslint-plugin-vue": "10.9.1",
-    "jsdom": "29.1.1",
+    "@types/node": "26.2.0",
+    "@typescript-eslint/eslint-plugin": "8.67.0",
+    "@typescript-eslint/parser": "8.67.0",
+    "@vitejs/plugin-vue": "6.0.8",
+    "@vue/eslint-config-typescript": "14.9.0",
+    "esbuild": "0.28.2",
+    "eslint": "10.8.1",
+    "eslint-plugin-vue": "10.10.0",
+    "jsdom": "30.0.1",
     "jshint": "2.13.6",
-    "typescript": "6.0.3",
-    "vite": "8.0.11",
-    "vue-tsc": "3.2.8"
+    "typescript": "5.9.3",
+    "vite": "8.2.1",
+    "vue-tsc": "3.3.10"
   },
   "description": "An Ionic project",
   "resolutions": {
