@@ -373,6 +373,7 @@ hymns[1022] = "Faith in Every Footstep";
 hymns[1023] = "Standing on the Promises";
 hymns[1027] = "Welcome Home";
 hymns[1028] = "This Little Light of Mine";
+hymns[1032] = "Look unto Christ";
 hymns[1037] = "I'm Gonna Live So God Can Use Me";
 hymns[1040] = "His Voice as the Sound";
 hymns[1045] = "Jesus Is the Way";
@@ -404,6 +405,7 @@ const updatedUrls = [
     { hymno: 1023, url: 'standing-on-the-promises-release-3' },
     { hymno: 1027, url: 'welcome-home-release-3' },
     { hymno: 1028, url: 'this-little-light-of-mine' },
+    { hymno: 1032, url: 'look-unto-christ' },
     { hymno: 1037, url: 'im-gonna-live-so-god-can-use-me' },
     { hymno: 1040, url: 'his-voice-as-the-sound' },
     { hymno: 1045, url: 'jesus-is-the-way' },

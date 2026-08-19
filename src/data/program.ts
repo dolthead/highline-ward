@@ -1,7 +1,4 @@
-const nextSunday = new Date();
-nextSunday.setDate(nextSunday.getDate() - nextSunday.getDay() + (nextSunday.getDay() >= 2 ? 7 : 0)); // 2 = TUESDAY
-const sundate = nextSunday.toLocaleDateString(['en-US'], { month: 'long', day: '2-digit', year: 'numeric' });
-const isDecember = nextSunday.getMonth() === 11;
+import { sundate, isDecember } from './sundate';
 
 export const data: any = {
     image: isDecember
@@ -44,33 +41,31 @@ export const data: any = {
 
     // choristerName: 'TBD',
     choristerName: 'Brother Mike Lambert',
-    // organistName: 'Sister Kaylene DeMasi',
-    organistName: 'Sister Shellie Vanfleet',
+    organistName: 'Sister Kaylene DeMasi',
+    // organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 64,
-    sacramentHymn: 1008,
-    intermediateHymn: 31,
-    closingHymn: 1045,
+    openingHymn: 91,
+    sacramentHymn: 172,
+    // intermediateHymn: 6,
+    closingHymn: 226,
 
-    invocationName: 'Sister Marie Hopper',
-    benedictionName: 'Brother Jeff Heller',
+    invocationName: 'Sister TBD',
+    benedictionName: 'Sister TBD',
 
     youthSpeakers: [
-        { name: 'Alex Serna' },
-        // { name: 'TBD' },
-        // { name: 'Young Men Testimonies' },
+     { name: 'Talon Harmon' },
     ],
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Brother Jeffrey Queen', calling: null },
+            { name: 'Brother Zack Porter', calling: null },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Todd Hale', calling: null },
+            { name: 'Brother Victor Beazel', calling: null },
         ],
     ],
     
-    // musicNumber: { label: 'Combined Choir Number', title: `Building on a Legacy of Faith`, credits: 'Dir. by Brother Michael Lambert, Accomp. by Sister Kaylene DeMasi' },
+    musicNumber: { label: 'Choir Number', title: `Three-Hymn Medley`, credits: 'Dir. by Brother Lambert, Accomp. by Sister DeMasi' },
     // musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
     // musicNumber: { label: 'Primary Musical Number', title: 'I Will Be Valiant', credits: 'Dir. by Sister Hale & Sister Harmon, Accomp. by Sister Deveraux', },

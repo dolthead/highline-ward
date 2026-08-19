@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite dev",
     "serve": "vite dev",
+    "prebuild": "node scripts/generate-sundate.mjs",
     "build": "vue-tsc --noEmit && vite build",
     "ionic:serve": "vite dev",
     "ionic:build": "vue-tsc --noEmit && vite build",
@@ -13,7 +14,7 @@
     "coverage": "vitest run --coverage",
     "serve:pwa": "vite build --mode pwa && vite preview --host --mode pwa",
     "serve:dist": "vite preview",
-    "deploy": "vue-tsc --noEmit && vite build && firebase deploy --only hosting",
+    "deploy": "pnpm build && firebase deploy --only hosting",
     "updates": "pnpm self-update && pnpm i -g @ionic/cli @angular/cli firebase-tools"
   },
   "dependencies": {
