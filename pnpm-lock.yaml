@@ -9,62 +9,62 @@ importers:
   .:
     dependencies:
       '@ionic/core':
-        specifier: ^8.8.6
+        specifier: 8.8.6
         version: 8.8.6
       '@ionic/vue':
-        specifier: ^8.8.6
+        specifier: 8.8.6
         version: 8.8.6(@stencil/core@4.43.0)(vue-router@5.0.6(@vue/compiler-sfc@3.5.34)(vue@3.5.34(typescript@6.0.3)))(vue@3.5.34(typescript@6.0.3))
       '@ionic/vue-router':
-        specifier: ^8.8.6
+        specifier: 8.8.6
         version: 8.8.6(@stencil/core@4.43.0)(vue-router@5.0.6(@vue/compiler-sfc@3.5.34)(vue@3.5.34(typescript@6.0.3)))(vue@3.5.34(typescript@6.0.3))
       core-js:
-        specifier: ^3.49.0
+        specifier: 3.49.0
         version: 3.49.0
       vue:
-        specifier: ^3.5.34
+        specifier: 3.5.34
         version: 3.5.34(typescript@6.0.3)
       vue-router:
-        specifier: ^5.0.6
+        specifier: 5.0.6
         version: 5.0.6(@vue/compiler-sfc@3.5.34)(vue@3.5.34(typescript@6.0.3))
     devDependencies:
       '@types/node':
-        specifier: ^25.6.2
+        specifier: 25.6.2
         version: 25.6.2
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.59.2
+        specifier: 8.59.2
         version: 8.59.2(@typescript-eslint/parser@8.59.2(eslint@10.3.0)(typescript@6.0.3))(eslint@10.3.0)(typescript@6.0.3)
       '@typescript-eslint/parser':
-        specifier: ^8.59.2
+        specifier: 8.59.2
         version: 8.59.2(eslint@10.3.0)(typescript@6.0.3)
       '@vitejs/plugin-vue':
-        specifier: ^6.0.6
+        specifier: 6.0.6
         version: 6.0.6(vite@8.0.11(@types/node@25.6.2)(esbuild@0.28.0)(yaml@2.8.4))(vue@3.5.34(typescript@6.0.3))
       '@vue/eslint-config-typescript':
-        specifier: ^14.7.0
+        specifier: 14.7.0
         version: 14.7.0(eslint-plugin-vue@10.9.1(@typescript-eslint/parser@8.59.2(eslint@10.3.0)(typescript@6.0.3))(eslint@10.3.0)(vue-eslint-parser@10.4.0(eslint@10.3.0)))(eslint@10.3.0)(typescript@6.0.3)
       esbuild:
-        specifier: ^0.28.0
+        specifier: 0.28.0
         version: 0.28.0
       eslint:
-        specifier: ^10.3.0
+        specifier: 10.3.0
         version: 10.3.0
       eslint-plugin-vue:
-        specifier: ^10.9.1
+        specifier: 10.9.1
         version: 10.9.1(@typescript-eslint/parser@8.59.2(eslint@10.3.0)(typescript@6.0.3))(eslint@10.3.0)(vue-eslint-parser@10.4.0(eslint@10.3.0))
       jsdom:
-        specifier: ^29.1.1
+        specifier: 29.1.1
         version: 29.1.1
       jshint:
-        specifier: ^2.13.6
+        specifier: 2.13.6
         version: 2.13.6
       typescript:
-        specifier: ^6.0.3
+        specifier: 6.0.3
         version: 6.0.3
       vite:
-        specifier: ^8.0.11
+        specifier: 8.0.11
         version: 8.0.11(@types/node@25.6.2)(esbuild@0.28.0)(yaml@2.8.4)
       vue-tsc:
-        specifier: ^3.2.8
+        specifier: 3.2.8
         version: 3.2.8(typescript@6.0.3)
 
 packages:
@@ -667,6 +667,11 @@ packages:
 
   '@volar/typescript@2.4.28':
     resolution: {integrity: sha512-Ja6yvWrbis2QtN4ClAKreeUZPVYMARDYZl9LMEv1iQ1QdepB6wn0jTRxA9MftYmYa4DQ4k/DaSZpFPUfxl8giw==}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   '@vue-macros/common@3.1.2':
     resolution: {integrity: sha512-h9t4ArDdniO9ekYHAD95t9AZcAbb19lEGK+26iAjUODOIJKmObDNBSe4+6ELQAA3vtYiFPPBtHh7+cQCKi3Dng==}
@@ -2075,11 +2080,13 @@ snapshots:
 
   '@volar/source-map@2.4.28': {}
 
-  '@volar/typescript@2.4.28':
+  '@volar/typescript@2.4.28(typescript@6.0.3)':
     dependencies:
       '@volar/language-core': 2.4.28
       path-browserify: 1.0.1
       vscode-uri: 3.1.0
+    optionalDependencies:
+      typescript: 6.0.3
 
   '@vue-macros/common@3.1.2(vue@3.5.34(typescript@6.0.3))':
     dependencies:
@@ -2960,7 +2967,7 @@ snapshots:
 
   vue-tsc@3.2.8(typescript@6.0.3):
     dependencies:
-      '@volar/typescript': 2.4.28
+      '@volar/typescript': 2.4.28(typescript@6.0.3)
       '@vue/language-core': 3.2.8
       typescript: 6.0.3
 
