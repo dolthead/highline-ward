@@ -36,7 +36,7 @@
     "eslint-plugin-vue": "10.10.0",
     "jsdom": "30.0.1",
     "jshint": "2.13.6",
-    "typescript": "5.9.3",
+    "typescript": "6.0.3",
     "vite": "8.2.1",
     "vue-tsc": "3.3.10"
   },

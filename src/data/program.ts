@@ -29,43 +29,45 @@ export const data: any = {
     // happyDay: "☆ Happy New Year! ☆",
     // showTithingDeclarations: true,
 
-    presidingName: 'Bishop Ryley Enz',
+    // presidingName: 'Bishop Ryley Enz',
     // presidingName: 'Brother John Harmon',
+    presidingName: 'Brother Ben Cook',
     // presidingName: 'President Jothathan Young',
     // presidingName: 'President Tim Clayson',
     // presidingName: 'President Matthew Hinton',
 
     // conductingName: 'Bishop Ryley Enz',
-    conductingName: 'Brother John Harmon',
-    // conductingName: 'Brother Ben Cook',
+    // conductingName: 'Brother John Harmon',
+    conductingName: 'Brother Ben Cook',
 
     // choristerName: 'TBD',
     choristerName: 'Brother Mike Lambert',
-    organistName: 'Sister Kaylene DeMasi',
+    // organistName: 'Sister Kaylene DeMasi',
+    organistName: 'Sister Mary Preece',
     // organistName: 'Sister Shellie Vanfleet',
 
-    openingHymn: 91,
-    sacramentHymn: 172,
-    // intermediateHymn: 6,
-    closingHymn: 226,
+    openingHymn: 1,
+    sacramentHymn: 175,
+    intermediateHymn: 58,
+    closingHymn: 89,
 
-    invocationName: 'Sister TBD',
-    benedictionName: 'Sister TBD',
+    invocationName: 'Brother Casey Irons',
+    benedictionName: 'Brother Todd Hale',
 
     youthSpeakers: [
-     { name: 'Talon Harmon' },
+     { name: 'Kennedi Ainsworth' },
     ],
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Brother Zack Porter', calling: null },
+            { name: 'Brother Jarron Ainsworth', calling: null },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Victor Beazel', calling: null },
+            { name: 'Brother Jonathan Ingalls', calling: null },
         ],
     ],
     
-    musicNumber: { label: 'Choir Number', title: `Three-Hymn Medley`, credits: 'Dir. by Brother Lambert, Accomp. by Sister DeMasi' },
+    // musicNumber: { label: 'Choir Number', title: `Hymn Medley`, credits: 'Dir. by Brother Lambert, Accomp. by Sister DeMasi' },
     // musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
     // musicNumber: { label: 'Primary Musical Number', title: 'I Will Be Valiant', credits: 'Dir. by Sister Hale & Sister Harmon, Accomp. by Sister Deveraux', },
