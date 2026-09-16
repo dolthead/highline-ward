@@ -40,6 +40,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
           <div></div>
 
           <div v-if="data.isTestimonyMeeting" class="space-after"><span>Testimonies</span></div>
+          <!-- <div></div> -->
 
           <div v-if="data.isPrimaryProgram" class="space-after"><span>Primary Program</span><span>Highline Ward
               Children</span></div>
@@ -152,7 +153,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
           </template>
 
           <div>
-            The hymns and weekly lessons are best viewed in
+            The lessons for all classes are in
             <a href="https://www.churchofjesuschrist.org/study?lang=eng" target="_blank">the Gospel Library app</a>.
           </div>
           <div></div>
@@ -192,6 +193,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
 <style scoped>
 .container {
   margin: 4vw;
+  margin-bottom: 6vw;
   text-align: center;
   font-size: 3.0vw;
 }

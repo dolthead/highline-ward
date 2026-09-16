@@ -29,9 +29,9 @@ export const data: any = {
     // happyDay: "☆ Happy New Year! ☆",
     // showTithingDeclarations: true,
 
-    // presidingName: 'Bishop Ryley Enz',
+    presidingName: 'Bishop Ryley Enz',
     // presidingName: 'Brother John Harmon',
-    presidingName: 'Brother Ben Cook',
+    // presidingName: 'Brother Ben Cook',
     // presidingName: 'President Jothathan Young',
     // presidingName: 'President Tim Clayson',
     // presidingName: 'President Matthew Hinton',
@@ -42,28 +42,28 @@ export const data: any = {
 
     // choristerName: 'TBD',
     choristerName: 'Brother Mike Lambert',
-    // organistName: 'Sister Kaylene DeMasi',
-    organistName: 'Sister Mary Preece',
+    organistName: 'Sister Kaylene DeMasi',
     // organistName: 'Sister Shellie Vanfleet',
+    // organistName: 'Sister Mary Preece',
 
-    openingHymn: 1,
-    sacramentHymn: 175,
-    intermediateHymn: 58,
-    closingHymn: 89,
+    openingHymn: 230,
+    sacramentHymn: 1009,
+    intermediateHymn: 68,
+    closingHymn: 158,
 
-    invocationName: 'Brother Casey Irons',
-    benedictionName: 'Brother Todd Hale',
+    invocationName: 'Brother Jonathan Ingalls',
+    benedictionName: 'Sister Sharon Hutchinson',
 
     youthSpeakers: [
-     { name: 'Kennedi Ainsworth' },
+    //  { name: 'Kennedi Ainsworth' },
     ],
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Brother Jarron Ainsworth', calling: null },
+            { name: 'Sister Aleesa Hale', calling: null },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Jonathan Ingalls', calling: null },
+            { name: 'Sister Siona Davis', calling: null },
         ],
     ],
     

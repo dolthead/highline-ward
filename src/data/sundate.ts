@@ -1,2 +1,2 @@
-export const sundate = "August 30, 2026";
+export const sundate = "September 13, 2026";
 export const isDecember = false;
