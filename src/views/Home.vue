@@ -37,7 +37,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
 
           <hymn-row :hymn="getHymn(data.sacramentHymn)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
-          <div></div>
+          <!-- <div></div> -->
 
           <div v-if="data.isTestimonyMeeting" class="space-after"><span>Testimonies</span></div>
           <!-- <div></div> -->
@@ -195,7 +195,7 @@ import { IonPage, IonContent } from "@ionic/vue/";
   margin: 4vw;
   margin-bottom: 6vw;
   text-align: center;
-  font-size: 3.0vw;
+  font-size: 3.3vw;
 }
 
 .space-after {

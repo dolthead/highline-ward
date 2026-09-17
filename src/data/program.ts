@@ -42,17 +42,17 @@ export const data: any = {
 
     // choristerName: 'TBD',
     choristerName: 'Brother Mike Lambert',
-    organistName: 'Sister Kaylene DeMasi',
+    // organistName: 'Sister Kaylene DeMasi',
     // organistName: 'Sister Shellie Vanfleet',
-    // organistName: 'Sister Mary Preece',
+    organistName: 'Sister Mary Preece',
 
-    openingHymn: 230,
-    sacramentHymn: 1009,
-    intermediateHymn: 68,
-    closingHymn: 158,
+    openingHymn: 229,
+    sacramentHymn: 186,
+    // intermediateHymn: 68,
+    closingHymn: 1061,
 
-    invocationName: 'Brother Jonathan Ingalls',
-    benedictionName: 'Sister Sharon Hutchinson',
+    invocationName: 'Sister Lauren Ingalls',
+    benedictionName: 'Brother Stan Hunter',
 
     youthSpeakers: [
     //  { name: 'Kennedi Ainsworth' },
@@ -60,14 +60,14 @@ export const data: any = {
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Sister Aleesa Hale', calling: null },
+            { name: 'Brother John Watson', calling: 'Stake Sunday School First Counselor' },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Sister Siona Davis', calling: null },
+            { name: 'Brother Scott Pinkham', calling: 'Stake High Councilor' },
         ],
     ],
     
-    // musicNumber: { label: 'Choir Number', title: `Hymn Medley`, credits: 'Dir. by Brother Lambert, Accomp. by Sister DeMasi' },
+    musicNumber: { label: 'Choir Number', title: `1061 Love Will Bless Our Home`, credits: 'Dir. by Brother Mike Lambert, Accomp. by Sister Mary Preece' },
     // musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
     // musicNumber: { label: 'Primary Musical Number', title: 'I Will Be Valiant', credits: 'Dir. by Sister Hale & Sister Harmon, Accomp. by Sister Deveraux', },
