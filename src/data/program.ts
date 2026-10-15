@@ -29,46 +29,46 @@ export const data: any = {
     // happyDay: "☆ Happy New Year! ☆",
     // showTithingDeclarations: true,
 
-    presidingName: 'Bishop Ryley Enz',
+    // presidingName: 'Bishop Ryley Enz',
     // presidingName: 'Brother John Harmon',
     // presidingName: 'Brother Ben Cook',
     // presidingName: 'President Jothathan Young',
-    // presidingName: 'President Tim Clayson',
+    presidingName: 'President Tim Clayson',
     // presidingName: 'President Matthew Hinton',
 
-    // conductingName: 'Bishop Ryley Enz',
+    conductingName: 'Bishop Ryley Enz',
     // conductingName: 'Brother John Harmon',
-    conductingName: 'Brother Ben Cook',
+    // conductingName: 'Brother Ben Cook',
 
     // choristerName: 'TBD',
     choristerName: 'Brother Mike Lambert',
     // organistName: 'Sister Kaylene DeMasi',
-    // organistName: 'Sister Shellie Vanfleet',
-    organistName: 'Sister Mary Preece',
+    organistName: 'Sister Shellie Vanfleet',
+    // organistName: 'Sister Mary Preece',
 
-    openingHymn: 229,
-    sacramentHymn: 186,
-    // intermediateHymn: 68,
-    closingHymn: 1061,
+    openingHymn: 1070,
+    sacramentHymn: 196,
+    // intermediateHymn: 104,
+    closingHymn: 270,
 
-    invocationName: 'Sister Lauren Ingalls',
-    benedictionName: 'Brother Stan Hunter',
+    invocationName: 'Brother Tarron Lane',
+    benedictionName: 'Sister Kim Kunz',
 
-    youthSpeakers: [
-    //  { name: 'Kennedi Ainsworth' },
-    ],
+    // youthSpeakers: [
+    // //  { name: 'Kennedi Ainsworth' },
+    // ],
 
     speakers: [
         [ // group 1, before the rest hymn
-            { name: 'Brother John Watson', calling: 'Stake Sunday School First Counselor' },
+            { name: 'Sister Josephyn Webber', calling: 'Heading to the Newport Beach Calif Mission' },
         ],
         [ // group 2, after the rest hymn
-            { name: 'Brother Scott Pinkham', calling: 'Stake High Councilor' },
+            { name: 'Elder Derek Adams', calling: 'Served in the Saratoga Springs Utah Mission' },
         ],
     ],
     
-    musicNumber: { label: 'Choir Number', title: `1061 Love Will Bless Our Home`, credits: 'Dir. by Brother Mike Lambert, Accomp. by Sister Mary Preece' },
-    // musicNumber: { label: 'Musical Number', title: `Peace`, credits: 'Accomp. by Sister Shellie Vanfleet' },
+    // musicNumber: { label: 'Choir Number', title: `1061 Love Will Bless Our Home`, credits: 'Dir. by Brother Mike Lambert, Accomp. by Sister Mary Preece' },
+    musicNumber: { label: 'Musical Number', title: `Called to Stay`, credits: 'A Women\'s Quintet, Accompanied by Sister Camille Uribe' },
     // musicNumber: { label: 'Musical Number', title: 'This Little Light of Mine', credits: 'Creviston and Ainsworth Families, accomp. by Sister Kaylene DeMasi', },
     // musicNumber: { label: 'Primary Musical Number', title: 'I Will Be Valiant', credits: 'Dir. by Sister Hale & Sister Harmon, Accomp. by Sister Deveraux', },
     // musicNumber: { label: 'Young Women Musical Number', title: 'Walk With Me', credits: 'Accomp. by Sister Kaylene DeMasi', },

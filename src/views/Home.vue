@@ -37,10 +37,10 @@ import { IonPage, IonContent } from "@ionic/vue/";
 
           <hymn-row :hymn="getHymn(data.sacramentHymn)">Sacrament Hymn</hymn-row>
           <div><strong>Administration of the Lord's Sacrament</strong></div>
-          <!-- <div></div> -->
+          <div></div>
 
           <div v-if="data.isTestimonyMeeting" class="space-after"><span>Testimonies</span></div>
-          <!-- <div></div> -->
+          <!-- <div v-if="data.isTestimonyMeeting"></div> -->
 
           <div v-if="data.isPrimaryProgram" class="space-after"><span>Primary Program</span><span>Highline Ward
               Children</span></div>

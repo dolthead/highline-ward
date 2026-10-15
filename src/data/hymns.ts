@@ -379,6 +379,8 @@ hymns[1040] = "His Voice as the Sound";
 hymns[1045] = "Jesus Is the Way";
 hymns[1051] = "This Day Is a Good Day, Lord";
 hymns[1061] = "Love Will Bless Our Home";
+hymns[1065] = "Isaiah Said";
+hymns[1070] = "The Miracle";
 hymns[1205] = "Let Easter Anthems Ring";
 hymns[1207] = "Still, Still, Still";
 
@@ -412,6 +414,8 @@ const updatedUrls = [
     { hymno: 1045, url: 'jesus-is-the-way' },
     { hymno: 1051, url: 'this-day-is-a-good-day-lord' },
     { hymno: 1061, url: 'love-will-bless-our-home' },
+    { hymno: 1065, url: 'isaiah-said' },
+    { hymno: 1070, url: 'the-miracle' },
     { hymno: 1205, url: 'let-easter-anthems-ring' },
     { hymno: 1207, url: 'still-still-still' },
 ];
